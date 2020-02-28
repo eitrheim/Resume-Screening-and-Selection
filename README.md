@@ -1,7 +1,8 @@
 # Resume Screening and Selection
 An Intelligent System to Automate Candidate Selection for Interview  
-*By Ann Eitrheim, Michael Mairuo Liu, and Matthew Echols - Supervisor Dr. Utku Pamuksuz*      
-University of Chicago, Master of Science in Analytics Capstone Project   
+> Ann Eitrheim, Michael Mairuo Liu, and Matthew Echols       
+> University of Chicago, Master of Science in Analytics Capstone Project   
+> Supervisor Dr. Utku Pamuksuz
 
 
 
