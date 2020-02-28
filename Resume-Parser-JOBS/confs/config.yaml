@@ -1,0 +1,1530 @@
+case_agnostic_courses:
+  courses:
+  - Data Mining
+  - Machine Learning
+  - - Linear Algebra
+    - Linear Algebra & Matrix Analysis
+  - - Statistical Analysis
+    - Statistics
+  - Data Engineering Platforms
+  - Big Data Analysis
+  - Deep Learning
+  - Natural Language Processing
+  - Business Finance
+  - Principles of Management
+  - Legal Environment of Business
+  - Optimization
+  - Time Series
+  - Exploratory Data Analysis
+  - Relational Databases
+  - NoSQL Databases
+  - Linear Regression
+  - Data Visualization
+  - Bayesian Methods
+  - Economics
+  - Econometrics
+  - Computational Finance
+  - Multivariate Statistics
+case_agnostic_education:
+  community_college:
+  - Community College
+  - Technical College
+  major_minor:
+  - - Accounting
+    - Forensic Accounting
+    - Accountancy
+  - - Adult Development
+    - Gerontology
+  - - Aeronautics
+    - Aeronautical Engineering
+    - Aeronautical Engineering Technologies
+    - Aerospace Engineering
+    - Astronautics
+    - Astrophysics
+    - Space Science
+    - Astronomy
+    - Planetary Science
+  - - African Studies
+    - Pan African Studies
+    - African American Studies
+    - Africana Studies
+  - - Agricultural Business
+    - Agricultural Economics
+    - International Agriculture
+    - Agribusiness Operations
+    - Agricultural Technology Management
+    - Agricultural Management
+    - Agricultural Mechanization
+  - - Agriculture
+    - Agricultural Production
+    - Agricultural Science
+    - Agricultural Engineering
+    - Agricultural Bioengineering
+    - Crop Science
+    - Feed Science
+    - Agronomy
+  - - Airway Science
+    - Aircraft Technology
+    - Air Transportation
+    - Air Traffic Control
+    - Aircraft Mechanics
+    - Aircraft Navigation
+    - Aircraft Piloting
+  - - American Studies
+    - Canadian Studies
+    - North American Area Studies
+    - Native American Studies
+    - American Native American Studies
+    - Latin American Studies
+    - Latino Studies
+    - Latin American Area Studies
+    - Chicano Studies
+    - Chicano Studies
+    - Puerto Rican Studies
+    - Latin American Studies
+    - Caribbean Studies
+  - - Analytics
+    - Computational Analysis
+  - - Animal Science
+    - Animal Bioscience
+    - Animal Behavior
+    - Ethology
+  - - Archaeology
+    - Archeology
+    - Anthropology
+  - - Architecture
+    - Architectural Design
+    - Architectural Environmental Design
+    - Architectural Drafting Technology
+    - Architectural Engineering
+  - - Art Studies
+    - Studio Art
+    - Studio Arts
+    - Painting
+    - Ceramics
+    - Multimedia
+    - Poetry
+    - Printmaking
+    - Printmaking
+    - Illustration
+    - Drawing
+    - Art Conservation
+    - Digital Arts
+    - Contemporary Arts
+    - Electronic Art
+    - Visual Arts
+  - - Artificial Intelligence
+    - Robotics
+  - - Asian Studies
+    - Asian American Studies
+    - Asian Area Studies
+    - East Asian Civilizations
+    - East Asian Studies
+    - South Asia Studies
+    - South Asian Studies
+    - Southeast Asia Studies
+    - Near Eastern Civilizations
+    - Eastern Civilizations
+  - - Automotive Engineering
+    - Automotive Mechanics
+    - Automotive Technology
+    - Autobody Repair
+  - - Aviation
+    - Aviation Management
+    - Aviation Operations
+    - Aviation Science
+    - Avionics Technology
+  - - Bakery Science
+    - Culinary Arts
+  - - Biology
+    - Cell Biology
+    - Cellular Biology
+    - Molecular Biology
+    - Microbiology
+    - Molecular Life Science
+    - Biological Chemistry
+    - Biological Sciences
+    - Cellular & Molecular Biology
+    - Physiology
+    - Quantitative Biology
+    - Integrative Biology
+  - - Biomedical Engineering
+    - Biomedical Science
+  - - Biophysics
+    - Biophysical Science
+  - - Bioresource Science
+    - Bioresource Engineering
+  - - Business Administration
+    - Business Management
+    - Small Business Operations
+  - - Business Analytics
+    - Business Intelligence
+  - - Chemical Engineering
+    - Soft Materials Engineering
+  - - Child Care
+    - Child Care Services Management
+    - Child Development
+  - - Civil Engineering
+    - Civil Engineering Technology
+  - - Communication Technology
+    - Telecommunication
+    - Communication Networks
+    - Communication Engineering
+    - Communication Security
+  - - Communication
+    - Communication Studies
+    - Professional Communication
+    - Business Communication
+    - Political Communication
+    - Mass Communication
+    - Organizational Communication
+    - Corporate Communication
+    - Communication Arts
+    - Technical Communication
+    - Digital Communication
+    - Global Communication
+    - Rhetoric
+    - Rhetorical Studies
+    - Public Speaking
+  - - Computer Engineering
+    - Computer Engineering Technology
+  - - Computer Networks & Systems
+    - Computer Network Technology
+    - Computer System Administration
+    - Computer Systems Analysis
+    - Computer Networking
+    - Computer Network
+    - Network Administration
+  - - Computer Science
+    - Computer Programming
+  - - Construction Engineering
+    - Construction Technology
+    - Construction Management
+  - - Counseling
+    - School Counseling
+    - Christian Counseling
+    - Marriage & Family Therapy
+  - - Criminal Science
+    - Criminal Justice
+    - Criminology
+    - Crime & Justice Studies
+    - Crime Law & Justice
+    - Social Justice
+    - Corrections
+  - - Data Management Technology
+    - Data Processing
+  - - Data Science
+    - Data Analytics
+  - - Dental Hygiene
+    - Dental Assisting
+  - - Diesel Technology
+    - Diesel Mechanics
+  - - Drafting Technology
+    - Computer Aided Drafting
+    - Mechanical Drafting Technology
+    - Building Technology
+    - Circulation Technology
+  - - Early Childhood Education
+    - Kindergarten Education
+    - Elementary Education
+  - - Ecology
+    - Ecology Science
+  - - Economics
+    - Mathematical Economics
+    - Econometrics
+  - - Education Administration
+    - Educational Administration
+  - - Electrical Engineering
+    - Electronics Engineering
+    - Electromechanical Engineering
+  - - English As A Second Language
+    - Education of The Deaf
+  - - English Education
+    - Language Arts Education
+  - - Environmental Design
+    - Environmental Architecture
+  - - Environmental Engineering
+    - Environmenlth Engineering
+    - Environmental Control Technologies
+    - Environmental Systems Engineering
+  - - Environmental Studies
+    - Environmental Science
+    - Environmental Policy
+    - Environmental & Urban Studies
+  - - Equestrian Studies
+    - Equine Studies
+    - Equine Business
+  - - Ethnic Studies
+    - Ethnicity Studies
+    - Race Studies
+    - Comparative Race & Ethnic Studies
+    - Comparative Race Studies
+  - - European Studies
+    - East European Studies
+    - European Area Studies
+    - Scandinavian Studies
+    - Italian Studies
+  - - Facilities Administration
+    - Facilities Management
+  - - Fashion
+    - Apparel Design
+    - Fashion Design
+  - - Film
+    - Film Studies
+    - Digital Filmmaking
+    - Film Production
+    - Cinema
+    - Cinematography
+    - Cinema Studies
+    - Video Production
+    - Digital Studies
+  - - Finance
+    - Financial Planning
+    - Banking
+    - International Finance
+    - Financial Management
+  - - Fitness Management
+    - Fitness Administration
+  - - Food & Nutrition
+    - Food Science
+    - Food Studies
+    - Food Technology
+    - Nutrition
+    - Nutrition Science
+    - Nutritional Science
+    - Dietetics
+    - Molecular Metabolism
+  - - Forensics
+    - Forensic Science
+  - - Forestry
+    - Forest Science
+    - Forest Technology
+    - Forestry Management
+  - - Funeral Services
+    - Mortuary Science
+  - - Gender Studies
+    - Womens Studies
+    - Sexuality Studies
+    - Gender & Sexuality Studies
+  - - Genetics
+    - Molecular Genetics
+    - Human Genetics
+  - - Genomics
+    - Epigenomics
+    - Epigenetics
+  - - Geography
+    - Geographical Sciences
+    - Geographic Information Systems
+  - - Geology
+    - Geological Engineering
+    - Geological Science
+    - Geoscience
+  - - Global Health
+    - Global Health Sciences
+  - - Graphic Design
+    - Computer Graphics
+    - Animation
+    - Electronic Animation
+    - Special Effects
+    - Video Game Design
+    - Game Design
+  - - Health Services Administration
+    - Health Systems Management
+    - Medical Office Administration
+    - Hospital Administration
+    - Healthcare Administration
+    - Health Administration
+    - Healthcare Management
+  - - Hispanic Studies
+    - Hispanic American Studies
+  - - History of Art
+    - American History
+    - Museum Studies
+    - Architectural History
+    - Art History
+  - - History
+    - European History
+    - Ancient History
+    - American History
+    - Classical Civilization
+    - Medieval Studies
+    - Renaissance Studies
+    - Cuneiform Studies
+    - Assyriology
+    - Hittitology
+    - Sumerology
+    - Medieval Studies
+  - - Home Economics
+    - Consumer Economics
+    - Family & Consumer Science
+    - Family Economics
+    - Family & Life Sciences
+    - Family Studies
+  - - Horticulture
+    - Horticulture Operation
+    - Botany
+    - Horticulture Management
+    - Horticulture Science
+    - Plant Studies
+    - Plant Biology
+    - Plant Pathology
+    - Landscape Horticulture
+  - - Hospitality
+    - Hospitality Management
+    - Hotel Management
+    - Motel Management
+    - Restaurant Management
+    - Restaurant Services Management
+  - - Human Development
+    - Comparative Human Development
+  - - Human Resources
+    - Human Resources Development
+    - Human Resources Management
+  - - Human Rights Studies
+    - Human Rights
+  - - Immunology
+    - Immunomics
+  - - Industrial Production Technologies
+    - Machine Tool Technology
+  - - Informatics
+    - Health Informatics
+    - Healthcare Informatics
+    - Bioinformatics
+    - Biomedical Informatics
+  - - Information Science
+    - Information Systems
+    - Informational Systems
+    - Management Information Systems
+  - - Information Technology
+    - Information Technology Management
+  - - Interior Design
+    - Furniture Design
+    - Textile Designs
+    - Textile Engineering
+    - Interior Architecture
+  - - International Business
+    - International Business Management
+  - - International Relations
+    - International Affairs
+    - Global Studies
+    - International Studies
+  - - Journalism
+    - Photojournalism
+    - Broadcast Journalism
+    - Broadcast News
+    - Radio Broadcasting
+    - Television Broadcasting
+    - Radio Production
+    - Radio & Television
+    - Television Production
+    - Recording Technology
+    - Recording Arts Technology
+    - News Media
+    - Digital Media
+    - Media Studies
+    - Media Arts
+  - - Kinesiology
+    - Exercise Science
+    - Exercise Biology
+    - Sports Medicine
+    - Sports Science
+    - Personal Training
+    - Athletic Training
+  - - Labor Relations
+    - Industrial Relations
+  - - Landscape Architecture
+    - Landscape Design
+    - Land Use Management
+    - Land Use Planning
+    - Turfgrass Science
+    - Range Science
+    - Range Management
+    - Soil Science
+  - - Law Enforcement
+    - Protective Services
+  - - Law Politics & Society
+    - Law Letters & Society
+    - Law & Society
+  - - Law
+    - Legal Studies
+  - - Legal Assistant
+    - Legal Assisting
+    - Paralegal
+    - Legal Administrative
+  - - Liberal Studies
+    - Multidisciplinary Studies
+    - Humanities
+    - Individual Studies
+    - Interdisciplinary Studies
+    - General Science
+    - Liberal Arts
+    - Integrated Science Studies
+  - - Literary Studies
+    - Classical Studies
+    - Classics
+    - French Literature
+    - Romance Literature
+    - Greek Culture
+    - Roman Culture
+    - Attic Greek
+  - - Literature
+    - African Literatures
+    - American Literature
+    - Asian Literatures
+    - Comparative Literature
+    - English Literature
+    - Foreign Literature
+    - French Literature
+    - German Literature
+    - Italian Literature
+    - Jewish Literature
+    - Middle Eastern Literature
+    - Roman Literature
+    - Romance Literature
+    - Russian Literature
+    - Slavic Literatures
+    - Spanish Literature
+  - - Logistics
+    - Business Logistics
+    - Logistics Management
+    - Supply Chain Management
+    - Supply Chain
+  - - Management
+    - Institutional Management
+    - Operations Management
+    - Operations Supervision
+    - Project Management
+    - Management Science
+  - - Marine Science
+    - Marine Biology
+    - Aquatic Biology
+    - Aquaculture
+    - Aquatic Science
+  - - Marketing
+    - Sales Marketing
+    - Digital Marketing
+  - - Material Management
+    - Materials Management
+  - - Materials Science
+    - Materials Science & Engineering
+    - Materials Engineering
+  - - Mathematics Education
+    - Math Education
+  - - Mathematics
+    - Applied Math
+    - Applied Mathematics
+    - Mathematics Science
+    - Computational Mathematics
+  - - Mechanical Engineering
+    - Mechanical Engineering Technology
+  - - Medical Assistant
+    - Medical Assisting
+  - - Medical Billing
+    - Medical Records
+    - Diagnostic Medical Sonography
+  - - Medical Imaging Science
+    - Sonography
+  - - Medical Technology
+    - Medical Laboratory Technology
+    - Medical Radiologic Technology
+    - Emergency Medical Technology
+    - Nuclear Medicine Technology
+    - Medicine Technology
+    - Surgical Technology
+    - Health Technology
+    - Clinical Laboratory Science
+    - Clinical Lab Science
+    - Medical Laboratory Scientist
+    - Medical Lab Scientist
+  - - Mental Health Services
+    - Mental Health Counseling
+    - Community Mental Health
+  - - Merchandising
+    - Sales Merchandising
+    - Merchandising Operations
+    - Fashion Merchandising
+  - - Meteorology
+    - Atmospheric Science
+  - - Middle Eastern Studies
+    - Modern Middle Eastern Studies
+    - Armenian Studies
+    - Egyptology
+    - Egyptian Civilization
+    - Isreali Studies
+    - Persian Studies
+    - Iranian Studies
+    - Turkish Studies
+    - Ottoman Studies
+  - - Middle School Education
+    - Junior High Education
+  - - Military Technologies
+    - Military Science
+  - - Music
+    - Church Music
+    - Ethnomusicology
+    - Music Composition
+    - Music Education
+    - Music History
+    - Music Industry
+    - Music Management
+    - Music Performance
+    - Music Production
+    - Music Theory
+    - Music Therapy
+    - Musical Theater
+    - Jazz Studies
+    - Choir
+  - - Neuroscience
+    - Neurobiology
+    - Computational Neuroscience
+  - - Nursing
+    - Licensed Practiced Nurse
+    - \x20LPN\x20
+    - Registered Nurse
+    - \x20RN\x20
+    - Legal Nurse Consulting
+  - - Oceanography
+    - Ocean Engineering
+  - - Office Management
+    - Office Administration
+    - Office Supervision
+  - - Organizational Behavior
+    - Organizational Behavior Studies
+    - Organizational Leadership
+  - - Osteopathic Medicine
+    - Holistic Medicine
+  - Packaging Engineering
+  - - Parks & Recreation
+    - Recreation & Parks
+    - Parks Recreation
+    - Recreation Management
+  - - Pathology
+    - Experimental Pathology
+  - - Pharmacy
+    - Pharmacology
+  - - Philosophy
+    - Contemplative Studies
+  - - Physical Science
+    - Earth Science
+  - - Physics
+    - Theoretical Physics
+    - Geophysics
+    - Engineering Physics
+    - Chemical Physics
+  - - Political Science
+    - Politics
+    - Government
+  - - Psychology
+    - Educational Psychology
+    - Biopsychology
+    - Social Psychology
+    - Developmental Psychology
+    - Clinical Psychology
+    - Experimental Psychology
+    - Cognitive Psychology
+    - Industrial Psychology
+    - Physiological Psychology
+    - Forensic Psychology
+    - Counseling Psychology
+    - Behavioural Sciences
+    - Behavioral Science
+    - Behavioral Neuroscience
+    - Behavioral Psychology
+    - Biobehavioral Health
+    - Biological Basis of Behavior
+    - Biopsychology
+    - Psychobiology
+  - - Public Health
+    - Health & Society
+    - Public Health Sciences
+  - - Public Policy
+    - Public Policy Analysis
+    - Computational Analysis & Public Policy
+    - Public Policy & Service
+    - Public Policy Studies
+  - - Public Relations
+    - Public Affairs
+  - - Purchasing Management
+    - Buying Operations
+  - - Quantum Computing
+    - Supercomputing
+    - Quantum Processing
+    - Quantum Engineering
+    - Quantum Technology
+  - - Quantum Mechanics
+    - Quantum Physics
+    - Quantum Theory
+    - Matrix Mechanics
+  - - Radiology
+    - Radiologic Technology
+  - - Rehabilitation Therapy
+    - Physical Therapy
+    - Physical Therapy Assisting
+    - Occupational Therapy
+    - Occupational Therapy Assisting
+    - Vocational Rehabilitation Counseling
+    - Rehabilitation Services
+  - - Resource Management
+    - Conservation
+    - Sustainable Resource Management
+    - Natural Resources Management
+    - Natural Resources Conservation
+    - Sustainability
+  - - Retail Management
+    - Store Management
+  - - Risk Management
+    - Emergency Management
+    - Response Management
+    - Threat Management
+    - Threat & Response Management
+  - - Senior High Education
+    - Secondary Education
+  - - Social Science Education
+    - Social Studies Education
+  - - Social Science
+    - Computational Social Science
+  - - Social Welfare
+    - Social Work
+    - Social Service Administrative
+  - - Sociology
+    - Rural Sociology
+    - Public Sociology
+  - - Speech Studies
+    - Linguistics
+    - Speech Pathology
+    - Speech Communication
+    - Speech Science
+    - Communication Disorders
+    - Communication Disorder Services
+    - Hearing Disorder
+    - Speech Disorder
+    - Hearing Science
+  - - Sport Management
+    - Sports Management
+    - Sport Administration
+    - Sports Administration
+  - - Substance Abuse Counseling
+    - Drug Abuse Counseling
+    - Alcohol Abuse Counseling
+  - - Surveying
+    - Surveying Technology
+  - - Systems Engineering
+    - Systems Analysis
+  - - Theater Studies
+    - Theater
+    - Theatre
+    - Theater Management
+    - Technical Theater
+    - Theatre Arts
+    - Visual Arts
+    - Drama
+    - Theatre Drama
+    - Acting
+    - Prop Production
+    - Costume Design
+    - Stage Design
+    - Stage Management
+    - Dance
+    - Performance Studies
+  - - Theology
+    - Bible Studies
+    - Biblical Studies
+    - Islamic Studies
+    - Divinity
+    - Seminary
+    - Religion
+    - Religious Education
+    - Religious Studies
+    - Youth Ministries
+    - Jewish Studies
+    - Judaic Studies
+    - Pastoral Studies
+    - Youth Ministries
+    - Ministry
+    - Ministry Administration
+    - Church Administration
+    - Christianity
+    - Religious Ethics
+    - History of Christianity
+    - History of Judaism
+  - - Tourism
+    - Tourism Management
+    - Travel Management
+    - Tourism Marketing
+    - Travel Marketing
+  - - Urban Planning
+    - City Planning
+  - - Urban Studies
+    - Urban Affairs
+  - - Veterinarian Assisting
+    - Veterinary Technician
+  - - Veterinary Science
+    - Veterinary Studies
+    - Veterinarian Technology
+    - Veterinary Medicine
+  - - Visual Communication
+    - Visual Communication Design
+    - Visual Studies
+  - - Viticulture
+    - Vineyard Management
+    - Enology
+  - - War Studies
+    - Peace Studies
+    - Genocide Studies
+  - - Web Design
+    - Webpage Design
+  - - Web Development
+    - Web Management
+  - - Welding Technology
+    - Welding Engineering
+    - Metalsmithing
+  - - Wildlife Management
+    - Wildlife Science
+    - Wildlife Technology
+    - Wildlands Management
+    - Fish Management
+    - Fishery Science
+    - Aquaculture
+  - - World Languages
+    - African Language
+    - Akkadian
+    - American Sign Language
+    - Anatolian
+    - Ancient Anatolian
+    - Ancient Language
+    - Arabic
+    - Arabic Studies
+    - Aramaic
+    - Armenian
+    - Asian Language
+    - Bangla
+    - Basque
+    - Bosnian
+    - Catalan
+    - Chinese
+    - Classical Hebrew
+    - Classical Language
+    - Croatian
+    - Czech
+    - East Asian Language
+    - Egpytian
+    - Egyptian Language
+    - English Language
+    - English Studies
+    - Foreign Language
+    - Francophone Studies
+    - French
+    - French Language
+    - German\x20
+    - German Language
+    - Germanic Studies
+    - Greek
+    - Hebrew
+    - Hindi
+    - Italian
+    - Japanese
+    - Kazakh
+    - Korean
+    - Latin
+    - Malayalam
+    - Marathi
+    - Middle Eastern Language
+    - Modern Greek
+    - Modern Hebrew
+    - Modern Language
+    - Near Eastern Language
+    - Norwegian
+    - Pali
+    - Persian
+    - Polish
+    - Portuguese
+    - Romance Language
+    - Russian
+    - Sanskrit
+    - Semitic Languages
+    - Serbian
+    - Slavic
+    - Slavic Language
+    - South Asian Language
+    - South Slavic
+    - Spanish
+    - Spanish Language
+    - Sumerian
+    - Swahili
+    - Tamil
+    - Telugu
+    - Tibetan
+    - Turkish
+    - Urdu
+    - Uzbek
+    - Yiddish
+  - - Writing
+    - Business Writing
+    - Creative Writing
+    - Technical Writing
+    - Screenwriting
+    - Playwriting
+    - English Composition
+    - English Writing
+  - - Zoology
+    - Entomology
+  - Advertising
+  - Agricultural Education
+  - Anatomy
+  - Art Education
+  - Biochemistry
+  - Bioengineering
+  - Bioethics
+  - - Biological Engineering
+    - Biological Systems Engineering
+  - Biotechnology
+  - Business
+  - Business Education
+  - Ceramic Engineering
+  - Chemistry
+  - Chiropractic
+  - Clinical Trials Management
+  - Cognitive Science
+  - Community Advocacy
+  - Community Organization
+  - Conflict Resolution
+  - Contracts Management
+  - - Cyber Security
+    - Cyber Security Engineering
+  - Dentistry
+  - Design
+  - Educational Leadership
+  - Educational Technology
+  - Endocrinology
+  - Engineering Science
+  - Entrepreneurship
+  - Epidemiology
+  - Floriculture
+  - Food Services Management
+  - Genealogy
+  - Global Studies
+  - Health Education
+  - HistoricPreservation
+  - Homeland Security
+  - Human Services
+  - Industrial Design
+  - Industrial Engineering
+  - Industrial Management
+  - Juridical Science
+  - Library Science
+  - Managerial Economics
+  - Medicine
+  - Metallurgical Engineering
+  - Mineral Engineering
+  - Minority Studies
+  - Molecular Engineering
+  - Nuclear Engineering
+  - Occupational Safety
+  - Optometry
+  - Paleontology
+  - Petroleum Engineering
+  - Pharmacogenomics
+  - Phlebotomy
+  - Physical Education
+  - Physician Assistant
+  - Postsecondary Education
+  - Project Management
+  - Public Administration
+  - Quality Control
+  - Real Estate
+  - Respiratory Therapy
+  - Safety Technologies
+  - Science Education
+  - Secretarial Studies
+  - Software Engineering
+  - Sound Engineering
+  - Special Education
+  - Statistics
+  - Technology Education
+  - Thermodynamics
+  - Toxicology
+  - Transportation
+  - Urban Teacher Education
+  other_universities:
+  - university
+  - four year degree
+  - 4 year degree
+  top_100_universities:
+  - top 100 university
+  top_10_universities:
+  - top 10 univeristy
+case_agnostic_hobbies:
+  hobbies:
+  - hobbies
+  - hobby
+case_agnostic_languages:
+  languages:
+  - Akkadian
+  - Anatolian
+  - Arabic
+  - Aramaic
+  - Armenian
+  - - Bengali
+    - Bangla
+  - Basque
+  - Bosnian
+  - Cantonese
+  - Catalan
+  - Chinese
+  - Croatian
+  - Czech
+  - Danish
+  - Dutch
+  - Egyptian
+  - English
+  - French
+  - Geez
+  - German
+  - Greek
+  - Hebrew
+  - Hindi
+  - Hokkien
+  - Italian
+  - Japanese
+  - Kazakh
+  - Korean
+  - Latin
+  - - Malay
+    - Malayalam
+  - Mandarin
+  - Marathi
+  - Norwegian
+  - Pali
+  - Persian
+  - Polish
+  - Portuguese
+  - Punjabi
+  - Russian
+  - Sanskrit
+  - Serbian
+  - Sign Languange
+  - Slavic
+  - Spanish
+  - Sumerian
+  - Swahili
+  - Tamil
+  - Telugu
+  - Tibetan
+  - Turkish
+  - Welsh
+  - Urdu
+  - Uzbek
+  - Yiddish
+case_agnostic_skill:
+  technical_skills:
+  - AP style
+  - Ableton live
+  - Abaqus
+  - Acrobat Distiller
+  - Adobe Fireworks
+  - Adobe Flash
+  - Airflow
+  - Algorithms
+  - App Development
+  - Ariba
+  - AutoCAD
+  - Axioma
+  - Azure
+  - Azkaban
+  - - Adobe creative suite
+    - Adobe Photoshop
+    - Photoshop
+    - Adobe illustrator
+    - Adobe InDesign
+    - InDesign
+    - Adobe Master Suite
+  - - Agile methodology
+    - Agile
+  - - Amazon Web Services
+    - \x20AWS
+  - - Application Programming Interface
+    - \x20API\x20
+  - - Azure
+    - Mircosoft Azure
+  - Big data
+  - BirdEye
+  - Bloomberg
+  - C#
+  - C[+][+]
+  - Ceridian
+  - CREST
+  - CRD
+  - CSS
+  - Clustering
+  - - Cognos Analytics
+    - Cognos
+  - - Content Management Systems
+    - \x20CMS\x20
+  - DBMS
+  - DHTML
+  - Database design
+  - Data pipeline
+  - Data architecture
+  - Data engineering
+  - Data mining
+  - Decision trees
+  - Deltek
+  - Docker
+  - Dreamweaver
+  - - Data visualization
+    - Data visualization software
+  - Elixir
+  - - Excel
+    - Microsoft Excel
+    - MS Excel
+  - EPA Regulation
+  - FactSet
+  - Facebook for business
+  - Final Cut
+  - FSSC 22000
+  - Google adwords
+  - Google analytics
+  - - Graphic User Interface
+    - \x20GUI\x20
+  - H20
+  - HRIS
+  - Hubspot sales
+  - Hyperion
+  - - HRIS
+    - HRIS systems
+    - HRIS technologies
+  - - Hadoop
+    - Apache Hadoop
+  - - Hbase
+    - Apache Hbase
+  - IBM Cloud
+  - IEC standards
+  - ISO standards
+  - JQuery
+  - JSON
+  - Jenkins
+  - Jsp\x20
+  - Jspf
+  - - JavaScript
+    - Java Script
+  - - Java\x20
+    - JavaEE
+  - Kanban
+  - Keras\x20
+  - Keyword optimization
+  - Kronos
+  - LaTeX
+  - LexisNexis
+  - Linux
+  - Luigi
+  - MATLAB
+  - MYOB
+  - Matlab
+  - Machine learning
+  - Mathematica
+  - Maven
+  - Mendeley
+  - MongoDB
+  - - Microsoft Access
+    - MS Access
+    - Access Database
+  - - Microsoft PowerPoint
+    - PowerPoint
+  - - Microsoft Publisher
+    - MS Publisher
+  - - Microsoft Word
+    - MS word
+  - - Microsoft office
+    - MS office
+  - NVivo
+  - Neo4j
+  - Neural networks
+  - NodeXL
+  - Objective C
+  - - Oracle
+    - Oracle database
+  - ORM regulation
+  - PCF
+  - PHP
+  - Peoplesoft
+  - Power BI
+  - Precima
+  - - PRINCE2
+    - PRojects IN Controlled Environments
+  - Python
+  - Pylearn2
+  - - PostgreSQL
+    - Postgresql
+  - Qualtrics
+  - Quickbooks
+  - - QuarkXpress
+    - Quark Xpress
+  - RAPTOR
+  - Robotic Process Automation
+  - Rust
+  - Ruby
+  - sarbanes oxley
+  - SDLC
+  - Service Now
+  - SPSS
+  - SQL
+  - SQLite
+  - STATA
+  - Scala
+  - Sendgrid
+  - SmartCo
+  - Smalltalk
+  - SolidWorks
+  - Software development
+  - Software Development
+  - Spark Streaming
+  - Storm
+  - SupplyTrack
+  - Surveyxact
+  - Swift
+  - Syteline
+  - - SQL Server
+    - MS SQL Server
+  - - Search engine optimization
+    - SEO
+  - - Sklearn
+    - scikitlearn
+    - scikit learn
+    - sk learn
+    - scikitlearn
+  - - Spark
+    - Apache Spark
+  - Tableau
+  - Typeform
+  - - Tensorflow
+    - tensor flow
+  - UI design
+  - - UWP
+    - Universal Windows Platform
+  - Ultipro
+  - Unit testing
+  - Unix
+  - VHDL
+  - - VBA
+    - Visual Basic for Applications
+    - Visual Basic
+  - - Visio
+    - Microsoft Visio
+  - WML
+  - WPF
+  - Waterfall
+  - Weblogic
+  - WestLaw
+  - Web scraping
+  - Windows Server
+  - Windows
+  - Wordpress
+  - XAML
+  - XHTML
+  - XML
+  - \x20AWK\x20
+  - - \x20SEB\x20
+    - Safe Exam Browser
+  - \x20Sed\x20
+  - \x20C\x20
+  - \x20SAP\x20
+  - \x20R\x20
+  - \x20SAS\x20
+  - \x20Hive\x20
+  - \x20Html
+  - \x20SSIS\x20
+  - - \x20GCP
+    - Google Cloud Platform
+  - - \x20Git\x20
+    - Verision control
+    - github
+    - gitlab
+  - - \x20Mac\x20
+    - MacOS
+    - Mac OS
+  - operating systems
+case_agnostic_whole_resume:
+  certifications:
+  - - Chartered Financial Analyst
+    - CFA
+  - - Certified Quality Engineer
+    - CQE
+  - - Hazard analysis & critical control points
+    - HACCP
+  - - Certified Public Accountant
+    - CPA
+  - - Association of Chartered Certified Accountant
+    - ACCA
+  - - Certified Management Accountant
+    - CMA
+  - - Chartered Institute of Management Accountants
+    - CIMA
+  - - Certified Financial Crime Specialists
+    - CFCS
+  - - Certified in Production & Inventory Management
+    - CPIM
+  - - Professional in Human Resources
+    - PHR
+  - - Project Management Professional
+    - PMP
+  - FE exam
+  - Lean Six Sigma Black Belt
+  - - Certified Hazard Control Manager
+    - CHCM
+  - OSHA Certified
+  - - Certified Safety Professional
+    - CSP
+  - - Associate Safety professional
+    - ASP
+  - Certified Sanitarian
+  - - Certified Biomedical Auditor
+    - CBA
+  - - Certified Calibration Technician
+    - CCT
+  - - Certified Food Safety & Quality Auditor
+    - CFSQA
+  - - Certified Manager of Quality Organizational Excellence
+    - CMQOE
+    - CMQ/OE
+  - - Certified Master Black Belt
+    - CMBB
+  - - Certified Quality Auditor
+    - CQA
+  - - Certified Quality Engineer
+    - CQE
+  - - Certified Quality Improvement Associate
+    - CQIA
+  - - Certified Quality Inspector
+    - CQI\x20
+  - - Certified Quality Process Analyst
+    - CQPA
+  - - Certified Quality Technician
+    - CQT
+  - - Certified Six Sigma Black Belt
+    - CSSBB
+  - - Certified Six Sigma Green Belt
+    - CSSGB
+  - - Certified Six Sigma Yellow Belt
+    - CSSYB
+  - - Certified Software Quality Engineer
+    - CSQE
+  - - Certified Supplier Quality Professional
+    - CSQP
+  honor_societies:
+  - honor society
+  latin_honors:
+  - cum laude
+  scholarships_awards:
+  - Scholarship
+case_agnostic_work:
+  company_consumer:
+  - consumer compan
+  - consumer industr
+  - consumer cyclical compan
+  - consumer cyclical industr
+  - retail compan
+  - retail industr
+  - retail experience
+  company_energychem:
+  - energy company
+  - engergy industr
+  - oil & gas compan
+  - oil & gas industr
+  - chemical compan
+  - chemical industr
+  company_fin:
+  - financial compan
+  - financial industr
+  - insurance compan
+  - insurance industr
+  - financial institution
+  - credit industry
+  company_foodbev:
+  - beverage company
+  - consumer package goods industry
+  - consumer packaged goods company
+  - consumer products industry
+  - cpg industry
+  - culinary industry
+  - dairy industry
+  - food company
+  - food industry
+  - food ingredient industry
+  - food related industry
+  - food service industry
+  - foodservice industry
+  - ingredients industry
+  - meat industry
+  - poultry industry
+  - restaurant industry  
+  company_health:
+  - health company
+  - medical company
+  company_industrial:
+  - industrial company
+  - manufacturing company
+  - manufacturing industry
+  company_other:
+  - EPC industry
+  company_services:
+  - services company
+  - consulting company
+  - consulting firm
+  - service industry
+  - distributor industry
+  company_tech:
+  - technology company
+  - technology industry
+  - IT industry
+case_sensitive_education:
+  associate_education_level:
+  - - Associate of Arts
+    - A[.]A[.]
+    - \x20AA\x20
+  - - Associate of Science
+    - A[.]S[.]
+    - \x20AS\x20
+  - - Associate of Applied Science
+    - A[.]A[.]S[.]
+    - \x20AAS\x20
+  - - Associate of General Studies
+    - A[.]G[.]S[.]
+    - \x20AGS\x20
+  - - Associates Degree
+    - Associates degree
+    - Associate degree
+  - Community College
+  bachelor_education_level:
+  - - 4 year college degree
+    - degree
+    - Bachelor
+    - 4 year degree
+  - - Bachelor of Arts
+    - Bachelors of Arts
+    - B[.]A[.]
+  - - Bachelor of Fine Arts
+    - Bachelor in Fine Arts
+    - Bachelors of Fine Arts
+    - B[.]F[.]A[.]
+    - \x20BFA\x20
+  - - Bachelor of Science
+    - Bachelors of Science
+    - Bachelor in Science
+    - BSc
+    - B[.]Sc
+    - BS Degree
+    - B[.]S[.]
+    - Bachelor of Science
+  - - Bachelor of Engineering
+    - Bachelor in Engineering
+    - Bachelors of Engineering
+    - B[.]E[.]
+  - - Bachelor of Economics
+    - Bachelors of Economics
+    - Bachelor in Economics
+  - - Bachelor of Accounting
+    - Bachelor of Accountancy
+    - Bachelor in Accountancy
+    - Bachelor in Accounting
+  - - Bachelor of Technology
+    - Bachelors of Technology
+    - Bachelor in Technology
+  - - Bachelor of Medical Science
+    - Bachelors of Medical Science
+    - Bachelor in Medical Science
+  - - Bachelor of Commerce
+    - Bachelors of Commerce
+    - Bachelor in Commerce
+  - - Bachelor of Finance
+    - Bachelors of Finance
+    - Bachelor in Finance
+  - - Bachelor of Business Administration
+    - Bachelors of Business Administration
+    - Bachelor in Business Administration
+    - B[.]B[.]A[.]
+    - \x20BBA\x20
+  - - Bachelor of Business
+    - Bachelors of Business
+    - Bachelor in Business
+  - - Bachelor of Commerce
+    - Bachelor in Commerce
+    - Bachelors of Commerce
+    - B[.]Comm
+  - - Bachelor of Health Science
+    - Bachelors of Health Science
+    - Bachelor in Health Science
+    - \x20BHS\x20
+    - B[.]H[.]S[.]
+  - - Bachelor of Law
+    - Bachelors of Law
+    - \x20LLB\x20
+  - - Bachelor Degree
+    - Bachelors Degree
+    - Bachelors degree
+  doctor_education_level:
+  - - \x20J[.]D[.]\x20
+    - Juris Doctor
+    - Law School
+  - - Medical Doctor
+    - \x20M[.]D[.]\x20
+    - \x20MD\x20
+    - Doctor of Medicine
+    - Medical School
+    - M[.]D[.]
+  - - Doctor of Dental Surgery
+    - D\x20D[.]S[.]
+    - \x20DDS\x20
+  - - Doctor of Pharmacy
+    - Pharm[.]D[.]
+    - PharmD
+  - - Doctor of Philosophy
+    - PhD
+    - Ph[.]D
+  - - Doctoral Program
+    - Doctoral Candidate
+  master_education_level:
+  - - Master of Business Administration
+    - Masters of Business Administration
+    - M[.]B[.]A
+    - \x20MBA\x20
+    - MBA
+  - - Master of Fine Arts
+    - Masters of Fine Arts
+    - MFA
+  - - Master of Education
+    - Masters of Education
+  - - Master of Business
+    - Masters of Business
+  - - Master of Public Administration
+    - Masters of Public Administration
+    - Master in Public Administration
+    - M[.]P[.]A
+    - \x20MPA\x20
+  - - Master of Public Policy
+    - Masters of Public Policy
+    - Master in Public Policy
+    - M[.]P[.]P[.]
+    - \x20MPP\x20
+  - - Master of Business Finance
+    - Masters of Business Finance
+    - Master in Business Finance
+    - \x20MBF\x20
+  - - Master of Arts
+    - Masters of Arts
+  - - Master of Science
+    - Masters of Science
+    - MSc
+    - M[.]Sc
+    - M[.]Sc[.]
+  - - Graduate Education
+    - Master Degree
+    - Masters Degree
+    - Masters Education
+    - Graduate Education
+    - Graduate School
+data_schema_dir: /home/cdsw/Resume-Parser-JOBS/data/schema
+resume_directory: /home/cdsw/Resume-Parser-JOBS/data/input/resumes
+summary_output_directory: /home/cdsw/Resume-Parser-JOBS/data/output  
+  
+  
+  
