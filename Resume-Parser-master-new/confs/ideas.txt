@@ -1,0 +1,33 @@
+Degree related:
+https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/degree-types/qualifications
+
+Majors
+https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees
+
+Colleges
+https://en.wikipedia.org/wiki/Category:University_and_college_rankings
+https://en.wikipedia.org/wiki/Professional_certification
+for the acronyms
+https://en.wikipedia.org/wiki/List_of_state_and_territorial_universities_in_the_United_States
+https://en.wikipedia.org/wiki/List_of_colloquial_names_for_universities_and_colleges_in_the_United_States
+
+some might be case sensitve.. e.g. Target
+Where have successful ones come from? look at high mbo scores, match with resume, look at work of those resumes
+
+Section not caught:
+Skills and Interests
+Personal Skills
+OTHER SKILLS & INTERESTS
+
+To get more languagues
+FLUENT IN
+
+https://github.com/summanlp/textrank
+https://github.com/stanfordmlgroup/chexpert-labeler
+https://github.com/binoydutt/Resume-Job-Description-Matching
+https://github.com/JAIJANYANI/Automated-Resume-Screening-System
+NER: https://towardsdatascience.com/a-review-of-named-entity-recognition-ner-using-automatic-summarization-of-resumes-5248a75de175
+
+bach degree
+MBA or business education
+2+ years of working experience
