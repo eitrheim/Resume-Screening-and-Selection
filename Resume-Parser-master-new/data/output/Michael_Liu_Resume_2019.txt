@@ -1,0 +1,145 @@
+900 N Lake Shore Drive, Chicago, IL | (708)510-8828 | mairuo@uchicago.edu 
+
+MICHAEL LIU 
+
+EDUCATION         
+The University of Chicago                                                                                                                             
+Master of Science in Analytics                                                                                                                      Sep. 2018 – Mar. 2020 
+•  Relevant Coursework: Machine Learning & Predictive Analytics, Data Mining Principles, Data Engineering and Big 
+
+                                                                                                                                                                     
+
+          Chicago, IL                                                 
+
+Data Platforms, Time Series Analysis, Data Visualization, Bayesian Methods, Statistical Analysis, Deep Learning 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The University of Washington                           
+Bachelor of Science in Economics, double majored in Psychology                                                              Sep. 2011 – Aug. 2015 
+•  Relevant Coursework: Advanced Economics, Econometrics, Computational Finance, Multivariate Statistics 
+•  Leadership: Student Senator, Vice President of Chinese Student and Scholar Association 
+•  GMAT: 750, GRE: 332, Dean’s List, Alberta Corkery Scholarship Recipient, Member of Psi Chi Honor Society   
+ 
+PROFESSIONAL EXPERIENCE                                                                                                                                                     
+Uptake Technologies 
+Data Science Intern   
+• 
+
+Jun. 2019 – Sep. 2019 
+Improved wind turbine failure prediction model with exhaustive feature engineering and massive adaptive hyperparameter 
+optimization; increased model precision and failure catch rate to 98%; helped clients avoid repairing and maintenance cost 
+as much as $21,800 per week per wind farm 
+
+                                   
+
+ 
+
+ 
+
+ 
+
+                                                      Chicago, IL                   
+
+                          Seattle, WA                                               
+
+•  Explored ways to create new features with third party data sources and research from SME in order to reduce model 
+
+RMSE by 9%; the resulting benchmark model for wind turbine efficiency is unrivaled in the current market         
+
+•  Streamlined recurring data engineering tasks by developing a proprietary R package; it accelerates reading and parsing 
+
+large amount of signal data from Cassandra server; reduced recurring coding time by at least 20% for the entire DS team 
+
+•  Spearheaded data assessment project for a thermal energy client; successfully converted prospect to a pilot deal         
+Dazhong Capital Private Equity Investment Co. 
+ 
+Quantitative Financial Analyst in Venture Capital Department   
+• 
+
+Initiated a project to accelerate an online skill-share platform start-up that is currently scheduled for IPO, expecting 
+60%-70% return on investment; recognized by management for unique foresight and can-do attitude 
+
+                                   
+
+ 
+
+ 
+
+Sep. 2015 – Jun. 2018 
+
+    Shanghai, China                   
+
+•  Pinpointed potential opportunities through data-driven market research; modeled NPV and IRR for investment projects; 
+
+distilled information useful for accelerating the growth of investment projects 
+
+•  Communicated directly with clients about the implementation of business strategy and funding allocation 
+Industrial and Commercial Bank of China                                                                                                          Beijing, China                                                 
+Quantitative Analyst Intern in Global Market Department                                                                          May 2014 – Aug. 2014 
+•  Assisted the proprietary trading team by providing research; practiced equity, derivative and forex trading on the in-house 
+
+mock trading platform; learned and prepared for quant trading from experienced quants and workshops 
+
+•  Redesigned a trading strategy algorithm, and shortened its process time by 33%; recognized for the ability to turn it 
+
+around and finalize on time; acknowledged by supervisors for analytical problem-solving skill 
+
+PricewaterhouseCoopers                                                                                                                                              Seattle, WA                         
+Summer Intern in Advisory Department 
+Jun. 2012 – Sep. 2012 
+•  Conducted strategic business analysis; won first place in case competition for a 15% increase in customer conversion rate 
+ 
+
+DATA SCIENCE PROJECTS                                                                                                                                                             
+DonorsChoose.org Marketing Recommender System   
+Team Leader, Big Data Final Project 
+•  Stored over 3 GB of structured donation and donor data into an on-premise Hadoop file system for distributed computing 
+•  Uncovered insights from data using Hive queries; trained a classifier to identify potential donors using PySpark ML tool     
+•  Helped DonorsChoose.org build recommender system to send emails that motivate donors, using data science for good     
+Chicago, IL 
+Airbnb Listing Strategic Pricing Analysis   
+Team Leader, Data Mining Final Project   
+Oct. 2018 – Dec. 2018 
+•  Gathered data with over 200,000 rows from Airbnb using JSON API; designed and engineered an OLAP database in 
+
+Chicago, IL 
+Jan. 2019 – Mar. 2019 
+
+MySQL for analytics and storage; utilized snowflake schema to successfully cut query time in half   
+Identified significant factors that affect listing pricing; identified market segments with DBSCAN clustering technique 
+
+• 
+•  Built a linear regression model in R that predicts price from continuous and categorical features; Achieved 84% R2   
+•  Established a new way to strategically price Airbnb listings that would greatly improve booking rate and lower vacancy   
+Mutual Fund Time Series Forecasting and Portfolio Optimization                                                                        Seattle, WA 
+Team Leader, DubHacks Datathon Participant                             
+              Aug. 2015 
+•  Built CER models and SARIMAX models in R for 6 selected mutual funds; conducted rolling analysis on model stability 
+•  Optimized mock portfolio to outperform benchmarks, and led UWFE club team to top 5 ranking in datathon 
+ 
+SKILLS                                                                                                                                                                                                       
+•  Technical: Python (pandas, NumPy, Scikit-learn, matplotlib), R, SQL, Tableau, Hadoop, Spark, Hive, Git, unit testing 
+•  Machine Learning Algorithms: Generalized linear models, Lasso and Ridge regression, SVM, Bagging & boosting 
+
+         
+
+ 
+
+ 
+
+ 
+
+(Random forests, Gradient Boosting), Clustering (K-means, DBSCAN), NLP, Neural Net, recommender system   
+
+

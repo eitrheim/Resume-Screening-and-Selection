@@ -1,0 +1,84 @@
+Matthew Echols 
+
+1701 W Summerdale Ave, Chicago, IL 60640, USA 
+
+Chicago, IL, 60640 
+(843)  441-4590 
+
+echolsmatthewg@gmail.com 
+
+CAREER OBJECTIVE 
+Detail-oriented Analytics major (4.0 GPA) currently attending University of Chicago.  Aiming to leverage 
+proven creative thinking, organizational, and teamwork skills to successfully fill the data scientist role at your company. 
+Seen as adaptable by my peers, I can be relied upon to think outside the box to question any missing assumptions. 
+EDUCATION 
+UNIVERSITY OF CHICAGO                                                                                                                         Chicago, IL 
+Masters of Science Analytics Candidate (Expected graduation Apr 2020) 
+•  GPA: 4.0 
+•  Relevant Course(s): Linear Algebra and Matrix Analysis, Statistical Analysis, Data Mining, Data Engineering 
+
+Platforms, Python for Analytics, Big Data Analysis, Machine Learning, Advanced Machine Learning, Leadership, Deep 
+Learning and Image Recognition, Natural Language Processing
+
+THE COLLEGE OF CHARLESTON                                                                                                      Charleston, SC 
+Bachelors of Science of Psychology - Developmental (May 2013) 
+     GPA: 3.5 
+
+WORK EXPERIENCE 
+Northwestern University                                                                                                                                   Chicago, IL 
+Clinical Research Coordinator                                                                                                            Oct 2016 – Sep 2018 
+     Identify protocol problems, inform investigators of problems, or assist in problem resolution efforts such as protocol 
+
+revisions. 
+
+     Code, evaluate, and interpret collected study data. 
+     Instruct research staff in scientific and procedural aspects of studies including standards of care, informed consent 
+
+procedures, or documentation procedures. 
+
+     Prepare, manipulate, and manage databases (local and cloud). 
+
+College of Charleston                                                                                                                                    Charleston, SC 
+Laboratory Manager                                                                                                                             Aug 2012 – Oct 2015 
+     Prepare, manipulate, and manage multiple local databases. 
+  Perform descriptive and multivariate statistical analyses of data.  
+  Verify and validate all data entered in local database. 
+     Present research findings to principle investigator/investors. 
+
+ADDITIONAL SKILLS 
+  Python (SciPi, Numpy, scikit-learn, Pandas, matplotlib, keras, tensorflow, seaborn, plotly, etc)  
+  R (dplyr, ggplot2, etc) 
+     SQL  
+  Microsoft Office Suite (Word, PowerPoint, Excel) 
+  Unsupervised Learning (K-means, DBscan, PCA, T-SNE, Autoencoders, Reinforcement Learning) 
+  Supervised Learning (Regression, Decision Trees, Gradient Boosting, SVM, LSTM, RNN’s) 
+
+CREDENTIALS AND LICENSES 
+     Programming Certification (Northwestern University) 
+
+1701 W Summerdale Ave, Chicago, IL 60640, USA       Chicago, IL, 60640     (843) 441-4590      echolsmatthewg@gmail.com 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+

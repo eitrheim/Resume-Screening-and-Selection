@@ -1,0 +1,122 @@
+220 E. Illinois | Chicago, IL 60661 | 617-955-7304 | oalshaye@uchicago.edu 
+
+Omar ALShaye 
+
+ 
+
+EDUCATION 
+
+ 
+
+University of Chicago | Chicago, IL                                                                                            Expected Winter 2020 
+Master of Science in Analytics, Data Science 
+
+▪  Coursework: Statistical Analysis, Machine Learning, Optimization, Deep Learning, Data Mining, 
+
+Business Applications, Data Engineering Platforms, Non-Linear Models, Big Data, Time Series 
+
+ 
+Rensselaer Polytechnic Institute | Troy, NY                                                                                              May 2018 
+Dual Bachelors of Science in Industrial Management Engineering – Economics                   
+
+▪  Honors: Cum Laude, Rensselaer Founders Award of Excellence, Ray Palmer Baker Prize for Excellence in 
+
+Systems Engineering, Alpha Pi Mu Honors Society Certificate of Excellence in Industrial Engineering  
+
+ 
+
+ 
+PROFESSIONAL EXPERIENCE 
+
+ 
+
+ 
+
+ 
+
+NIMBL, Techedge Group | Chicago, IL                                                                            June 2019 – September 2019 
+Data Intelligence Practice – Junior Consultant 
+
+▪  Provided predictive analytics solutions for Fortune 500 CPG and Automotive clients; utilizing machine learning, 
+
+deep learning (computer vision), operations research, and statistical modeling techniques on R and Python  
+
+▪  Built visual dashboards for performance management and resource/financial planning on SAP Analytics Cloud 
+▪ 
+Investigated a new SAP Analytics Cloud client solution that integrates R based predictive modeling capabilities  
+
+ 
+
+Abbott Laboratories (contract by Hiregenics) | Lake Forest, IL                                                         May 2017 – August 2017 
+Supply Chain Operations Intern  
+
+▪  Built VBA algorithm to optimize box utilization (N-P problem); reduced average chargeable shipment cost by        
+
+29.9%, increased box utilization by 12.1%, reduced average shipment volume by 297.4 inch3 
+▪  Performed trend analysis for top tier customers to quantify benefits of order consolidation  
+▪  Simulated packing area using Arena; recommendation reduced packing time by 2.8 minutes per unit 
+▪  Studied outbound dock using pallet density hourly data; proposed dock composite performance index 
+
+ 
+
+ 
+
+RESEARCH EXPERIENCE 
+
+Kraft Heinz People Analytics | Chicago, IL                                                                                 March 2019 – Present 
+Capstone Project: In and Out Analysis 
+
+▪  Designed a supervised machine learning model to predict employee churn date and likely destination 
+▪  Built a supervised machine learning model to predict probability of recruitment success for a given candidate 
+
+Shared Vehicle Routing | Troy, NY                                                                                      May 2017 – August 2017 
+Researcher for Professor Jennifer Pazour’s OnRout team  
+
+▪  Performed shared vehicle routing analysis for startup company OnRout to analyze duplicate effort by couriers 
+▪  Suggested optimal level of courier sharing; hypothetical optimal level of sharing increased stops/mile by 28%, 
+
+decreased total distance travelled by couriers by 19% 
+
+▪  Built simulation TSP model for different couriers operating in a common location 
+
+ 
+
+Television Manufacturing Innovation | Troy, NY                                                           January 2016 – August 2017 
+Researcher for Professor Kenneth Simons  
+
+▪  Code industry-wide model for television receiver manufacturing processes and innovations. Observed 259 
+
+manufacturing innovations/processes from 1941 to 1971 
+Identify target innovation characteristics yielding maximum economic efficiencies 
+
+▪ 
+▪  Analyze discrepancies and compare results using Excel, Stata, and R 
+
+ 
+
+ 
+
+SKILLS AND LANGUAGES 
+
+ 
+
+ 
+
+Technical: R, Python, VBA, SQL, MS Office, Tableau, Arena, Julia, SAP, Keras, TensorFlow, Stata, Hadoop, Spark, Neo4j 
+Languages: English (fluent), Arabic (fluent)  
+
+ 
+
+ 
+
+CO-CURRICULARS 
+Photography: photography-omaralshaye.com; President of UChicago and RPI Photography; Supervised 112 members 
+Alpha Pi Mu Honor Society: Promote Outreach to I.E Community; President of Rensselaer Chapter 2016-2018 
+
+ 
+
+ 
+
+ 
+
+

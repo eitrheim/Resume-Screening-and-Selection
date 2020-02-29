@@ -1,0 +1,79 @@
+ANN EITRHEIM, CFA 
+cell: 952.412.8888 
+ann.eitrheim@gmail.com 
+
+ 
+EDUCATION 
+ 
+UNIVERSITY OF CHICAGO  |  March 2020 Expected 
+Cumulative GPA: 4.0 (on a 4.0 scale) 
+Master of Science in Analytics 
+ 
+EXPERIENCE 
+ 
+WEST MONROE PARTNERS 
+Data Analytics Consultant Intern  |  Chicago, IL  |  June 2019 – August 2019 
+
+         DRAKE UNIVERSITY  |  Des Moines, IA  |  December 2014 
+         Cumulative GPA: 4.0 (on a 4.0 scale)  
+         B.Sc., Accounting and Finance majors, Economics minor
+
+•  Designed, developed, and implemented an end to end solution in a small team that allows actionable insights to be generated 
+
+quickly utilizing Python, GUIs, Power BI, SQLite, PyCharm, data cleaning, and parsing of complex text data to deliver rapid 
+forecasting capabilities for a specialty pharmaceutical company 
+
+•  Defined and broadened the client’s long-term data and analytics capabilities for sustained value creation with data science 
+•  Helped drive successful final delivery of a 6-week long project by working closely with the client to evaluate requirements, 
+
+communicate project status, facilitate end-user adoption, and present recommended future work 
+
+•  Reverse-engineered and automated a manual Excel-based forecasting model to data science platforms to be run at scale 
+•  Constructed a user guide to document installation requirements, model architecture, and instructions for using the software program 
+•  Structured a database to store results that meet client requirements while accommodating future back-testing and trend analysis 
+•  Produced dashboards to visualize the model output to examine scenarios to assess risk and drive actionable recommendations 
+•  Collaborated with another data scientist to create client deliverables including software development, database construction, 
+
+visualization creation, status reports, and a strong foundation for additional machine learning and natural language processing work 
+
+ 
+PRINCIPAL GLOBAL INVESTORS 
+Associate Fixed Income Analyst  |  Des Moines, IA  |  January 2015 – March 2018 
+
+•  Researched and recommended trades for Diversified Industrials, Building Materials, Environmental Services, and Home 
+
+Construction companies in the public and private placement markets for the General Account and third party managed money 
+
+•  Lead analyst for $812mm in purchases and had accountability for monitoring and reviewing risk exposure in $1.7bn of investments 
+•  Formulated actionable investment recommendations and strategies based on industry trends and factors affecting the yield curve 
+•  Continually orchestrated efficiency projects that steam line workflow, typically by redesigning, automating, or simplifying processes 
+•  Developed training materials for efficient onboarding of new team members 
+•  Automated reports that produced valuable analytics on the outlook of the industrial economy, the biggest movers in the Bloomberg 
+
+Barclays credit index, and a way to visualize the movement in key fundamental factors for fixed income investors 
+
+•  Gave presentations to investment committee on large transactions and sector updates and disruptions to limit material surprises   
+
+ 
+J.P. MORGAN CHASE & CO 
+Summer Financial Analyst  |  Chicago, IL  |  June 2014 – August 2014 
+
+•  Supported Private Bank CFO and Finance Managers with market reviews and ad hoc deliverables for internal and external clients 
+Implemented an occupancy project resulting in $383k in annual savings; identified realistic ways to save an additional $261k / yr 
+• 
+•  Developed files to compare individuals in the Private Bank, such as an Investor Scorecard, to support decision-making 
+•  Built relationships with senior management, the front office, and individuals from other areas of the firm to become a go-to resource  
+
+ 
+COMPUTER SKILLS  & CERTIFICATIONS 
+ 
+Programming languages: Python, R, VBA 
+Big Data Tools: Hadoop, Spark, Hive 
+Relational and NoSQL Databases: MySQL, MongoDB, Neo4j 
+ 
+
+         Software: Bloomberg, Power BI, Tableau 
+         Certifications: Charter Financial Analyst 
+         Other: GUI development, git, Excel
+
+

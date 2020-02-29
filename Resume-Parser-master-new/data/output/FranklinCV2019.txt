@@ -1,0 +1,2013 @@
+ 
+
+Diana M. Franklin 
+Curriculum Vitae 
+
+ 
+Education 
+University of California at Davis, Ph.D. in Computer Science, 2002. 
+University of Illinois at Urbana-Champaign, MCS. in Computer Science, 1999. 
+University of California at Davis, B.S. in Computer Science, 1997. 
+ 
+Area of Specialization 
+Computer Science Education, Quantum Computer Architecture, and Diversity, Equity, and Inclusion 
+ 
+Professional Experience 
+University of Chicago, Computer Science Department, Research Associate Professor, 2015-present 
+University of Chicago, UChicago STEM Education, Director of Computer Science, 2015-present. 
+University of Chicago, Computer Science Department, Lecturer, 2015-present 
+University of California at Santa Barbara, LSOE, 2007-2016,  
+
+100%, Dept of Computer Science, 0% Gevirtz Graduate School of Education 
+
+ 
+
+ 
+
+ 
+
+Director, Center for Computing Education and Diversity, 2008-present 
+California Polytechnic State University, San Luis Obispo, Associate Professor, 2007 
+California Polytechnic State University, San Luis Obispo, Assistant Professor, 2002-2007 
+Seven Pinnacles, consultant, 2006-2007 
+Compaq VSSAD group, Research Intern, Summer 2000 
+University of California at Davis, Associate Instructor, ECS 154B: Computer Architecture. Fall quarter, 2000 
+Lawrence Livermore National Laboratory, Summer Intern, Summer 1997, 1998 
+ 
+Professional Organizations 
+Association for Computing Machinery 
+IEEE Computer Society 
+ 
+Awards and Honors 
+CHI Honourable Mention Award (ranked top 5% of all submissions), 2018 
+ICER Best Paper Award: John Henry Award, 2017 
+NSF Future Directions in Computer Science Education – Part 2 participant, Spring 2014 
+Frontiers on Engineering Education, National Academy of Engineering, participant, Fall 2013 
+NCWIT Undergraduate Research Mentoring Award, 2012 (4 chosen nationally) 
+Outstanding Faculty Member 2011, 2010 voted by graduating CS major seniors 
+NSF CAREER Award - 2007 
+Most Inspiring Professor – 2007 voted by all CPE majors 
+Nominated for SWE Most Supportive Professor Award, 2004, 2005, 2006  
+IEEE Outstanding Computer Engineering Instructor for 2003 school year voted by all CPE majors  
+IEEE Outstanding Professor, March 2003 nominated by CPE students 
+ 
+Prestigious Presentations 
+Invited Facilitator, K-6 Computational Thinking, RPP PI Meeting, 2019 
+Panelist, CS4IL Summit, Curriculum and Diversity, 2019 
+Presenter, PreK-5th grade CT Integration, STEM+C PI Summit, 2019 
+Keynote panel, RESPECT conference, 2019 
+Testified before Congressional Subcommittee about Quantum Computing, 2018. (4 chosen nationally) 
+ 
+TEACHING 
+Courses taught regularly throughout career: Computer Architecture, Introduction to Programming, Data Structures, 
+Computers for Learning (education, game development) 
+ 
+Courses interested in teaching or developing, depending on fit with department:  
+Graduate-level course on Computer Science Educational Research – History, Methods, and Open Questions 
+Computer Science for Educators  
+Designing Computational Learning Experiences 
+ 
+
+Graduate Degree Committees 
+ 
+MS Committees 
+
+Student 
+Ayswarya Sundarum (Calpoly) 
+Charlotte Hill 
+ 
+PhD Committees 
+
+ 
+
+ 
+
+Student 
+
+Year Degree 
+Completed. 
+
+2008 
+2015 
+
+Chair/ 
+Member 
+Member 
+Member 
+
+Optional Info (e.g., Current 
+
+Employment) 
+
+CISCO 
+Apple 
+
+Year Degree 
+Completed / 
+(expected) 
+
+Chair/ 
+Member 
+
+Optional Info (e.g., Current 
+
+Employment) 
+
+ 
+Chair 
+ 
+Member 
+Intel 
+Member 
+IBM 
+Member 
+Facebook 
+Member 
+AppFolio 
+Chair 
+Foothill College 
+Member 
+Member 
+Intel 
+Member  AMD 
+Member  KLA Tencor 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+2022 
+2021 
+2020 
+2017 
+2017 
+2014 
+2013 
+2013 
+2010 
+2008 
+
+Jean Salac 
+Yongshan Ding 
+Adam Holmes 
+Ali JavadiAbhari 
+Summer Deng 
+Bryce Boe 
+Bita Mazloom 
+Hebatallah Saadeldeen 
+Susmit Biswas 
+Darshan Thaker  
+ 
+Postdoctoral students supervised 
+Year 
+2019 
+2017 
+2015 
+ 
+Staff members supervised 
+ 
+ 
+Year 
+ 
+2019 
+ 
+ 
+2018-19  
+ 
+2017-19  
+2017-19  
+ 
+2017-19  
+ 
+ 
+ 
+PART II.  PROFESSIONAL ACTIVITIES 
+ 
+Grants and Contracts 
+Total $13M, $3M as PI, $2.2M in Education and $800K in Architecture. Active grants in bold 
+ 
+
+Name 
+ 
+Donna Eatinger    
+Randy Landsberg  
+Sue Krause  
+ 
+Jennifer Palmer    
+Carla Strickland    
+
+Name 
+ 
+ 
+Janet Liao 
+ 
+David Weintrop   
+Hilary Dwyer  
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+Position  
+Curriculum Development Specialist 
+Director of Outreach and Education, EPiQC 
+Curriculum Development Specialist 
+Curriculum Development Specialist 
+Curriculum Development Specialist 
+
+Current Employment 
+ 
+Asst. Prof. East Carolina University  
+Asst. Prof. University of Maryland-College Park 
+Manager, Cytrix 
+
+ 
+
+Source 
+
+DOE 
+
+NSF 
+
+NSF 
+
+NSF 
+
+NSF 
+
+anon. 
+
+Title 
+
+Improving Pedagogy to Accelerate Computational 
+Thinking (IMPACT) 
+Collaborative Research: EPIQC: Enabling Practical-Scale 
+Quantum Computation 
+Scratch Encore: Equity via a Flexible, Culturally-Relevant 
+Advanced Scratch Curriculum for Upper-Elementary 
+Diverse Students and Teachers 
+Learning Trajectories for Everyday Computing: Integrating 
+Computational Thinking in Elementary Mathematics 
+Collaborative Research: Comprehending Code: The role of 
+reading skills and meta-cognition in programming for 
+struggling learners 
+UChicago Lab School Computational Thinking Initiative 
+
+Amount 
+$4M 
+
+$10M 
+
+$734K 
+
+$2.5M 
+
+$325K 
+
+$279K 
+
+Years 
+2019-
+2024 
+2018-
+2023 
+2017-
+2020 
+
+2017-
+2020 
+2017-
+2020 
+
+2017-
+2019 
+
+ 
+
+Prin. Invest. 
+
+Co-PI (PI of 
+UChicago Site) 
+Co-PI (PI Chong)  
+
+PI (Co-PIs at CPS, 
+UMaryland)  
+
+Co-PI (PI of 
+UChicago Site)  
+PI (Co-PI at  
+TX State)  
+
+Co-PI (PI 
+Abelmann)  
+
+2  
+
+2015-
+2017 
+2012-
+2015 
+2011-
+2012 
+2010-
+2013 
+2010-
+2013 
+
+$1.2M 
+
+$600K 
+
+$140K 
+
+SP (6 Co-PIs at 
+UIUC, UChicago)  
+PI (1 Co-PI in 
+Education)  
+Co-PI (PI Chong) 
+
+$500K 
+
+PI (1 Co-PI) 
+
+PI (2 Co-PIs, 1 in 
+Dept of Chicana/o 
+Studies) 
+PI 
+
+ $300K  Co-PI (PI Chong) 
+
+NSF 
+
+NSF 
+
+Learning Trajectories for Integrating K-5 Computer Science and 
+Mathematics 
+CER: DEPICT: Developing Elementary (Learning) 
+Progressions to Integrate Computational Thinking 
+
+Army-ICB  Energy-Efficient Microprocessors using Memristive Neural  
+
+PI 
+
+NSF 
+
+NSF 
+
+NSF 
+
+$45K 
+
+$300K 
+
+$533K 
+
+NSF 
+
+NSF 
+
+Networks for Prediction 
+CCF: Minimal Multithreading - 
+Exploiting Redundancy in Parallel Systems 
+BPC-DP:Animal Tlatoque: A Synergy between Mesoamerican 
+Cultural History and Endangered Species to attract and retain 
+Latina/os and Females in Computer Science 
+CAREER: Horseshoes and Hand Grenades: Exploiting Error 
+Tolerance in Applications 
+MRI: Acquisition of Computing Resources for Management of 
+Reliability through Data Classification and Voltage Overscaling 
+NSF-ITR: Synchroscalar: Exploiting Synchronized Clock 
+Domains for Energy Efficient Multirate Embedded Systems 
+
+2007- 
+2012 
+2006-
+2009 
+2003-
+2007 
+ 
+Products  
+Learning Trajectories for Quantum Superposition, Reversibility, Entanglement, Measurement for K-12 to guide 
+curriculum design 
+Learning Trajectories for Sequence, Conditionals, Iteration, Decomposition, and Debugging for K-12 to guide 
+curriculum design  
+Scratch Act 1 – Introductory computing curriculum for 3rd-5th grade students, revision of San Francisco Unified 
+School District’s curriculum to integrate research-based pedagogical approach and learning strategy. Used by 
+schools at SFUSD and Austin Independent School District  
+Scratch Encore – Intermediate culturally-relevant computing curriculum for 5th-8th grade students designed to 
+broaden participation in computing. Used by schools in Chicago Public Schools.  
+TIPP&SEE – Learning Strategy inspired by reading comprehension strategy THIEVES, designed to help upper- 
+elementary school students manage the Scratch programming interface and connect what they see the code do to the 
+code blocks that perform the actions.  
+Coderades – Scratch Charades game for 3rd-5th grade students in which students act out Scratch scripts (code 
+snippets), and other students build those scripts with LEGOs  
+Quantum Zines – Small 8-page pamphlets that introduce quantum computing concepts in broadly accessible ways 
+to broaden participation in computing and quantum computing  
+ 
+Special Appointments  
+ 
+Years 
+2015-16 
+2014 
+2014 
+2008 
+ 
+ 
+PART III.  SERVICE 
+ 
+Public Service (Including service to K-12 education) 
+Years 
+2019 
+2019 
+2015-16  Writer 
+2014-16  Member 
+2014-15  Member 
+2011-15  Member 
+
+Type of Service 
+Southern California Celebration of Women in Computing 
+Southern California Celebration of Women in Computing 
+Computing Frontiers 2014 
+9th Workshop on Computer Architecture Education 
+
+Type of Service 
+CS4IL Planning Committee 
+STEM+C PI Meeting Steering Committee 
+CS K-12 Frameworks (which informs standards) 
+CSTA Computational Thinking Task Force 
+9-dots after-school program advisory board member 
+ACCESS (Alliance for California Computing 
+Education for Students and Schools) 
+ 
+
+Co-General Chair 
+Co-Program Chair 
+Co-Program Chair 
+
+Position 
+Member 
+Member 
+
+Program Chair 
+
+Position 
+
+ 
+
+ 
+
+ 
+Department Service 
+2017-? 
+Member 
+
+ 
+
+Undergraduate Committee 
+
+3  
+
+Advisor 
+Co-Advisor 
+
+CS Major Advisor 
+ACM-W 
+
+2015-? 
+2016-? 
+ 
+Initiatives 
+Mentoring Program: Jointly with ACM-W, organized annual mentoring program and kick-off event. 
+Grace Hopper: Co-organized trip for 27 students to attend Grace Hopper. 
+ 
+ 
+PART IV.   RESEARCH CONTRIBUTIONS 
+ 
+No. 
+1 
+
+Title and Authors 
+
+Year 
+1999 
+
+ “Cache Coherence in Page-Based Intelligent 
+Memory,” D. Keen (Franklin), F. T. Chong, M. Oskin, 
+And J. Hensley. 
+
+“Exploiting ILP in Page-Based Intelligent Memory,” 
+M. Oskin, J. Hensley, D. Keen (Franklin), F. T. Chong, 
+M. Farrens, And A. Chopra. 
+ 
+"FlexRAM: An Advanced Intelligent Memory 
+System.", Yi Kang, Michael Huang, Seung-Moon 
+Yoon, Zhengho Ge, Diana Keen (Franklin), Vinh Lam, 
+Prattap Pattnaik and Josep Torrellas.  
+“Active Page Architectures for Media Processing,” J. 
+Hensley, M. Oskin, D. Keen (Franklin), And F. T. 
+Chong. 
+ 
+
+“Cache Coherence in Intelligent Memory Systems,” D. 
+Keen (Franklin), M. Oskin, J. Hensley, And F. T. 
+Chong. 
+ 
+
+“Reducing Cost And Tolerating Defects in Page-Based 
+Intelligent Memory,” M. Oskin, D. Keen (Franklin), J. 
+Hensley, L. V. Lita, And F. T. Chong.  
+“Algorithmic Complexity with Page-Based Intelligent 
+Memory,” M. Oskin, L. V. Lita, F. T. Chong, J. 
+Hensley, And D. Keen (Franklin). 
+ 
+“Memory Issues in Hardware-Supported Software 
+Safety,” D. Keen (Franklin), F. Chong, P. Devanbu, M. 
+Farrens, J. Brown, J. Hollfelder, And X.-T. Zhuang. 
+
+“IOP: A Preliminary Study of Instruction-Level Object 
+Parallelism For Superscalars,” D. Keen (Franklin), And 
+F. Chong. 
+
+“Operating Systems Techniques For Parallel 
+Computation In Intelligent Memory,” M. Oskin, D. 
+Keen (Franklin), J. Hensley, L. V. Lita, And F. T. 
+Chong. 
+
+2 
+
+1999 
+
+2.5* 
+
+1999 
+
+1999 
+
+2000 
+
+2000 
+
+2000 
+
+2001 
+
+2002 
+
+2002 
+
+3 
+
+4 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+ 
+
+Category 
+Refereed 
+Workshop 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Workshop 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Publisher 
+Eighth Workshop on 
+Scalable Shared-Memory 
+Multiprocessors held in 
+conjunction with the 1999 
+International Symposium 
+on Computer Architecture. 
+32nd Annual International 
+Symposium on 
+Microarchitecture 
+(MICRO-32) 
+International 
+Conference on Computer 
+Design(ICCD). 
+
+Workshop on Media 
+Processors and DSPs, held 
+with the 32nd Annual 
+International Symposium 
+on Microarchitecture. 
+Workshop on Solving the 
+Memory Wall Problem, 
+held with the International 
+Symposium on Computer 
+Architecture. 
+International Conference on 
+Computer Design. 
+
+Refereed 
+Conference 
+Paper 
+Parallel Processing Letters  Article 
+
+Refereed 
+Workshop 
+Paper 
+
+Workshop on Memory 
+Performance Issues, held in 
+conjunction with the 28th 
+Annual International 
+Symposium on Computer 
+Architecture 
+Workshop on Memory 
+Performance Issues, held 
+with the 29th International 
+Symposium in Computer 
+Architecture. 
+Parallel Processing Letters  Article 
+
+Refereed 
+Workshop 
+Paper 
+
+4  
+
+10 
+
+11 
+
+2003 
+
+2003 
+
+12 
+
+2004 
+
+13 
+
+2004 
+
+14 
+
+15 
+
+2005 
+
+2005 
+
+16 
+
+2005 
+
+17 
+
+2005 
+
+18 
+
+2006 
+
+“Cache Coherence in Intelligent Memory Systems,” D. 
+Keen (Franklin), M. Oskin, J. Hensley, And F. T. 
+Chong. 
+“Synchroscalar:  Initial Design Lessons in Power-
+Aware Design of Tile-Based Embedded Architectures,” 
+J. Oliver, R. Rao, P. Sultana, J. Crandall, E. 
+Czernikowski, L. W. Jones, D. Copsey, D. Keen 
+(Franklin), V. Akella, F. T. Chong.   
+
+“Synchroscalar: A Multiple Clock Domain Power-
+Aware Tile-Based Embedded Processor,”  J. Oliver, R. 
+Rao, P. Sultana, J. Crandall, E. Czernikowski, L. Jones, 
+D. Franklin, V. Akella, And F. T. Chong. 
+“Challenges in Reliable Quantum Computing,” D. 
+Franklin And F. Chong. 
+ 
+
+“Experiences with the Blackfin Architecture for 
+Embedded Systems Education,” Diana Franklin and 
+John Seng. 
+“Improving Non-Stationary Data Retrieval in Wireless 
+Sensor Networks,” A. LeBeau, J. Fields, R. Lavering, 
+D. Franklin and J. Seng. 
+
+“Reliability Requirements of Control, Address and 
+Data Operations in Error Tolerant Applications,”   
+D. D. Thaker, D. Franklin, V. Akella and F. T. Chong. 
+ 
+“Synchroscalar: Evaluation of an Embedded, Multi-
+core Architecture for Media Applications,”  J. Oliver, 
+R. Rao, D. Franklin, V. Akella, and F. T. Chong. 
+ 
+ “Exploiting Non-Uniform Memory Access Patterns 
+Through Bitline Segmentation,” Ravishankar Rao, 
+Justin Wenck, Diana Franklin, Rajeevan Amirtharajah, 
+and Venkatesh Akella. 
+
+19 
+
+2006 
+
+20 
+
+2006 
+
+ “Segmented Bitline Cache: Exploiting Non-Uniform 
+Memory Access Patterns,” Ravishankar Rao, Justin 
+Wenck, Diana Franklin, Rajeevan Amirtharajah, and 
+Venkatesh Akella. 
+“Case Studies in Cost, Performance, and Reliability,” 
+Diana Franklin. 
+ 
+
+21 
+
+2006 
+
+“Tile Size Selection For Low-Power, Tile-Based 
+Architectures,”  J. Oliver, R. Rao, D. Franklin, V. 
+Akella, and F. T. Chong. 
+
+ 
+
+IEEE Transactions on 
+Computers 
+
+Article 
+
+Workshop on Power-Aware 
+Computing Systems (PACS 
+’03) held in conjunction 
+with the International 
+Symposium on 
+Microcarchitecture 
+International Symposium 
+on Computer Architecture 
+(ISCA ’04) 
+
+In Nano, Quantum and 
+Molecular Computing: 
+Implicaitons to High Level 
+Design and Validation.  S. 
+Shukla and I. Bahar, 
+editors. Kluwer Academic 
+Publishers. 
+In the Twelfth Workshop on 
+Computer Architecture 
+Education 
+IEEE PerCom Workshop on 
+Sensor Networks and 
+Systems for Pervasive 
+Computing 
+Workshop on Architectural 
+Reliability in conjunction 
+with MICRO-38 
+
+Journal of Embedded 
+Computing 
+
+ In the Workshop on 
+Memory Performance 
+Issues, in conjunction with 
+HPCA (High Performance 
+Computer Architecture), 
+February 2006. Chosen as 
+one of 5 papers to be 
+published in SIGMICRO 
+newsletter. 
+International Conference on 
+High Performance 
+Computing (HiPC) 
+
+Computer Architecture - A 
+Quantitative Approach - 4th 
+edition by Hennessy and 
+Patterson, Elsevier 
+Publishers 
+International Symposium 
+on the Computing Frontiers 
+(20% acceptance rate) 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Book 
+Chapter 
+
+Refereed 
+Workshop 
+Paper 
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Article 
+
+Refereed 
+Workshop 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Book  
+Chapter 
+
+Refereed 
+Conference 
+Paper 
+
+5  
+
+22 
+
+2006 
+
+23 
+
+24 
+
+2007 
+
+2007 
+
+“Characterization of Error-Tolerant Applications when 
+Protecting Control Data,” D. Thaker, D. Franklin, J. 
+Oliver, S. Biswas, D. Lockhart, T. Metodi, F. T. 
+Chong. 
+“Gender Differences: Recognizing and Developing 
+Potential in Female Students,” Diana Franklin.  
+“Tile Size Selection For Low-Power, Tile-Based 
+Architectures,”  J. Oliver, R. Rao, D. Franklin, V. 
+Akella, and F. T. Chong. 
+
+25 
+
+2008 
+
+``Active Pages: Memory-Centric Computation,”  
+Diana Franklin. 
+
+“Efficient Fault Tolerance in Multi-media Applications 
+through Selective Instruction Replication,” A. 
+Sundarum, A. Akel, D. Lockhart, D. Thaker, and D. 
+Franklin. 
+ 
+“Preliminary Experiments on Similar Executions with 
+Reduced Off-Chip Accesses in Multi-core Processors,”  
+S. Biswas, F.Chong, D. Franklin, and T. Sherwood. 
+
+“Proceedings of the 9th Workshop on Computer 
+Architecture Education,” D. Franklin and E. Gehringer, 
+eds. 
+ “Multi-Execution: Multicore Caching for Data-Similar 
+Executions,” S. Biswas, D. Franklin, A. Savage, R. 
+Dixon, T. Sherwood, F. Chong 
+http://www.cs.ucsb.edu/~franklin/cv/pubs/isca142-
+biswas.pdf 
+“Soft Coherence:  Preliminary Experiments with Error-
+Tolerant Memory Consistency in Numerical 
+Applications,” G. Long, F. T. Chong, D. Franklin, J. 
+Gilbert, and D. Fan. 
+
+``PSMalloc: Content Based Memory Management for 
+MPI Applications,'' S. Biswas, D. Franklin, T. 
+Sherwood, F. Chong, B. Supinski, M. Schulz 
+"Conflict-Avoidance in Multicore Caching for Data-
+Similar Executions," S. Biswas, D. Franklin, T. 
+Sherwood, F. Chong 
+
+“eVoices: A Website Supporting Outreach by 
+Attracting Target Groups to Computer Science through 
+Culturally Relevant Themes,” S. Jones, A. Hernandez, 
+P. Ortiz, P. Conrad, G. Aldana, D. Franklin. 
+
+“A Case for Smartphone Reuse to Augment Elementary 
+School Education ,” X. Li, P. Ortiz, J. Browne, D. 
+Franklin, J. Oliver, R. Geyer, Y. Y. Zhou, and F. T. 
+Chong. 
+“Smartphone Evolution and Reuse:  Establishing a 
+more Sustainable Model,” X. Li, P. Ortiz, J. Browne, D. 
+Franklin, J. Oliver, R. Geyer, Y. Y. 
+Zhou, and F. T. Chong. 
+
+26 
+
+2008 
+
+27 
+
+2008 
+
+28 
+
+29 
+
+2008 
+
+2009 
+
+30 
+
+2009 
+
+31 
+
+2009 
+
+32 
+
+2009 
+
+33 
+
+2010 
+
+34 
+
+2010 
+
+35 
+
+2010 
+
+ 
+
+IEEE International 
+Symposium on Workload 
+Characterization 
+
+Refereed 
+Conference 
+Paper 
+
+Computing Research News, 
+March 2007, Vol. 19, No. 3 
+Transactions on High-
+Performance Embedded 
+Architectures and 
+Compilers 
+Chapter 6.10 of 
+Reconfigurable Computing: 
+The Theory and Practice of 
+FPGA-Based Computation 
+Workshop on Radiation 
+Effects and Fault Tolerance 
+in Nanometer Technologies 
+
+Workshop on Parallel 
+Execution of Sequential 
+Programs on Multi-core 
+Architectures 
+ACM 
+
+Article 
+
+Article 
+
+Book  
+Chapter 
+
+Refereed 
+Workshop 
+Paper 
+
+Refereed 
+Workshop 
+Paper 
+
+Book 
+
+International Symposium 
+on Computer Architectures 
+(ISCA'09) 
+
+Refereed 
+Conference 
+Paper 
+
+Workshop on Chip 
+Multiprocessor Memory 
+Systems and Interconnects 
+
+Refereed 
+Workshop 
+Paper 
+
+MEDEA 2009 Workshop 
+
+International Symposium 
+on Pervasive Systems, 
+Algorithms, and Networks 
+(I-SPAN 2009) 
+Conference of the 
+Southwestern Region of the 
+Consortium for Computing 
+Sciences in Colleges 
+(CCSC-SW 10) 
+Work in Progress in Green 
+Computing, held with the 
+International Conference on 
+Green Computing 
+International Workshop on 
+Green Computing 
+(GreenCom 2010) 
+
+Refereed 
+Workshop 
+Paper 
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Workshop 
+Paper 
+
+Invited 
+Workshop 
+Paper 
+
+6  
+
+36 
+
+2010 
+
+37  
+
+2010 
+
+38 
+
+2011 
+
+39 
+
+2011 
+
+“SBLLMalloc, Version 1,” Susmit Biswas, Diana 
+Franklin, Timothy Sherwood, Frederic T. Chong, 
+Bronis R. de Supinski, Martin Schulz. 
+
+"Minimal Multi-Threading: Finding and Removing 
+Redundant Instructions in Multi-Threaded 
+Processors,” Guoping Long, Diana Franklin, Susmit 
+Biswas, Pablo Ortiz, Jason Oberg, Dongrui Fan , 
+Frederic T. Chong 
+"Animal Tlatoque: Attracting Middle-School Students 
+to Computing through Culturally-Relevant Themes," 
+D Franklin, P Conrad, G Aldana, S Hough, N Avalos 
+Cisneros, F Lopez, A Gonzalez, A Hernandez, S 
+Jones, J Lopez, C Lu, N Moreno, P Ortiz, M Rochin, S 
+Smith 
+Exercises for Chapter 1, Diana Franklin 
+
+40 
+
+2011 
+
+Exercises for Appendix C, Diana Franklin 
+
+“Exploiting Data Similarity to Reduce Memory 
+Footprints,” Susmit Biswas, Bronis R. de Supinski, 
+Martin Schulz, Diana Franklin, Tim Sherwood, 
+Frederic T. Chong 
+“Mitigating the Environmental Impact of Smartphones 
+with Device Reuse,” Xun Li, Pablo Ortiz, Brandon 
+Kuczenski, Diana Franklin, and Frederic T. Chong. 
+
+“Teaching-Oriented Faculty at Research Universities,” 
+SIGCSE Teaching-Oriented Faculty Working Group 
+(with contributions by Steve Wolfman, Owen 
+Astrachan, Mike Clancy, Kurt Eiselt, Jeffrey Forbes, 
+Diana Franklin, David Kay, Mike Scott, and Kevin 
+Wayne) 
+“A Comprehensive Study of Reusing Smartphones to 
+Augment Elementary School Education,” X. Li, P. 
+Ortiz, J. Browne, D. Franklin, J. Oliver, R. Geyer, Y. 
+Y. Zhou, and F. T. Chong. 
+“Barely Alive Memory Servers:  Keeping Data Active 
+in a Low-Power State,” V. Anagnaostopoulou, S. 
+Biswas, H. Saadeldeen, A. Savage, R. Bianchini, T. 
+Yang, D. Franklin, and F. T. Chong. 
+“Power-aware Resource Allocation for 
+CPU- and Memory-intense Internet Services,” V. 
+Anagnaostopoulou, S. Biswas, H. Saadeldeen, R. 
+Bianchini, T. Yang, D. Franklin, and F. T. Chong. 
+ “Assessment of Computer Science Learning in a 
+Scratch-Based Outreach Program,” Diana Franklin, 
+Phillip Conrad, Bryce Boe, Katy Nilsen, Charlotte 
+Hill, Michelle Len, Greg Dreschler, Gerardo Aldana, 
+Paulo Almeida-Tanaka, Brynn Kiefer, Chelsea Laird, 
+Felicia Lopez, Christine Pham, Jessica Suarez, Robert 
+Waite 
+
+41 
+
+2011 
+
+42 
+
+2011 
+
+43 
+
+2011 
+
+44 
+
+2011 
+
+45 
+
+2012 
+
+46 
+
+2012 
+
+47 
+
+2013 
+
+ 
+
+arch.cs.ucsb.edu/sbllmalloc  Software 
+Release 
+
+International Symposium 
+On Microarchitecture 
+(MICRO) 
+
+Refereed 
+Conference 
+Paper 
+
+SIGCSE Technical 
+Symposium 
+
+Refereed 
+Conference 
+Paper 
+
+Computer Architecture - A 
+Quantitative Approach - 5th 
+edition by Hennessy and 
+Patterson, Elsevier 
+Publishers 
+Computer Architecture - A 
+Quantitative Approach - 5th 
+edition by Hennessy and 
+Patterson, Elsevier 
+Publishers 
+25th IEEE International 
+Parallel & Distributed 
+Processing Symposium 
+(IPDPS'11) 
+Sustainable Green 
+Computing:Practices, 
+Methodologies and 
+Technologies 
+Communications of the 
+ACM 
+
+Book  
+Chapter 
+
+Book  
+Chapter 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Book 
+Chapter 
+
+Journal 
+
+International Journal of 
+Handheld Computing 
+Research 
+
+ACM Journal on Emerging 
+Technologies in Computing 
+
+Refereed 
+Journal 
+Paper 
+
+Refereed 
+Journal 
+Paper 
+
+International Workshop on 
+Energy-Efficient Data 
+Centres 
+
+Refereed 
+Workshop 
+Paper 
+
+SIGCSE Technical 
+Symposium 
+
+Refereed 
+Conference 
+Paper 
+
+7  
+
+48 
+
+2013 
+
+49 
+
+2013 
+
+50 
+
+2013 
+
+51 
+
+2013 
+
+52 
+
+2013 
+
+53 
+
+2013 
+
+54 
+
+2013 
+
+55 
+
+2014 
+
+56 
+
+2014 
+
+57 
+
+2014 
+
+58 
+
+59 
+
+2015 
+
+2015 
+
+60 
+
+2015 
+
+ 
+
+ “Hairball: Lint-inspired Static Analysis of Scratch 
+Projects,” Bryce Boe, Charlotte Hill, Michelle Len, 
+Greg Dreschler, Diana Franklin, Phillip Conrad,  
+
+“Practical Guide to Gender Diversity for Computer 
+Science Faculty,” Diana Franklin 
+http://www.morganclaypool.com/doi/abs/10.2200/S00
+495ED1V01Y201304PRO002 
+“Memristors for Neural Branch Prediction: A Case 
+Study in Strict Latency and Write Endurance 
+Challenges,” Hebatallah Saadeldeen, Diana Franklin, 
+Guoping Long, Charlotte Hill, Aisha Browne, Dmitri 
+Strukov, Timothy Sherwood and Frederic Chong 
+“Optimized Code for a Solovay-Kitaev Quantum 
+Rotation Generator,” Daniel Kudrow, Kenneth Bier, 
+Zhaoxia Deng, Diana Franklin, and Frederic T. Chong. 
+“Barely Alive Servers: Greener Datacenters 
+Through Memory-Accessible, Low-Power States,” 
+Vlasia Anagnostopoulou, Susmit Biswas, Heba 
+Saadeldeen, Alan Savage, Ricardo 
+Bianchini, Tao Yang, Diana Franklin and Frederic T. 
+Chong. 
+“Quantum Rotations: A Case Study in Static and 
+Dynamic Machine-Code Generation for Quantum 
+Computers,” Daniel Kudrow, Kenneth Bier, Zhaoxia 
+Deng, Diana Franklin, Yu Tomita, Kenneth Brown, 
+and Frederic T. Chong 
+“Computational Thinking for Physics: Programming 
+Models of Physics Phenomenon in Elementary 
+School,” Hilary Dwyer, Bryce Boe, Charlotte Hill, 
+Diana Franklin, and Danielle Harlow  
+ “Identifying Elementary Students’ Pre-Instructional 
+Ability to Develop Algorithms and Step-by-Step 
+Instructions,” Hilary Dwyer, Charlotte Hill, Stacey 
+Patterson, Danielle Harlow, and Diana Franklin 
+  
+"ReDHiP: Recalibrating Deep Hierarchy Prediction for 
+Energy Efficiency," Xun Li, Diana Franklin, Ricardo 
+Bianchini, Fred Chong,  
+  
+"SpongeDirectory: Flexible Sparse Directories 
+Utilizing Multi-Level Memristors,” Lunkai Zhang, 
+Dmitri Strukov, Hebatallah Saadeldeen, Dongrui Fan, 
+Mingzhe Zhang, Diana Franklin  
+  
+“Putting the CS in Computing Education Research,” 
+Diana Franklin 
+
+“Floors and Flexibility: Designing a programming 
+environment for 4th-6th grade classrooms,” Charlotte 
+Hill, Hilary Dwyer, Tim Martinez, Ashley Iveland, 
+Alexandria Killian, Danielle Harlow, and Diana 
+Franklin 
+“Getting Started Teaching and Researching Computer 
+Science in the Elementary Classroom,” Diana 
+Franklin, Charlotte Hill, Hilary Dwyer, Ashley 
+Iveland, Alexandria Killian, and Danielle Harlow. 
+
+SIGCSE Technical 
+Symposium 
+
+Morgan-Claypool 
+
+Computing Frontiers 
+Harbinger award (best 
+paper) 
+
+Refereed 
+Conference 
+Paper 
+
+Edited 
+Book 
+
+Refereed 
+Conference 
+Paper 
+
+http://www.cs.ucsb.edu/~dk
+udrow/downloads/skoptimi
+zed.tar.gz 
+Sustainable Green 
+Computing Systems; 
+Springer Verlag Publishers 
+
+Software 
+release 
+
+Refereed 
+Book 
+Chapter 
+
+International Symposium 
+on Computer Architecture 
+(ISCA ’13) 
+
+Refereed 
+Conference 
+Paper 
+
+Physics Education Research 
+Conference (PERC) 
+
+SIGCSE Technical 
+Symposium 
+
+IEEE International Parallel 
+& Distributed Processing 
+Symposium (IPDPS)  
+Best Paper - Architecture 
+International Conference on 
+Parallel Architectures and 
+Compilation Techniques 
+(PACT 2014) 
+
+Communications of the 
+Association for Computing 
+Machinery, Viewpoints 
+SIGCSE Technical 
+Symposium 
+
+SIGCSE Technical 
+Symposium 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Edited 
+Column 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+8  
+
+61 
+
+2015 
+
+62 
+
+2015 
+
+63 
+
+2015 
+
+64 
+
+2015 
+
+65 
+
+2015 
+
+66 
+
+2015 
+
+67 
+
+2016 
+
+68 
+
+2016 
+
+69 
+
+2016 
+
+70 
+
+2016 
+
+71 
+
+2017 
+
+72 
+
+2017 
+
+73 
+
+2017 
+
+ 
+
+“Compiler Management of Communication and 
+Parallelism for Quantum Computation,” Jeff Heckey, 
+Ali JavadAbhari, Shruti Patil, Daniel Kudrow, Ken 
+Brown, Diana Franklin, Frederic T. Chong, and 
+Margaret Martonosi.  
+“Programming Languages and Discourse: 
+Investigating the Linguistic Context in Learning 
+Computer Science during Elementary School,” Hilary 
+Dwyer, Danielle Harlow, Ashley Iveland, Alexandria 
+Killian, Charlotte Hill, Diana Franklin 
+“Computer Programming in Elementary and Middle 
+School: Connections across Content,” Danielle 
+Harlow, Hilary Dwyer, Anne Leak, Charlotte Hill, 
+Ashley Iveland, Diana Franklin 
+ 
+“Programming Science Digital Stores: Computer 
+science and engineering design in the science 
+classroom,” Alexandria Hansen, Ashley Iveland, 
+Hilary Dwyer, Diana Franklin, Danielle Harlow. 
+“Interactive Design by Children: A Construct Map for 
+Programming,” Alexandria Hansen, Hilary Dwyer, 
+Ashley Iveland, Timothy Martinez, Danielle Harlow, 
+Diana Franklin. 
+“Fourth-Grade Students Reading Block-Based 
+Programs: Predictions, Visual Cues, and Affordances,” 
+Hilary Dwyer, Charlotte Hill, Alexandria Hansen, 
+Ashley Iveland, Diana Franklin, Danielle Harlow 
+“Differentiating for Diversity: Using Universal Design 
+for Learning in K-6 Computer Science Education,” 
+Alexandria Hansen, Hilary Dwyer, Ashley Iveland, 
+Diana Franklin, Danielle Harlow. 
+“Initialization in Scratch: Seeking Knowledge 
+Transfer,” Diana Franklin, Charlotte Hill, Hilary 
+Dwyer, Ashley Iveland, Alexandria Hansen, Danielle 
+Harlow. 
+“User-Centered Design in Block-Based Programming: 
+Developmental & Pedagogical Considerations for 
+Children,” Alexandria Hansen, Diana Franklin, 
+Danielle Harlow. 
+“Mellow Writes: Extending Lifetime in Resistive 
+Memories through Selective Slow Write Backs,” 
+Lunkai Zhang, Brian Neely, Diana Franklin, Dmitri 
+Strukov, Yuan Xie, Fred Chong 
+“Assessing Children’s Understanding of the Work of 
+Computer Scientists: The Draw-a-Computer-Scientist 
+Test,” Alexandria Hansen, Hilary Dwyer, Ashley 
+Iveland, Mia Talesfore, Lacy Wright, Danielle Harlow, 
+Diana Franklin. 
+“Covering Edge Cases: An Analysis of Computer 
+Science Learning Goals Theorized and Tested in 
+Literature,” Kathryn Rich, Carla Strickland, Diana 
+Franklin. 
+“Using Upper-Elementary student performance to 
+understand conceptual sequencing in a blocks-based 
+Curriculum,” Diana Franklin, Gabriela Skifstad, Reiny 
+Rolock, Isha Mehrotra, Valerie Ding, Alexandria 
+Hansen, David Weintrop, Danielle Harlow. 
+
+Architectural Support for 
+Programming Languages 
+and Operating Systems 
+(ASPLOS) 
+
+AERA (American 
+Education Research 
+Association) 
+
+Improving K-12 STEM 
+educational outcomes 
+through technological 
+integration, Hersey IGI 
+Global 
+Science and Children 
+
+ACM SIGCHI Interactive 
+Design for Children 
+
+International Computer 
+Education Research 
+Conference (ICER 2015) 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE) 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE) 
+
+ACM SIGCHI Interactive 
+Design for Children (ICS) 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Poster 
+
+Edited 
+Book 
+
+Refereed 
+Journal 
+
+Refereed  
+Conference 
+Short 
+Paper 
+Refereed  
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+International Symposium 
+on Computer Architecture 
+(ISCA'16) 
+
+Refereed 
+Conference 
+Paper 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE) 
+
+Refereed 
+Conference 
+Paper 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE) 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE) 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+9  
+
+74 
+
+2017 
+
+75 
+
+2017 
+
+76 
+
+2017 
+
+77 
+
+2018 
+
+78 
+
+2018 
+
+79 
+
+2018 
+
+80 
+
+2018 
+
+81 
+
+2018 
+
+82 
+
+2019 
+
+83 
+
+2019 
+
+84 
+
+2019 
+
+85 
+
+2019 
+
+ 
+ 
+ 
+
+ 
+
+“K-8 Learning Trajectories Derived from Research 
+Literature: Sequence, Repetition, Conditionals,” 
+Katherine M. Rich, Carla Strickland, Andrew 
+Binkowski, Cheryl Moran, Diana Franklin. 
+“Designing Quantum Programming Languages and 
+Compilers Given Hardware Constraints,” Frederic T. 
+Chong, Diana Franklin, Margaret Martonosi. 
+
+“Optimized Surface Code communication in 
+Superconducting Quantum Computers,” Ali Javadi-
+Abhari, Pranav Gokhale, Adam Holmes, Diana 
+Franklin, Ken Brown, Margaret Martonosi, Frederic T. 
+Chong 
+“Evaluating CoBlox: A Comparative Study of 
+Robotics Programming Environments for Adult 
+Novices,” David Weintrop, Patrick Francis, Bo Li, 
+Afsoon Afzal, David Shepherd, Jean Salac, Diana 
+Franklin. 
+“Decomposition: A K-8 Computational Thinking 
+Learning Trajectory,” Kathryn M. Rich, T. Carla 
+Strickland, T. Andrew Binkowski, Diana Franklin. 
+
+“Starting from Scratch: Outcomes of Early Computer 
+Science Learning Experiences and Implications for 
+What Comes Next,” David Weintrop, Alexandria K. 
+Hansen, Danielle B. Harlow, Diana Franklin. 
+“Ecological Design-Based Research for Computer 
+Science Education: Affordances and Effectivities for 
+Elementary School students,” Danielle Harlow, Hillary 
+Dwyer, Alexandria Hansen, Ashley Iveland, Diana 
+Franklin. 
+“Magic-State Functional Units: Mapping and 
+Scheduling Multi-Level Distillation Circuits for Fault-
+Tolerant Quantum Architectures,” Yongshan Ding, 
+Adam Holmes, Ali Javadi-Abhari, Diana Franklin, 
+Margaret Martonosi, Frederic T. Chong 
+“A K-8 Debugging Learning Trajectory Derived from 
+Research Literature,” Katherine M. Rich, Carla 
+Strickland, Andrew Binkowski, Diana Franklin.  
+ 
+“An Analysis through an Equity Lens of the 
+Implementation of Computer Science in K-8 
+Classrooms in a Large, Urban School District,” Jean 
+Salac, Max White, Ashley Wang, Diana Franklin.  
+ 
+“Resource Optimized Quantum Architectures for 
+Surface Code Implementations of Magic-State 
+Distillation,” Adam Holmes, Yongshan Ding, Ali 
+Javadi-Abhari, Diana Franklin, Margaret Martonosi, 
+and Frederic T. Chong. 
+ 
+“Enacting Identities: Participatory Design as a Context 
+for Youth to Reflect, Project, and Apply their Emerging 
+Identities,” Merijke Coenraad, Jennifer Palmer, Diana 
+Franklin, David Weintrop. 
+ 
+
+International Conference on 
+Computer Education 
+Research (ICER ’17) 
+
+Refereed 
+Conference 
+Paper 
+
+Nature, Vol. 549 No. 7671 
+pp 180-187 
+
+Refereed 
+Journal 
+
+International Symposium 
+on Microarchitecture 
+(MICRO) 
+
+Refereed 
+Conference 
+Paper 
+
+ACM CHI Conference on 
+Human Factors in 
+Computing Systems (CHI 
+2018) 
+
+Refereed 
+Conference 
+Paper 
+
+International Conference on 
+Computer Education 
+Research (ICER ’17) 
+
+Refereed 
+Conference 
+Paper 
+
+International Conference on 
+Computer Education 
+Research (ICER ’17) 
+
+Refereed 
+Conference 
+Paper 
+
+Cognition and Instruction, 
+pages 1-23 
+
+Refereed 
+Journal 
+
+International Symposium 
+on Microarchitecture 
+(MICRO) 
+
+Refereed 
+Conference 
+Paper 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE)  
+ 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE)  
+ 
+
+Microprocessors and 
+Microsystems 
+ 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Article 
+
+Interactive Design for 
+Children (IDC 2019) 
+ 
+
+Refereed 
+Conference 
+Paper 
+
+10  
+
+Accepted Publications 
+86 
+
+2019 
+
+“The Teacher Accessibility, Equity, and Content (TEC) 
+Rubric for Evaluating Computing Curricula.” David 
+Weintrop, Merijke Coenraad, Jennifer Palmer, & Diana 
+Franklin 
+ 
+“Scratch Encore: The Design and Pilot of a Culturally-
+Relevant Intermediate Scratch Curriculum,” Diana 
+Franklin, Jen Palmer, Merijke Coenraad, Melissa 
+Cobian, Kristan Beck, Andrew Rasmussen, Susan 
+Krause, Max White, Marco Anaya, Zachary Crenshaw 
+ 
+“TIPP&SEE: A Learning Strategy to Guide Stuents 
+through Use->Modify Scratch Activities,” Jean Salac, 
+Cthy Thomas, Choe Butler, Ashley Sanchez, Diana 
+Franklin 
+ 
+“Eliciting Student Scratch Script Understandings via 
+Scratch Charades,”  Diana Franklin, Jean Salac, Cathy 
+Thomas, Zene Sekou, Susan Krause 
+
+“Patterns in Elementary-Age Student Responses to 
+Personalized & Generic Code Comprehension 
+Questions,”  Jean Salac, Qi Jin, Zipporah Klain, 
+Saranya Turimella, Max White, & Diana Franklin 
+ 
+“Comprehending Code: Understanding the Relationship 
+between Reading and Math Proficiency, and 4th-Grade 
+CS Learning Outcomes,”  Jean Salac, Cathy Thomas, 
+Bryan Twwarek, William Marsland, & Diana Franklin 
+ 
+
+87 
+
+2019 
+
+88 
+
+2019 
+
+89 
+
+2019 
+
+90 
+
+2019 
+
+91 
+
+2019 
+
+ 
+
+ 
+
+ACM Transactions on 
+Computing Education 
+(TOCE) 
+ 
+
+Refereed 
+Journal  
+
+Symposium on Computer 
+Science Education 
+(SIGCSE)  
+ 
+
+Refereed 
+Conference 
+Paper 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE)  
+ 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE)  
+ 
+Symposium on Computer 
+Science Education 
+(SIGCSE)  
+ 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE)  
+ 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+11  
+
+
