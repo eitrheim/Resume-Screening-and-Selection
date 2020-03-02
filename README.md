@@ -13,16 +13,14 @@ An Intelligent System to Automate Candidate Selection for Interview
 -	File 1: Resume-Parser-master-new/confs/config.yaml
 -	File 2: Resume-Parser-JOBS/confs/config.yaml
 -	Add, subtract, or change items in these files. Sections that need to be identical are courses, major_minor, languages, techincal_skills, and certifications. Some items are in a hierarchical format, meaning they are equivalents of each other. For example in the  Resume-Parser-JOBS/confs/config.yaml file, 4 year college degree, degree, Bachelor, and 4 year degree are equivalent to each other.
-### Step 1: Section and parse resumes
--	File: Resume-Parser-master-new/bin/main.py
--	Change line 39 to point to the new candidate resume data, currently it is point to “data/Candidate Report.csv”
-### Step 2: To Section and parse job descriptions to create the ideal candidate
--	File: Resume-Parser-JOBS/bin/main.py
--	Change line 33 to point to the new job descriptions, currently it is point to “data/full_requisition_data.csv”
-### Step 3: One hot encode the resume data
--	File: Resume-Parser-master-new/OneHotRESUMES.py
-### Step 4: One hot encode the job description data
--	File: Resume-Parser-JOBS/OneHotJOBS.py
-### Step 5: Rank candidates
--	File: models/content_based/final_model.py
--	Change line 119 to the requisition ID you want to see the top candidates
+### Step 1: Add Resumes
+-	Folder: Resume-Parser-master-new/data/input/resumes
+### Step 2: Add job descriptions to create the ideal candidate
+-	File: Resume-Parser-JOBS/data/job_descriptions.csv
+-	The first column is a unique code (ReqID) and the second is the job description (text)
+### Step 3: Rank candidates
+-	File: pipeline.py
+-	line 6 `pipeline(pdf_to_text=0, jobID='abcd123', topX=100)`
+-   Choose if you want to parse the resumes (do if you have new resumes) `pdf_to_text=1`
+-   Select jobID to rank candidates for `jobID='abcd123'`
+-   Select number of top candidates to show `topX=100`
