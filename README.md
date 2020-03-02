@@ -20,7 +20,7 @@ An Intelligent System to Automate Candidate Selection for Interview
 -	The first column is a unique code (ReqID) and the second is the job description (text)
 ### Step 3: Rank candidates
 -	File: pipeline.py
--	Update line 6 `pipeline(pdf_to_text=0, jobID='abcd123', topX=100)`
+-	Update line 6 `pipeline(pdf_to_text=0, jobID='abcd123', topX=100)`   
         -   Choose if you want to parse the resumes (do if you have new resumes) `pdf_to_text=1`   
         -   Select jobID to rank candidates for `jobID='abcd123'`   
         -   Select number of top candidates to show `topX=100`   
