@@ -77,9 +77,7 @@ def rank(jobID, topX):
         df = pos_jd_text.append(pos_resume_text)
         df.set_index('ID', inplace=True)
 
-        tokenizer = RegexpTokenizer(r'\w+')
         df['text'] = df['text'].apply(lambda x: [''] if x[0] == 'nan' else x)
-        #df['text'] = df['text'].apply(lambda x: tokenizer.tokenize(x))
         df['text'] = df['text'].apply(lambda x: ' '.join(x))
         count = CountVectorizer()
         pos_embedding = count.fit_transform(df['text'])
@@ -111,8 +109,10 @@ def rank(jobID, topX):
     count_embeddings['ReqID'] = np.repeat(jobID, len(count_embeddings))
     all_features = pd.DataFrame(count_embeddings).merge(all_dummies_ideal, how="left", on=["ID", 'ReqID'])
     rankings = RecommendTop(jobID=jobID, full_df=all_features.drop('ReqID', axis=1))
+
     try:
         rankings = rankings[:topX]
     except:
         pass
-    return rankings
+
+    return rankings, job_features_ideal.text[job_features_ideal.ReqID == jobID].values

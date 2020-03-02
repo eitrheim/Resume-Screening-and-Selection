@@ -2,7 +2,6 @@
 
 # from __future__ import absolute_import
 import sys
-# sys.path.append('Resume-Parser-master-new/bin')
 
 # importing user defined modules
 import field_extraction
@@ -40,7 +39,6 @@ def main():
     observations['CanID'] = observations.file_path.apply(lambda x: x.split('/')[-1].lower().replace(' ', '')[:4] + str(np.random.randint(100, 999)))
 
     # to skip the code above
-    # observations = pd.read_csv('../data/output/resume_summary.csv')
     observations = observations[['ReqID', 'CanID', 'text']]
     observations.drop_duplicates(inplace=True)
     observations.reset_index(drop=True, inplace=True)
@@ -77,7 +75,7 @@ def extract():
     logging.info('Begin extract')
 
     candidate_file_agg = list()  # for creating list of resume file paths
-    for root, subdirs, files in os.walk(lib.get_conf('resume_directory')):  # gets path to resumes from yaml file
+    for root, subdirs, files in os.walk('/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/data/input/resumes'):  # gets path to resumes from yaml file
         # os.walk(parentdir + '/data/input/example_resumes'): would do the same thing
         files = filter(lambda f: f.endswith(('.pdf', '.PDF')), files)  # only read pdfs
         folder_files = map(lambda x: os.path.join(root, x), files)
@@ -85,10 +83,6 @@ def extract():
 
     observations = pd.DataFrame(data=candidate_file_agg, columns=['file_path'])  # convert to df
     logging.info('Found {} candidate files'.format(len(observations.index)))
-    observations['extension'] = observations['file_path'].apply(lambda x: os.path.splitext(x)[1])  # e.g. pdf or doc
-    observations = observations[observations['extension'].isin(lib.AVAILABLE_EXTENSIONS)]
-    logging.info('Subset candidate files to extensions w/ available parsers. {} files remain'.
-                 format(len(observations.index)))
     observations['text'] = observations['file_path'].apply(lib.convert_pdf)  # get text from .pdf files
 
     logging.info('End extract')

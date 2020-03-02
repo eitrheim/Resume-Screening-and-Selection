@@ -1524,7 +1524,7 @@ case_sensitive_education:
     - Graduate School
 data_schema_dir: ../data/schema
 resume_directory: ../data/input/resumes
-summary_output_directory: ../data/output
+summary_output_directory: /Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/data/output
   
   
   

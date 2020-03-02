@@ -19,7 +19,7 @@ AVAILABLE_EXTENSIONS = {'.csv', '.doc', '.docx', '.eml', '.epub', '.gif', '.htm'
                         '.tif', '.tiff', '.tsv', '.txt', '.wav', '.xls', '.xlsx'}
 
 
-def load_confs(confs_path='../confs/config.yaml'):
+def load_confs(confs_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/confs/config.yaml'):
     """
     Load the .yaml file
     """
@@ -118,7 +118,7 @@ def term_match(string_to_search, term):
 
 def convert_pdf(f):
     output_filename = os.path.basename(os.path.splitext(f)[0]) + '.txt'  # get file name (e.g. Ann Resume.pdf)
-    output_filepath = os.path.join('..', 'data', 'output', output_filename)  # creating the path for the output
+    output_filepath = os.path.join('/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/data/output', output_filename)  # creating the path for the output
     logging.info('Writing text from {} to {}'.format(f, output_filepath))
     pdf2text.main(args=[f, '--outfile', output_filepath])  # convert pdf to text & place in output .txt file
     try:

@@ -30,7 +30,7 @@ def main():
     # logging explained https://appdividend.com/2019/06/08/python-logging-tutorial-with-example-logging-in-python/
 
     # read in job descriptions
-    observations = pd.read_csv("../data/job_descriptions.csv")
+    observations = pd.read_csv("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/data/job_descriptions.csv")
     observations.columns = ['ReqID', 'text']
     
     observations.drop_duplicates(inplace=True)
@@ -45,8 +45,7 @@ def main():
     observations = transform(observations)  # extract data from resume sections
 
     load(observations)  # save to csv to finish
-    
-    print("Finished.")
+
     pass
 
 
@@ -94,7 +93,6 @@ def load(observations):
     output_path = os.path.join(lib.get_conf('summary_output_directory'), 'job_description_summary_FULL.csv')
 
     logging.info('Results being output to {}'.format(output_path))
-    print('Results output to {}'.format(output_path))
     
     observations.to_csv(path_or_buf=output_path, index=False, encoding='utf-8')
     logging.info('End transform')

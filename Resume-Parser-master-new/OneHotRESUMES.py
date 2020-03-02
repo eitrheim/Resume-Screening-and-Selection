@@ -5,10 +5,8 @@ import re
 def onehot():
     # read in parsed data
     df = pd.read_csv("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/data/output/resume_summary.csv", error_bad_lines=False)
-    print(len(df))
     df = df[df.CanID == df.CanID]
     df = df[df.ReqID == df.ReqID]
-    print(len(df))
     df.reset_index(drop=True, inplace=True)
 
 
