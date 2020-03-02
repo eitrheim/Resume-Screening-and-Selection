@@ -2,7 +2,7 @@
 
 from __future__ import absolute_import
 import sys
-sys.path.append('/home/cdsw/Resume-Parser-JOBS/bin')
+sys.path.append('../Resume-Parser-JOBS/bin')
 
 # importing user defined modules
 import field_extraction
@@ -29,17 +29,16 @@ def main():
     logging.getLogger().setLevel(logging.WARNING)  # essentially does print statements to help debug (WARNING)
     # logging explained https://appdividend.com/2019/06/08/python-logging-tutorial-with-example-logging-in-python/
 
-    # read in Kraft's job descriptions
-    data_path = "~/data/full_requisition_data.csv"
-    observations = pd.read_csv(data_path, usecols=['Req ID','Job Description'], encoding = 'utf-8')
-    observations.columns = ['ReqID','text']
+    # read in job descriptions
+    observations = pd.read_csv("../data/job_descriptions.csv")
+    observations.columns = ['ReqID', 'text']
     
     observations.drop_duplicates(inplace=True)
     observations.reset_index(drop=True, inplace=True)
     observations.text.fillna('', inplace=True)
     observations.dropna(how='all', inplace=True) # drop rows that are all na
-    observations['text'] = observations['text'].apply(lambda x: x.replace('Kraft Heinz is an EO employer',''))
-    observations['text'] = observations['text'].apply(lambda x: x.replace('Minorities/Women/Vets/Disabled and other protected categories',''))
+    observations['text'] = observations['text'].apply(lambda x: x.replace('Kraft Heinz is an EO employer', ''))
+    observations['text'] = observations['text'].apply(lambda x: x.replace('Minorities/Women/Vets/Disabled and other protected categories', ''))
     
     observations = resume_sectioning.create_columns(observations) # add columns to match resume df
   
@@ -69,8 +68,6 @@ def extract():
                  format(len(observations.index)))
     observations['text'] = observations['file_path'].apply(lib.convert_pdf)  # get text from .pdf files
 
-    # Archive schema and return
-    lib.archive_dataset_schemas('extract', locals(), globals())  # saving the schema
     logging.info('End extract')
     return observations
 
@@ -88,8 +85,6 @@ def transform(observations):
 
     observations = field_extraction.extract_fields(observations)  # search for terms in whole resume
 
-    # Archive schema and return
-    lib.archive_dataset_schemas('transform', locals(), globals())
     logging.info('End transform')
     return observations
 
