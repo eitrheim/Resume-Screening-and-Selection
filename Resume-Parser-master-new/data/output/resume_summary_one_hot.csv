@@ -1,4 +1,4 @@
-ReqID,CanID,text,Language,Work,Summaries,Skill,Member,Writing,Researching,Honor,Activity,email,phone,GPA,years_experience,mos_experience,GPAmax,certifications,honor_societies,latin_honors,scholarships_awards,community_college,major_minor,other_universities,top_100_universities,top_10_universities,associate_education_level,bachelor_education_level,doctor_education_level,master_education_level,courses,languages,hobbies,technical_skills,company_consumer,company_energychem,company_fin,company_foodbev,company_health,company_industrial,company_other,company_services,company_tech,Education,Extracurriculars
+ReqID,CanID,text,Language,Work,Summaries,Skill,Member,Writing,Researching,Honor,Activity,email,phone,GPA,years_experience,mos_experience,GPAmax,certifications,honor_societies,latin_honors,scholarships_awards,community_college,major_minor,other_universities,top_100_universities,top_10_universities,associate_education_level,bachelor_education_level,doctor_education_level,master_education_level,courses,languages,hobbies,technical_skills,company_consumer,company_energychem,company_fin,company_foodbev,company_health,company_industrial,company_other,company_services,company_tech,Education,Extracurriculars,HonorSociety,LatinHonors,ScholarshipsAward,CommCollege,OtherUni,Top100Uni,Top10Uni,Associates,Bachelors,Masters,Doctors,FoodBev,Consumer,EnergyChem,Fin,HealthMed,Industrial,Tech,Services,OtherCo,CFA,CQE,HACCP,CPA,ACCA,CMA,CIMA,CFCS,CPIM,PHR,PMP,FEexam,LeanSixSigmaBlackBelt,CHCM,OSHACertified,CSP,ASP,CertifiedSanitarian,CBA,CCT,CFSQA,CMQOE,CMBB,CQA,CQIA,CQI,CQPA,CQT,CSSBB,CSSGB,CSSYB,CSQE,CSQP,Accounting,AdultDevelopment,Aeronautics,AfricanStudies,AgriculturalBusiness,Agriculture,AirwayScience,AmericanStudies,Analytics,AnimalScience,Archaeology,Architecture,ArtStudies,ArtificialIntelligence,AsianStudies,AutomotiveEngineering,Aviation,BakeryScience,Biology,BiomedicalEngineering,Biophysics,BioresourceScience,BusinessAdministration,BusinessAnalytics,ChemicalEngineering,ChildCare,CivilEngineering,CommunicationTechnology,Communication,ComputerEngineering,ComputerNetworks&Systems,ComputerScience,ConstructionEngineering,Counseling,CriminalScience,DataManagementTechnology,DataScience,DentalHygiene,DieselTechnology,DraftingTechnology,EarlyChildhoodEducation,Ecology,Economics,EducationAdministration,ElectricalEngineering,EnglishAsASecondLanguage,EnglishEducation,EnvironmentalDesign,EnvironmentalEngineering,EnvironmentalStudies,EquestrianStudies,EthnicStudies,EuropeanStudies,FacilitiesAdministration,Fashion,Film,Finance,FitnessManagement,Food&Nutrition,Forensics,Forestry,FuneralServices,GenderStudies,Genetics,Genomics,Geography,Geology,GlobalHealth,GraphicDesign,HealthServicesAdministration,HispanicStudies,HistoryofArt,History,HomeEconomics,Horticulture,Hospitality,HumanDevelopment,HumanResources,HumanRightsStudies,Immunology,IndustrialProductionTechnologies,Informatics,InformationScience,InformationTechnology,InteriorDesign,InternationalBusiness,InternationalRelations,Journalism,Kinesiology,LaborRelations,LandscapeArchitecture,LawEnforcement,LawPolitics&Society,Law,LegalAssistant,LiberalStudies,LiteraryStudies,Literature,Logistics,Management,MarineScience,Marketing,MaterialManagement,MaterialsScience,MathematicsEducation,Mathematics,MechanicalEngineering,MedicalAssistant,MedicalBilling,MedicalImagingScience,MedicalTechnology,MentalHealthServices,Merchandising,Meteorology,MiddleEasternStudies,MiddleSchoolEducation,MilitaryTechnologies,Music,Neuroscience,Nursing,Oceanography,OfficeManagement,OrganizationalBehavior,OsteopathicMedicine,PackagingEngineering,Parks&Recreation,Pathology,Pharmacy,Philosophy,PhysicalScience,Physics,PoliticalScience,Psychology,PublicHealth,PublicPolicy,PublicRelations,PurchasingManagement,QuantumComputing,QuantumMechanics,Radiology,RehabilitationTherapy,ResourceManagement,RetailManagement,RiskManagement,SeniorHighEducation,SocialScienceEducation,SocialScience,SocialWelfare,Sociology,SpeechStudies,SportManagement,SubstanceAbuseCounseling,Surveying,SystemsEngineering,TheaterStudies,Theology,Tourism,UrbanPlanning,UrbanStudies,VeterinarianAssisting,VeterinaryScience,VisualCommunication,Viticulture,WarStudies,WebDesign,WebDevelopment,WeldingTechnology,WildlifeManagement,WorldLanguages,Zoology,Advertising,AgriculturalEducation,Anatomy,ArtEducation,Biochemistry,Bioengineering,Bioethics,BiologicalEngineering,Biotechnology,Business,BusinessEducation,CeramicEngineering,Chemistry,Chiropractic,ClinicalTrialsManagement,CognitiveScience,CommunityAdvocacy,CommunityOrganization,ConflictResolution,ContractsManagement,CyberSecurity,Dentistry,Design,EducationalLeadership,EducationalTechnology,Endocrinology,EngineeringScience,Entrepreneurship,Epidemiology,Floriculture,FoodServicesManagement,Genealogy,GlobalStudies,HealthEducation,HistoricPreservation,HomelandSecurity,HumanServices,IndustrialDesign,IndustrialEngineering,IndustrialManagement,JuridicalScience,LibraryScience,ManagerialEconomics,Medicine,MetallurgicalEngineering,MineralEngineering,MinorityStudies,MolecularEngineering,NuclearEngineering,OccupationalSafety,Optometry,Paleontology,PetroleumEngineering,Pharmacogenomics,Phlebotomy,PhysicalEducation,PhysicianAssistant,PostsecondaryEducation,ProjectManagement,PublicAdministration,QualityControl,RealEstate,RespiratoryTherapy,SafetyTechnologies,ScienceEducation,SecretarialStudies,SoftwareEngineering,SoundEngineering,SpecialEducation,Statistics,TechnologyEducation,Thermodynamics,Toxicology,Transportation,UrbanTeacherEducation,Akkadian,Anatolian,Arabic,Aramaic,Armenian,Bengali,Basque,Bosnian,Cantonese,Catalan,Chinese,Croatian,Czech,Danish,Dutch,Egyptian,English,French,Geez,German,Greek,Hebrew,Hindi,Hokkien,Italian,Japanese,Kazakh,Korean,Latin,Malay,Mandarin,Marathi,Norwegian,Pali,Persian,Polish,Portuguese,Punjabi,Russian,Sanskrit,Serbian,SignLanguange,Slavic,Spanish,Sumerian,Swahili,Tamil,Telugu,Tibetan,Turkish,Welsh,Urdu,Uzbek,Yiddish,APstyle,Abletonlive,Abaqus,AcrobatDistiller,AdobeFireworks,AdobeFlash,Airflow,Algorithms,AppDevelopment,Ariba,AutoCAD,Axioma,Azure,Azkaban,Adobecreativesuite,Agilemethodology,AmazonWebServices,ApplicationProgrammingInterface,Bigdata,BirdEye,Bloomberg,C#,C[+][+],Ceridian,CREST,CRD,CSS,Clustering,CognosAnalytics,ContentManagementSystems,DBMS,DHTML,Databasedesign,Datapipeline,Dataarchitecture,Dataengineering,Datamining,Decisiontrees,Deltek,Docker,Dreamweaver,Datavisualization,Elixir,Excel,EPARegulation,FactSet,Facebookforbusiness,FinalCut,FSSC22000,Googleadwords,Googleanalytics,GraphicUserInterface,H20,HRIS,Hubspotsales,Hyperion,Hadoop,Hbase,IBMCloud,IECstandards,ISOstandards,JQuery,JSON,Jenkins,Jsp,Jspf,JavaScript,Java,Kanban,Keras,Keywordoptimization,Kronos,LaTeX,LexisNexis,Linux,Luigi,MATLAB,MYOB,Matlab,Machinelearning,Mathematica,Maven,Mendeley,MongoDB,MicrosoftAccess,MicrosoftPowerPoint,MicrosoftPublisher,MicrosoftWord,Microsoftoffice,NVivo,Neo4j,Neuralnetworks,NodeXL,ObjectiveC,Oracle,ORMregulation,PCF,PHP,Peoplesoft,PowerBI,Precima,PRINCE2,Python,Pylearn2,PostgreSQL,Qualtrics,Quickbooks,QuarkXpress,RAPTOR,RoboticProcessAutomation,Rust,Ruby,sarbanesoxley,SDLC,ServiceNow,SPSS,SQL,SQLite,STATA,Scala,Sendgrid,SmartCo,Smalltalk,SolidWorks,Softwaredevelopment,SoftwareDevelopment,SparkStreaming,Storm,SupplyTrack,Surveyxact,Swift,Syteline,SQLServer,Searchengineoptimization,Sklearn,Spark,Tableau,Typeform,Tensorflow,UIdesign,UWP,Ultipro,Unittesting,Unix,VHDL,VBA,Visio,WML,WPF,Waterfall,Weblogic,WestLaw,Webscraping,WindowsServer,Windows,Wordpress,XAML,XHTML,XML,AWK,SEB,Sed,C,SAP,R,SAS,Hive,Html,SSIS,GCP,Git,Mac,operatingsystems,StemMajor
 abcd123,volu163,"Lauren Kollauf
 
 Content Creator & Nonprofit Storyteller
@@ -85,7 +85,7 @@ State Initiative. I am grateful that my current
 work allows me to practice my professional 
 skills while supporting my personal passions 
 of health and wellness.
-",,,,,," VOLUNTEER ROLES:
+",,,0,,," VOLUNTEER ROLES:
 Power Read Mentor, Everybody Wins! 
 November 2018 – Present
 
@@ -111,7 +111,7 @@ CONTACT ME:
 lauren@iowahealthieststate.com
 /Lauren-Kollauf
 
-",
+",,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 abcd123,glor603," 
 
  
@@ -1547,7 +1547,7 @@ CODA system.
 
  
  
-",,,,,,gefang@singnet.com.sg,"('', '947', '6196')",[],['aug 96 - nov 97'],15,,['CertifiedPublicAccountant'],[],[],[],[],"['InternationalRelations', 'WorldLanguages', 'Finance', 'Management', 'Accounting', 'Economics']","['UniversityofNottingham', 'ShanghaiInternationalStudiesUniversity']",['UniversityofMichigan'],[],[],['BachelorofEconomics'],[],[],[],"['English', 'Mandarin']",['hobbies'],"['Microsoftoffice', 'Hyperion', '\\x20SAP\\x20']",[],[],[],[],['turing'],[],"['venture', '\\x20itt\\x20']",[],[],"EDUCATION: 
+",,0,,,,gefang@singnet.com.sg,"('', '947', '6196')",[],['aug 96 - nov 97'],15,,['CertifiedPublicAccountant'],[],[],[],[],"['InternationalRelations', 'WorldLanguages', 'Finance', 'Management', 'Accounting', 'Economics']","['UniversityofNottingham', 'ShanghaiInternationalStudiesUniversity']",['UniversityofMichigan'],[],[],['BachelorofEconomics'],[],[],[],"['English', 'Mandarin']",['hobbies'],"['Microsoftoffice', 'Hyperion', '\\x20SAP\\x20']",[],[],[],[],['turing'],[],"['venture', '\\x20itt\\x20']",[],[],"EDUCATION: 
  
  
  
@@ -1757,7 +1757,7 @@ Engineering
  
 WORKING ","HOBBIES: 
  
-"
+",0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3
 abcd123,uoba175,"Felyna Lee Hui Chay, CFA 
 RNF Rep. No.: LHC300105930 
 
@@ -2212,7 +2212,7 @@ REGIONAL EXPERIENCE AND ",,"SKILLS/OTHER INFORMATION
 
 Page 3 of 3 
 
-",,,"PROJECTS 
+",,0,"PROJECTS 
 Regional Product and Sales Committee (RPSC), Secretariat (January 2016 – Present) 
   Developed guidelines and designed slide templates to promote the discussion of new ideas 
 
@@ -2430,7 +2430,7 @@ Jan 2004 – Dec 2005  Hwa Chong Institution
   GCE ‘A’ Levels with distinctions in Biology and Economics 
 
  
-   CORPORATE ",
+   CORPORATE ",,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
 abcd123,echo529,"Matthew Echols 
 
 1701 W Summerdale Ave, Chicago, IL 60640, USA 
@@ -2575,7 +2575,7 @@ CREDENTIALS AND LICENSES
  
  
 
-",,,,,"
+",,0,,,"
 ADDITIONAL ",echolsmatthewg@gmail.com,"('843', '441', '4590')","['GPA: 4.0', 'GPA: 3.5', '4.0 GPA']",[],0,4.0,['AssociateSafetyprofessional'],[],[],[],[],"['Psychology', 'Analytics']",['CollegeofCharleston'],[],['UniversityofChicago'],[],['BachelorofScience'],[],['MasterofScience'],[],[],[],"['Decisiontrees', 'Sklearn', 'Excel', 'SQL', '\\x20R\\x20', 'Keras\\x20', 'Tensorflow', 'Microsoftoffice', 'MicrosoftPowerPoint', 'Python']",[],[],[],[],[],[],[],[],[],"EDUCATION 
 UNIVERSITY OF CHICAGO                                                                                                                         Chicago, IL 
 Masters of Science Analytics Candidate (Expected graduation Apr 2020) 
@@ -2588,7 +2588,7 @@ Learning and Image Recognition, Natural Language Processing
 THE COLLEGE OF CHARLESTON                                                                                                      Charleston, SC 
 Bachelors of Science of Psychology - Developmental (May 2013) 
      GPA: 3.5 
-",
+",,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
 abcd123,laur643,"Lauren Ehrler 
 
 664 33rd Street DSM IA 
@@ -2797,13 +2797,13 @@ Best,
  
 Lauren Ehrler 
 
-",,,,,,lmehrler@gmail.com,"('563', '495', '0357')",['GPA: 4.0'],[],0,4.0,[],[],[],[],[],"['Communication', 'Sociology', 'Journalism', 'Marketing', 'Management']","['DrakeUniversity', 'HumboldtUniversity']",[],[],[],['BachelorofArts'],[],[],[],[],[],"['APstyle', 'Microsoftoffice', 'Searchengineoptimization', 'ContentManagementSystems']",[],[],[],[],[],[],['cision'],[],"['twitter', 'facebook']","EDUCATION 
+",,0,,,,lmehrler@gmail.com,"('563', '495', '0357')",['GPA: 4.0'],[],0,4.0,[],[],[],[],[],"['Communication', 'Sociology', 'Journalism', 'Marketing', 'Management']","['DrakeUniversity', 'HumboldtUniversity']",[],[],[],['BachelorofArts'],[],[],[],[],[],"['APstyle', 'Microsoftoffice', 'Searchengineoptimization', 'ContentManagementSystems']",[],[],[],[],[],[],['cision'],[],"['twitter', 'facebook']","EDUCATION 
 Drake University – Des Moines, IA – May 2013 – Bachelor of Arts: Journalism & Mass Communication   
 Major: Broadcast News | Minor: Sociology | Concentration: Marketing & Management | GPA: 4.0 
  
 Humboldt University – Berlin, Germany – January to May 2011 – Metropolitan Studies program  
  
-",
+",,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
 abcd123,ivyc955,"Choo Gui Yi, Ivy	
 
  
@@ -3163,7 +3163,7 @@ Personality
 
 Page 3 of 3 
 
-",,,,,,ivycgy@yahoo.com.sg,"('', '979', '5486')",[],"['october 2012 to present', 'march 2012 to october 2012', 'april 2011 to march 2012', 'january 2010 to december 2010']",118,,[],[],[],[],[],['Business'],['UniversityofLondon'],[],[],[],['BachelorofScience'],[],[],[],[],[],"['MicrosoftPowerPoint', 'Excel', 'Microsoftoffice', 'Bloomberg']",[],['conocophillips'],"['bankofchina', 'e*trade']",[],[],[],['venture'],[],[],"
+",,0,,,,ivycgy@yahoo.com.sg,"('', '979', '5486')",[],"['october 2012 to present', 'march 2012 to october 2012', 'april 2011 to march 2012', 'january 2010 to december 2010']",118,,[],[],[],[],[],['Business'],['UniversityofLondon'],[],[],[],['BachelorofScience'],[],[],[],[],[],"['MicrosoftPowerPoint', 'Excel', 'Microsoftoffice', 'Bloomberg']",[],['conocophillips'],"['bankofchina', 'e*trade']",[],[],[],['venture'],[],[],"
 Education Summary 
 
 •  Aug 2006 - Jun 2009 – University of London (SIM), Singapore 
@@ -3188,7 +3188,7 @@ Professional courses attended
 •  Year 2014: Certificate in Fund Administration 
 •  Year 2012: Bloomberg AIM 
 
- ",
+ ",,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 abcd123,vick748,"Ryan Tang 
 Compliance Professional 
 Email: ryantangtg19@gmail.com 
@@ -3483,7 +3483,7 @@ Minimum Business Proficiency
 
 Professional Proficiency 
 
-",,,,,,ryantangtg19@gmail.com,"('', '975', '8053')",[],['july 2013 to present'],80,,[],[],[],[],[],['Finance'],['UniversityofLondon'],[],[],[],['BachelorofScience'],[],[],[],"['English', 'Chinese', 'Mandarin']",[],"['MicrosoftPowerPoint', 'Excel', 'MicrosoftWord']",[],[],[],[],[],[],[],[],[],"EDUCATION 
+",,0,,,,ryantangtg19@gmail.com,"('', '975', '8053')",[],['july 2013 to present'],80,,[],[],[],[],[],['Finance'],['UniversityofLondon'],[],[],[],['BachelorofScience'],[],[],[],"['English', 'Chinese', 'Mandarin']",[],"['MicrosoftPowerPoint', 'Excel', 'MicrosoftWord']",[],[],[],[],[],[],[],[],[],"EDUCATION 
 University of London  
 Bachelor of Science (Banking & Finance) 
 2nd Class Honours (Lower) 
@@ -3492,7 +3492,7 @@ Nanyang Junior College
 GCE “A” Levels 
  
  
-",
+",,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,mari726,"     MARIN K. GOW 
 
  
@@ -3685,7 +3685,7 @@ TECHNOLOGIES
 
 SQL, SQL Server, PostgreSQL, MySQL, SQLite, SSIS, Python, R, Power BI, Tableau, AWS (S3, EC2) 
 
-",,,,,COMMUNITY ,mkgow@uchicago.edu,"('206', '327', '7820')",[],['sept 2014 - june 2015'],9,,[],[],[],[],[],"['Economics', 'Finance', 'Analytics']",[],['UniversityofWashington'],['UniversityofChicago'],[],"['BachelorofArts', 'BachelorofScience']",[],['MasterofScience'],[],[],[],"['\\x20SSIS\\x20', 'Tableau', 'SQLite', 'PowerBI', 'Datavisualization', 'SQL', '\\x20R\\x20', 'AmazonWebServices', 'Python', 'PostgreSQL', 'SQLServer', 'Dataengineering', 'Agilemethodology']",[],[],[],[],[],[],[],['westmonroepartners'],[],"EDUCATION 
+",,0,,,COMMUNITY ,mkgow@uchicago.edu,"('206', '327', '7820')",[],['sept 2014 - june 2015'],9,,[],[],[],[],[],"['Economics', 'Finance', 'Analytics']",[],['UniversityofWashington'],['UniversityofChicago'],[],"['BachelorofArts', 'BachelorofScience']",[],['MasterofScience'],[],[],[],"['\\x20SSIS\\x20', 'Tableau', 'SQLite', 'PowerBI', 'Datavisualization', 'SQL', '\\x20R\\x20', 'AmazonWebServices', 'Python', 'PostgreSQL', 'SQLServer', 'Dataengineering', 'Agilemethodology']",[],[],[],[],[],[],[],['westmonroepartners'],[],"EDUCATION 
 
 University of Chicago 
 Master of Science, Analytics 
@@ -3724,7 +3724,7 @@ awareness of gender bias
 
  
 
-"
+",0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,3
 abcd123,pwc_621," 
     
   
@@ -4282,7 +4282,7 @@ Since September 2015
 Currently pursuing Certified Internal Auditor (CIA) 
 
  
- ",,SKILLS/,,,,AWARDS/,"
+ ",,SKILLS/,,0,,AWARDS/,"
 Volunteer English Lesson Instructor 
  
 
@@ -4362,7 +4362,7 @@ CO-CURRICULAR ACHIEVEMENTS
  
  
  
-  "
+  ",0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,radh651," 
 
  
@@ -4880,7 +4880,7 @@ Bachelor of Science (Hons) in Business & Management Studies/Accounting & Finance
 University of Bradford – Second Class Honors 
  
  
-Marital Status:    Married ",,,,,,radhikasingh.sg@gmail.com,,[],[],0,,['CertifiedPublicAccountant'],[],[],[],[],[],[],[],[],[],[],[],[],[],"['English', 'Hindi', 'Mandarin', 'Malay']",[],[],[],[],"['e*trade', 'nasdaq']",['atria'],[],[],"['venture', 'target\\x20', 'getco\\x20']",['deloitte'],[],,
+Marital Status:    Married ",,0,,,,radhikasingh.sg@gmail.com,,[],[],0,,['CertifiedPublicAccountant'],[],[],[],[],[],[],[],[],[],[],[],[],[],"['English', 'Hindi', 'Mandarin', 'Malay']",[],[],[],[],"['e*trade', 'nasdaq']",['atria'],[],[],"['venture', 'target\\x20', 'getco\\x20']",['deloitte'],[],,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 abcd123,sgre842,"Sébastien Genty
 
 1209 Page St, Apt 7, San Francisco, CA 94117
@@ -5074,7 +5074,7 @@ Computer
   Unix
   Adobe Creative Suite
   Microsoft Office
-",,," Projects
+",,0," Projects
 New Product Development
 
 •  Computed ideal product configuration by creating a market 
@@ -5115,7 +5115,7 @@ physics, research, reading, video
 games, solving problems and fixing 
 things
 
-"
+",0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
 abcd123,resu420,"EDUCATION 
 
 JENA MANILLA 
@@ -5246,7 +5246,7 @@ Raleigh, NC
 Dec 2014 – May 2015 
 
 Aug 2013 – Dec 2014 
-",,,,,,,"
+",,,,0,,,"
 ADDITIONAL 
 
   Proficient in R, Excel VBA, Tableau, Power BI; basic proficiency in Python, Stata, Spanish 
@@ -5280,7 +5280,7 @@ Bachelor of Science in Mathematics
 Davidson, NC 
 Sep 2009 – May 2013 
 
-",
+",,1,1,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
 abcd123,ltcv904,"PERSONAL PARTICULARS 
 Name: Lee Li Ting  
 Contact: 9876 1091 (mobile); ltlee74@gmail.com (e-mail) 
@@ -5572,11 +5572,11 @@ NOTICE PERIOD
  
 
 
-SOFTWARE ",,,,,,ltlee74@gmail.com,"('', '876', '1091')",[],[],0,,['CertifiedPublicAccountant'],[],[],[],[],['Accounting'],['NanyangTechnologicalUniversity'],['NanyangTechnologicalUniversity'],[],[],['BachelorofAccounting'],[],[],[],[],[],"['Excel', 'Hyperion', 'MicrosoftPowerPoint', 'MicrosoftAccess', 'Microsoftoffice']",[],[],['e*trade'],[],[],[],[],[],[],"EDUCATION 
+SOFTWARE ",,0,,,,ltlee74@gmail.com,"('', '876', '1091')",[],[],0,,['CertifiedPublicAccountant'],[],[],[],[],['Accounting'],['NanyangTechnologicalUniversity'],['NanyangTechnologicalUniversity'],[],[],['BachelorofAccounting'],[],[],[],[],[],"['Excel', 'Hyperion', 'MicrosoftPowerPoint', 'MicrosoftAccess', 'Microsoftoffice']",[],[],['e*trade'],[],[],[],[],[],[],"EDUCATION 
 Bachelor of Accountancy 1996 - Nanyang Technological University 
 GCE “A” level 1992 - St Andrew’s Junior College 
 GCE “O’ Level 1990 - Crescent Girls’ School 
- ",
+ ",,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,john871,"John Smith  
 
  
@@ -5842,7 +5842,7 @@ Seeking a marketing internship with ABC Company in Spring 2017 to utilize my org
 ","
 COMPUTER SKILLS 
 Microsoft Office: Word, PowerPoint, and basic Excel 
-Applications: SQL (Structure Query Language) ",,,"
+Applications: SQL (Structure Query Language) ",,0,"
 Programs: Adobe Photoshop, Movie Maker 
 Social Media Administration: LinkedIn, Twitter, Instagram, Facebook 
  ","HONORS 
@@ -5927,7 +5927,7 @@ CAMPUS INVOLVEMENT
 Member, Delta Sigma Pi 
  
 Member, Collegiate Business Association 
- "
+ ",0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,resu398,"MONICA MEYER
 
 (415) · 497 · 7282 (cid:5) monica.meyer@comcast.net
@@ -6024,7 +6024,7 @@ Python, R
 XML, JSON, REST
 MySQL, PostgreSQL
 
-",,,"
+",,0,"
 COURSE PROJECTS
 
 Expected June 2015
@@ -6050,7 +6050,7 @@ University of San Francisco
 Bachelor of Arts in Mathematics
 University of California, Santa Cruz
 Overall GPA: 3.5
-",
+",,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
 abcd123,lohp134," 
 
 Loh Pei Shang 
@@ -6563,7 +6563,7 @@ that requests of customers are met.
 Japan for 7 days. 
 
  
- ",,,,,,,,bsbs0201@gmail.com,"('', '634', '3049')",[],"['april 2016 - present', 'may 2009 to september 2009', 'may 2004 - may 2005']",63,,[],[],[],[],[],"['Accounting', 'Geography', 'Economics']",[],['NationalUniversityofSingapore'],[],[],['BachelorofArts'],[],[],[],[],[],[],[],[],['e*trade'],[],[],[],[],[],[],"
+ ",,,,0,,,,bsbs0201@gmail.com,"('', '634', '3049')",[],"['april 2016 - present', 'may 2009 to september 2009', 'may 2004 - may 2005']",63,,[],[],[],[],[],"['Accounting', 'Geography', 'Economics']",[],['NationalUniversityofSingapore'],[],[],['BachelorofArts'],[],[],[],[],[],[],[],[],['e*trade'],[],[],[],[],[],[],"
 Academic Qualification : 
 
 National University of Singapore 
@@ -6602,7 +6602,7 @@ Proficiency in system applications:
 
 4 
 
-",
+",,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
 abcd123,vert477,"Ocvia Freriana
 Singapore
 Compliance professional focusing on regulatory compliance, AML, KYC, due diligence, anti-
@@ -6867,7 +6867,7 @@ o Source financial reports of all companies listed on Indonesia Stock Exchange
 o Keep track on upcoming IPOs and ensure that reports will be available in Product by the time the company
  is officially listed on the exchange
 o Document policies, procedures, and work processes
-",,,,,,,,,,[],"['september 2016 - present', 'july 2014 - september 2016', 'february 2013 - july 2014', 'july 2011 - february 2013', 'january 2009 - july 2011', 'november 2007 - november 2008']",146,,[],[],[],[],[],"['InformationTechnology', 'Finance']",['NanyangTechnologicalUniversity'],['NanyangTechnologicalUniversity'],[],[],[],[],[],[],[],[],[],[],[],['americanexpress'],[],['vertex'],[],['venture'],[],[],"
+",,,,0,,,,,,[],"['september 2016 - present', 'july 2014 - september 2016', 'february 2013 - july 2014', 'july 2011 - february 2013', 'january 2009 - july 2011', 'november 2007 - november 2008']",146,,[],[],[],[],[],"['InformationTechnology', 'Finance']",['NanyangTechnologicalUniversity'],['NanyangTechnologicalUniversity'],[],[],[],[],[],[],[],[],[],[],[],['americanexpress'],[],['vertex'],[],['venture'],[],[],"
 Education
 Nanyang Technological University
 Bachelor’s Degree, Banking & Finance and Information Technology, 2004 - 2007
@@ -6883,7 +6883,7 @@ Profile Notes and Activity (2)
 
 3/7/2017—View by Ayyaz Ahmad
 
-",
+",,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
 abcd123,eitr634,"ANN EITRHEIM, CFA 
 cell: 952.412.8888 
 ann.eitrheim@gmail.com 
@@ -7029,13 +7029,13 @@ Relational and NoSQL Databases: MySQL, MongoDB, Neo4j
          Other: GUI development, git, Excel
 
 CERTIFICATIONS 
- ",,,,,,ann.eitrheim@gmail.com,"('952', '412', '8888')","['GPA: 4.0', 'GPA: 4.0']",[],0,4.0,['CharteredFinancialAnalyst'],[],[],[],[],['Analytics'],[],[],['UniversityofChicago'],[],[],[],['MasterofScience'],[],[],[],"['GraphicUserInterface', 'MongoDB', '\\x20Git\\x20', '\\x20Hive\\x20', 'Tableau', 'PowerBI', 'Spark', 'Excel', 'VBA', 'SQL', '\\x20R\\x20', 'Python', 'Hadoop', 'Bigdata', 'Bloomberg', 'Neo4j']",[],[],"['principalglobalinvestors', 'e*trade', 'barclays', 'jpmorgan']",[],[],[],['cision'],['westmonroepartners'],[],"EDUCATION 
+ ",,0,,,,ann.eitrheim@gmail.com,"('952', '412', '8888')","['GPA: 4.0', 'GPA: 4.0']",[],0,4.0,['CharteredFinancialAnalyst'],[],[],[],[],['Analytics'],[],[],['UniversityofChicago'],[],[],[],['MasterofScience'],[],[],[],"['GraphicUserInterface', 'MongoDB', '\\x20Git\\x20', '\\x20Hive\\x20', 'Tableau', 'PowerBI', 'Spark', 'Excel', 'VBA', 'SQL', '\\x20R\\x20', 'Python', 'Hadoop', 'Bigdata', 'Bloomberg', 'Neo4j']",[],[],"['principalglobalinvestors', 'e*trade', 'barclays', 'jpmorgan']",[],[],[],['cision'],['westmonroepartners'],[],"EDUCATION 
  
 UNIVERSITY OF CHICAGO  |  March 2020 Expected 
 Cumulative GPA: 4.0 (on a 4.0 scale) 
 Master of Science in Analytics 
  
-",
+",,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1
 abcd123,layl292,"Layla Martin
 
 2038 McAllister St
@@ -7129,7 +7129,7 @@ Python, R, MySQL, PostgreSQL, Matlab, LaTeX, JMP
 
 INTER-
 COLLEGIATE
-",,,"PROJECTS
+",,0,"PROJECTS
 
 Sentiment Analysis using Naive-Bayes
 
@@ -7202,7 +7202,7 @@ NCAA Division I Women’s Soccer: USF, 2010-2014
 • Athletic scholarship (full scholarship when combined with University Scholarship).
 • Committed 30 hours per week to training, meetings, travel, competition.
 
-"
+",1,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2
 abcd123,vasa378,"1 
 
  
@@ -7678,7 +7678,7 @@ TECHNICAL SKILLS
 •  JDE ONE WORLD, FINANCEONE, QUICKBOOKS, IBM S36, ACCPAC (ACCOUNTING SOFTWARES) 
 •  EASYPAY, READYPAY (PAYROLL SOFTWARE) 
 
- ",,,,,,office@fundspartnership.com,"('', '852', '3478')",[],['oct 2010 - present'],113,,"['AssociationofCharteredCertifiedAccountant', 'AssociateSafetyprofessional']",[],[],[],[],"['Accounting', 'Business']",[],[],[],[],[],[],[],[],[],[],"['Quickbooks', 'Microsoftoffice']",[],['chevron'],[],['atria'],[],[],[],[],[],"EDUCATION DETAILS 
+ ",,0,,,,office@fundspartnership.com,"('', '852', '3478')",[],['oct 2010 - present'],113,,"['AssociationofCharteredCertifiedAccountant', 'AssociateSafetyprofessional']",[],[],[],[],"['Accounting', 'Business']",[],[],[],[],[],[],[],[],[],[],"['Quickbooks', 'Microsoftoffice']",[],['chevron'],[],['atria'],[],[],[],[],[],"EDUCATION DETAILS 
  
 
 •  SINGAPORE ACCOUNTANTS ACADEMY  
@@ -7694,7 +7694,7 @@ TECHNICAL SKILLS
 
 •  FLUENT IN ENGLISH, MALAY 
 
-",
+",,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,xand283," 
  
  
@@ -7961,7 +7961,7 @@ Involved in the planning of orientation activities for new employees.
 Fluent in Mandarin and English 
 Proficient in  Microsoft Office Power Point, Microsoft Office Excel, Microsoft Office Words and GAMx 
 
-",,,,,,,,,Erwina_lau@hotmail.com,"('', '900', '8318')","['GPA 3.082', 'GPA 3.48']",[],0,3.48,['CertifiedPublicAccountant'],[],[],[],[],[],[],[],[],[],[],[],[],[],"['English', 'Mandarin']",[],[],[],[],[],[],[],[],[],[],[],"
+",,,,,0,,,,Erwina_lau@hotmail.com,"('', '900', '8318')","['GPA 3.082', 'GPA 3.48']",[],0,3.48,['CertifiedPublicAccountant'],[],[],[],[],[],[],[],[],[],[],[],[],[],"['English', 'Mandarin']",[],[],[],[],[],[],[],[],[],[],[],"
 Education 
 
 Experience 
@@ -7976,7 +7976,7 @@ Lau Peiwen Erwina
 Erwina_lau@hotmail.com 
   Date of Birth:                                                                       29th March 1987 
    Residency Status:                                                            Singapore Citizen 
-   ",
+   ",,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 abcd123,resu244,"Lauren Kollauf
 
 Content Creator & Nonprofit Storyteller
@@ -8063,7 +8063,7 @@ State Initiative. I am grateful that my current
 work allows me to practice my professional 
 skills while supporting my personal passions 
 of health and wellness.
-",,,,,," VOLUNTEER ROLES:
+",,,0,,," VOLUNTEER ROLES:
 Power Read Mentor, Everybody Wins! 
 November 2018 – Present
 
@@ -8089,7 +8089,7 @@ CONTACT ME:
 lauren@iowahealthieststate.com
 /Lauren-Kollauf
 
-",
+",,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 abcd123,pwc_301,"Curriculum Vitae 
 
  
@@ -8757,7 +8757,7 @@ Intermediate
 Intermediate 
 Intermediate 
 Intermediate 
-",,,,,,zhongming.wong@gmail.com,"('', '892', '9509')",[],[],0,,[],[],[],[],[],"['Accounting', 'Business']",[],[],[],[],['BachelorofBusiness'],[],[],[],"['English', 'Cantonese', 'Chinese']",[],"['Dreamweaver', 'Oracle', 'Excel', 'MYOB', 'Hyperion', 'MicrosoftPowerPoint', 'Microsoftoffice', 'Bloomberg']",[],[],[],[],[],[],[],[],[],"
+",,0,,,,zhongming.wong@gmail.com,"('', '892', '9509')",[],[],0,,[],[],[],[],[],"['Accounting', 'Business']",[],[],[],[],['BachelorofBusiness'],[],[],[],"['English', 'Cantonese', 'Chinese']",[],"['Dreamweaver', 'Oracle', 'Excel', 'MYOB', 'Hyperion', 'MicrosoftPowerPoint', 'Microsoftoffice', 'Bloomberg']",[],[],[],[],[],[],[],[],[],"
 Academic Qualifications 
 2012-Current   
  
@@ -8810,7 +8810,7 @@ Ngee Ann Poly (2006 – 2009)
  
 Nippon Yusen Kaisha (2011- 2012) 
  
-Personal Skills ",
+Personal Skills ",,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,lumi919,"LinkedIn: https://sg.linkedin.com/in/saleemlalani   
 
 Skype: saleemlalani Mobile: +65 98 64 00 30 Email: saleem.lalani@gmail.com 
@@ -9033,7 +9033,7 @@ KPMG FINANCIAL ADVISORY SERVICES - ANALYST (Oct 2001 - Dec 2005)
 Carried  out  financial  analysis  and  industry  research.  Supported  managers  and  directors  in  developing  due  diligence  reports,  offer  for  sale 
 documents, feasibility studies and responding to queries from Stock Exchanges and Securities and Exchange Commission (SEC) 
 
-",,,,,,,,saleem.lalani@gmail.com,,[],"['jan 2006 - dec 2008', 'oct 2001 - dec 2005']",85,,['CharteredInstituteofManagementAccountants'],[],[],[],[],"['Logistics', 'Law', 'ProjectManagement', 'TheaterStudies', 'Accounting', 'Marketing', 'Business', 'Management']",[],[],[],['AssociateofScience'],['BachelorofCommerce'],[],[],[],[],[],[],[],[],[],[],['turing'],[],['target\\x20'],"['kpmg', '\\x20ups\\x20', 'deloitte']",[],"EDUCATION: 
+",,,,0,,,,saleem.lalani@gmail.com,,[],"['jan 2006 - dec 2008', 'oct 2001 - dec 2005']",85,,['CharteredInstituteofManagementAccountants'],[],[],[],[],"['Logistics', 'Law', 'ProjectManagement', 'TheaterStudies', 'Accounting', 'Marketing', 'Business', 'Management']",[],[],[],['AssociateofScience'],['BachelorofCommerce'],[],[],[],[],[],[],[],[],[],[],['turing'],[],['target\\x20'],"['kpmg', '\\x20ups\\x20', 'deloitte']",[],"EDUCATION: 
   Chartered Institute of Management Accountants (CIMA, UK) (2004) 
   Bachelors of Commerce (B.Com) – University of Karachi (1999) 
   Learned Mandarin language – Basic level (Jan 2013) 
@@ -9131,7 +9131,7 @@ Saleem Lalani – Deal Sheet
 
                 Page 1 of 1 
 
-",
+",,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
 abcd123,resu373,"Nathan Eitrheim 
 nathan.eitrheim@gmail.com 
 (+49)0176-44425619 
@@ -9319,7 +9319,7 @@ Campus",,"
 Computer Skills 
 Fluent (CFD), SolidWorks (CAD), Abaqus (FEA), XLTRC2 (Rotordynamic Suite), Matlab (Numerical 
 Solver), and Microsoft Office Programs 
- ",,,,,"
+ ",,0,,,"
 Volunteer Work 
 Site co-lead for LyondellBasell Global Care Day 
 
@@ -9359,7 +9359,7 @@ GPA 3.478/4.0
 Successful completion of EIT/FE exam, South Dakota registration number E-11137 
 Category II certified vibration analyst through the Vibration Institute 
 
- ",
+ ",,0,0,0,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,mich648,"          Chicago, IL                                                 
 
                                         Seattle, WA                                               
@@ -9531,7 +9531,7 @@ DATA SCIENCE ",,"SKILLS
 
 Neural nets & deep learning, Recommender system, NLP, Graphs, A/B test, Information retrieval   
 
-",,,"PROJECTS                                                                                                                                                             
+",,0,"PROJECTS                                                                                                                                                             
 Capstone Project: Candidate Selection AI & Resume Smart Reader 
 Researcher, U of Chicago & Kraft Heinz collaboration   
 •  Automated the manual process of resume screening and job applicant early selection for Kraft Heinz   
@@ -9592,7 +9592,7 @@ University of Washington
 Bachelor of Science in Economics, double majored in Psychology                                                              Sep. 2011 – Aug. 2015 
 •  Relevant Coursework: Advanced Economics, Econometrics, Computational Finance, Statistical Analysis 
 •  Leadership: Student Senator, Vice President of CSSA 
-•  GMAT: 750 (98th percentile)    GRE: 332 (97th percentile) ",
+•  GMAT: 750 (98th percentile)    GRE: 332 (97th percentile) ",,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,3
 abcd123,hell402,"Yvette M. Hellier, Pharm.D. 
 
 724 40th Street, Sacramento, CA 95819 
@@ -11217,34 +11217,7 @@ Iowa Pharmacy Association
             August 2010–May 2016 
  
  
-","PRESENTATIONS AND CREATED MATERIALS  
- 
- 
-“Evaluation of Pharmacist-Created Solid Organ Transplant Video Education” 
-
-§  Podium presentation at the UC Collaborative Conference  
-
-“Controlled Substance Clinic Attainment of CDC Opioid Prescribing Guidelines”  
-
-§  Podium presentation at Western States  
-
-“Pharmacy: the other white coat”   
-
- “Medication Safety”   
-
-§ 
-
-§ 
-
-Invited presentation at McCombs Middle School, Des Moines, IA 
-
-“Effects of Leadership on Academic Stress,”  
-
-§  Poster presentation: Drake University, Des Moines, IA 
-
- 
- 
-CREATIVE ","
+",0,"
 RESEARCH  
  
 Mitchell Y, Volpendesta J, Dray J. “Evaluation of the efficiency and patient perception of solid organ transplant 
@@ -11400,7 +11373,7 @@ Study Abroad Experience
 Universidad Espiritu Santo; Guayaquil, Ecuador                                                                                 
  
  
-",
+",,1,0,1,0,1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,mich929," 
 
 Michael Olson  
@@ -11553,7 +11526,7 @@ Objective   ____________________________________________________________________
 
 To continue my academic education and gain admittance to the University of Iowa’s Professional MBA 
 Program. 
-",,,,,,,michaelolson515@gmail.com,,[],"['jan 2019 - present', 'jan 2015 - april 2016']",29,,[],[],[],[],[],"['Business', 'Marketing', 'EnvironmentalStudies', 'Management']","['IowaStateUniversity', 'UniversityofOtago']",[],[],['AssociateofScience'],['BachelorofScience'],[],[],[],[],[],[],[],['totalsa'],[],[],[],[],[],['logica'],[],"
+",,,0,,,,michaelolson515@gmail.com,,[],"['jan 2019 - present', 'jan 2015 - april 2016']",29,,[],[],[],[],[],"['Business', 'Marketing', 'EnvironmentalStudies', 'Management']","['IowaStateUniversity', 'UniversityofOtago']",[],[],['AssociateofScience'],['BachelorofScience'],[],[],[],[],[],[],[],['totalsa'],[],[],[],[],[],['logica'],[],"
 Education  ___________________________________________________________________________  
 
 IOWA STATE UNIVERSITY – Ames, IA 
@@ -11586,7 +11559,7 @@ EXTRACURRICULAR / VOLUNTEER EXPERIENCES:
 
  
 
-"
+",0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,sbir337,"2015 - 2019 
 
 2014 – 2015 
@@ -12283,73 +12256,7 @@ American College of Obstetricians and Gynecologists
 
 American Academy of Family Physicians  
 
-","PRESENTATIONS/ PUBLICATIONS 
-
-      Poster Presentations   
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
- 
-
-     
-
-Birkholz, S., Bell, E., & Valiquette, A. (2018, February). Interdisciplinary work between public relations and 
-medicine to improve clinic success. Poster presented at Society of Student Run Free Clinics Annual 
-Conference, Omaha, NE.  
- 
-Birkholz, S., Rometti, M., Gildemaster, Y., Davis, A., Barlett., Tangen, B., Hassan., White, A., Nemeth., 
-Kinzler, C., Mechels, K., Fennely, N., Freymark, R., Lewis, S., White, S., Wall, P., Buising, C. (2014, April). 
-Tourniquets pressures: Strap width and tensioning system widths. Poster presented at the Drake University 
-Conference on Undergraduate Research in the Sciences, Des Moines, IA. 
- 
-Brune, M., Heffernen, E., Gagich, L., Kaese, J., Matsunaga, J., Stille, E., Terry, L., Birkholz, S., Gildemaster, 
-Y., Rometti, M., Shuda, L., Wall, P., Buising, C. (2013, April). Pre and post blood donation comparisons of 
-upper body position effects on stroke volume. Poster presented at the Drake University Conference on 
-Undergraduate Research in the Sciences, Des Moines, IA.  
- 
-Duevel, D., Pokorny, J., Ahle, J., Becker, A., Buschling, J., Davis, T., Reed, L., Sautter, R., Brune, M., 
-Heffernen, E., Koehler, A., Morris, S., Gagich, L., Perrington, M., Kaese, J., Matsunaga, J., Stille, E., Terry, L., 
-Birkholz, S., Gildemaster, Y., Patel, T., Rometti, M., Shuda, L., Thorson, M., Walburg, J., Wall, P., Buising, C. 
-(2011, April). Tourniquets and occlusion: The pressure of design. Poster presented at the Drake University 
-Conference on Undergraduate Research in the Sciences, Des Moines, IA.  
-
- 
-
-Oral Presentation 
-Birkholz, S., Buising, CM., McCrickerd, J. (2014, May). A sociological look at tourniquet use throughout 
-history. Oral presentation at Drake University Honor Senior Thesis Conference, Des Moines, IA.  
-
- 
-
- 
-
-Publications 
-Birkholz, S., Patil, AA., Chamczuk, A. Treatment of postoperative recurrent cerebrospinal fluid leak with 
-pseudomeningocele formation using temporary epidural drain- case reports. Interdisciplinary Neurosurgery.  
-16: 25-28. June 2019. 
- 
-Wall, PL., Weasel, J., Rometti, M., Birkholz, S., Gildemaster, Y., Grulke, L., Sahr, S., Buising, CM. Pressures 
-under 3.8cm, 5.1 cm, and side-by-side 3.8 cm wide tourniquets. Journal of Special Operations Medicine. 16 (2), 
-Summer 2016. 
-
-Wall, PL., Couglin, O., Rometti, M., Birkholz, S., Gildemaster, Y., Grulke, L., Sahr, S., Buising, CM. 
-Tourniquet pressures: Strap width and tensioning system widths. Journal of Special Operations Medicine. 
-14(4): 19-29, Winter 2014. 
-
-Papers 
-Birkholz, S., Harper-Harrison, G. Racial and ethnic disparities in maternal morbidity and mortality. Fall 2018. 
- 
-","
+",0,"
 RESEARCH ACTIVITIES 
  
      Tourniquet Trauma Research 
@@ -12793,7 +12700,7 @@ June 17, 2019
 
 2018 – Present 
 
-"
+",1,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
 abcd123,resu770,"	
   
 
@@ -13882,7 +13789,7 @@ Led
   CorpTax	
   
 
-",,,,"HONORS	
+",,0,,"HONORS	
   
 
 •  Order	
@@ -14054,7 +13961,7 @@ Drake
   6th,	
   2014)	
   
-",
+",,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
 abcd123,rose532,"MATTHEW ROSENTHAL 
 
 1522 West Addison Street, Apt. 2 ~ Chicago, IL 60613 | (908) 313-4339 | mjrosenthal@uchicago.edu 
@@ -14300,7 +14207,7 @@ to maximize predictive power.
 
 K Nearest Neighbor algorithm to impute any missing data points when appropriate. 
 
- ",,,,,,mjrosenthal@uchicago.edu,"('908', '313', '4339')",[],[],0,,[],[],['cumlaude'],[],[],"['Biology', 'Economics', 'Analytics']",[],[],"['UniversityofChicago', 'WashingtonUniversityinStLouis']",[],['BachelorofArts'],[],['MasterofScience'],[],[],[],"['operatingsystems', 'SQL', 'Linux', 'Unix', 'STATA', '\\x20R\\x20', 'Windows', '\\x20Mac\\x20', 'Microsoftoffice', 'Python']",[],[],[],[],['astellas'],[],"['astellaspharma', 'maximus']",[],[],"EDUCATION  
+ ",,0,,,,mjrosenthal@uchicago.edu,"('908', '313', '4339')",[],[],0,,[],[],['cumlaude'],[],[],"['Biology', 'Economics', 'Analytics']",[],[],"['UniversityofChicago', 'WashingtonUniversityinStLouis']",[],['BachelorofArts'],[],['MasterofScience'],[],[],[],"['operatingsystems', 'SQL', 'Linux', 'Unix', 'STATA', '\\x20R\\x20', 'Windows', '\\x20Mac\\x20', 'Microsoftoffice', 'Python']",[],[],[],[],['astellas'],[],"['astellaspharma', 'maximus']",[],[],"EDUCATION  
  
 University of Chicago, Chicago, IL        
 Master of Science in Analytics 
@@ -14309,7 +14216,7 @@ Relevant Courses: Machine Learning, Big Data Platforms, Time-Series Data Analysi
 Washington University in St. Louis, St. Louis, MO  
  
 Bachelor of Arts Economics and Biology (cum laude) 
- ",
+ ",,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,3
 abcd123,pwc_878,"Curriculum Vitae
 
 Olivia Karina Peter (Ms)
@@ -14540,7 +14447,7 @@ with industry practice and regulators expectations.
  Key clients include Commerzbank AG (Singapore Branch), Macquarie Capital Securities,
 Maybank Kim Eng Holdings Group, Hong Leong Bank (Singapore Branch), DBS Vickers
 Singapore, BNP Paribas Securities Singapore and Schroder & Co. (Asia).
-",,,,,,"
+",,,,0,,"
 Awards
 
 Singapore Scholar, Singapore Ministry of Foreign Affairs (2006)
@@ -14557,7 +14464,7 @@ Bachelors of Accounting (Hons) from Nanyang Technological University (Singapore)
 
 
  Member of Certified Practising Accountants of Australia (“CPA Australia”)
-",
+",,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,klos526,"Shelby Klose 
 
 123 N. Desplaines Street, Apt. 703 ♦ Chicago, Illinois 60661 
@@ -14750,16 +14657,7 @@ Integrated time management software to increase efficiency
   Organized data into computer databases for consulting work 
 
  
-",,,,"PUBLICATION 
- 
-Mitchell, Matthew, Klose, Shelby, et al. “Short-Term Pain and Long-Term Gain: The Post-Revolution Egyptian Experience.” 
-Drake Management Review, vol. 2, no. 2, 2013, pp. 32-37. 
- 
-Klose, Shelby. “Cultural Impediments to Investments: A Case Study of Japan.” Chicago Unbound Online, no. 10, 2016. 
- 
- 
-
-",,"HONORS: 
+",,,,0,,"HONORS: 
 
 ","ACTIVITIES: 
 
@@ -14792,7 +14690,7 @@ Illinois Bar, admitted and in good standing, 2017.
  
 The University of Chicago Law School, Chicago, Illinois 
 J.D., graduated with Honors, June 2017 
-",
+",,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 abcd123,yuri924,"Yuri Balasanov, Ph. D. 
 
 2238 Asbury Ave., Evanston, Illinois 60201 
@@ -14935,60 +14833,7 @@ Quantitative trader.  5 years of quantitative trading strategies development and
 Researcher. 28 years of creative applied mathematical and statistical research. 16 years in Financial Industry. 
 Professional research manager and team leader. 25 years of effective management of research projects, teams 
 and consulting companies. ","
-Qualifications",,"
-Publications and References  
-Available upon request.  
- 
-
-(1)  Responsibilities at Lotsoff Capital Management: Led the process of building the business 
-platform (analytics, risk management system, asset allocation model, performance reporting), 
-selecting strategies that fit together, adding new types of trades. 
- 
-(2) Trading ideas and strategies developed and traded at Ritchie Capital Management: 
-Eurodollar futures and options, interest rates swaps and swaptions (USD and EUR curves), gold 
-and crude oil vs. FX rates, FX volatilities, crude oil and natural gas futures, long-short portfolio of 
-BKX index (banking industry index), SP index volatility.   
- 
-(3) Businesses supported by the QR group at Ritchie Capital Management: 
-Firm wide Risk Management,  Fixed Income, Global Relative Value, Energy, Credit Derivatives, 
-Commodities Derivatives Trading, Convertible Bonds, Long Short. All developed models 
-implemented by the group in C++ library of analytics with interfaces to the company systems and 
-Excel spreadsheets. 
- 
-(4) Major proprietary models for Global Derivative Products Group (Bank of America):  
-Multifactor interest rates model, volatility skew model, credit derivatives model,   model for 
-trading long vanilla FX options, model for proactive risk management of interest rates instruments.    
- 
-(5) Quantitative strategies and trading ideas for the Global Interest Rates group (Bank of America):  
-Bond futures, bond bases, bond futures options, Eurodollar futures and options. 
- 
-(6) Excerpts from my professional reviews of the last 10 years: outstanding creative mind and great 
-person to work with; excellent manager of research; innovative thinker, does not confine thinking 
-to what has been tried in the mainstream; always a fresh perspective; very good in generating new 
-projects and fresh, unorthodox ideas; always sees BIG picture; can effectively explain and sell his 
-ideas to different people; always listens to others; great instinct for anticipating the “new thing” in 
-financial engineering; dependable team player; strong leader; reliable when work under pressure; 
-great teacher.  
-Meyer-Briggs type indicator ENTJ (Extraverted Thinking with Intuition) which in general 
-means: logical, organized, structured, objective and decisive about what they view as conceptually 
-valid; they enjoy working with others, especially when they can take charge and add a strategic 
-plan; develop well-thought-out plans, provide structure to the organization, design strategies that 
-work toward broad goals, take charge quickly and do what it takes, deal directly with problems 
-caused by confusion and inefficiency; initiate an action oriented, energetic approach, manage 
-directly and are tough when necessary, enjoy complex problems and are resourceful in managing 
-them, run as much of the organization as possible. Preferred work environments: contain results-
-oriented, independent, and competent people focused on solving complex problems, are goal-
-oriented, have efficient systems and people, offer structure and focus on use of a master plan. 
-Preferred learning style: cutting edge and theoretically based, delivered by experts, open to 
-challenges and questions.    
- 
- 
-
- 
-
- 
-
-","
+Qualifications",,0,"
 research projects for leading companies of the industry. 
 1997 – Present  The University of Chicago, Chicago, Illinois. 
  
@@ -15028,7 +14873,7 @@ Excerpts from my professional reviews of the last 10 years (5)
 Education 
 1982 
 1977  B.Sc., MS., Applied Mathematics, Moscow State University, Russia. 
- ",
+ ",,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,jona761,"Man Hoe Keung, Jonathan 
  
 Personal Particulars 
@@ -15287,7 +15132,7 @@ Highest rank: 3rd Sergeant
 MR: Apr 2015 
  
 
-",,,,,,Jonathanmanhk@gmail.com,"('', '128', '8877')",[],[],0,,[],[],[],[],[],"['Accounting', 'Finance']",[],[],[],[],['BachelorDegree'],[],[],[],"['Hokkien', 'English', 'Cantonese', 'Chinese']",[],"['RAPTOR', 'Excel', 'MYOB', 'Syteline', 'SQL', 'MicrosoftPowerPoint', 'Microsoftoffice']",[],[],[],[],[],[],[],[],[],"
+",,0,,,,Jonathanmanhk@gmail.com,"('', '128', '8877')",[],[],0,,[],[],[],[],[],"['Accounting', 'Finance']",[],[],[],[],['BachelorDegree'],[],[],[],"['Hokkien', 'English', 'Cantonese', 'Chinese']",[],"['RAPTOR', 'Excel', 'MYOB', 'Syteline', 'SQL', 'MicrosoftPowerPoint', 'Microsoftoffice']",[],[],[],[],[],[],[],[],[],"
 Educational Background  
 - Bachelor's Degree in Accountancy/Banking Graduation Date: 2008 
 Major 
@@ -15316,7 +15161,7 @@ RMIT, Singapore
 
  
 
-Languages  ",
+Languages  ",,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2
 abcd123,kyle671,"Kyle Parochetti
 
 1100 W Montrose Ave, Chicago, IL, 60613 
@@ -15444,7 +15289,7 @@ initiative to reduce warranty claims.
 Certified Public Accountant (Iowa, Active License # O13806) 
 Basic verbal and written Spanish language skills  
 
-",,,,,,kdvp13@gmail.com,"('563', '650', '6989')",[],[],0,,['CertifiedPublicAccountant'],['NSCS'],[],[],[],['Accounting'],['UniversityofNorthernIowa'],[],[],['AssociateofScience'],['BachelorofArts'],[],[],[],[],[],[],[],[],[],[],[],['deere'],[],['kpmg'],[],"EDUCATION 
+",,0,,,,kdvp13@gmail.com,"('563', '650', '6989')",[],[],0,,['CertifiedPublicAccountant'],['NSCS'],[],[],[],['Accounting'],['UniversityofNorthernIowa'],[],[],['AssociateofScience'],['BachelorofArts'],[],[],[],[],[],[],[],[],[],[],[],['deere'],[],['kpmg'],[],"EDUCATION 
 
 UNIVERSITY OF NORTHERN IOWA  
 B.A. Accountancy (May 2015) 
@@ -15461,7 +15306,7 @@ Semester long study abroad program at the Universidad de Jaén in Jaén, Spain
 
 Cedar Falls, IA
 
-",
+",,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,cait205,"Caitlin R.W. Byrd 
 
 crwbyrd@mmm.com 
@@ -15871,7 +15716,7 @@ Certification.
 
 R&A Portal, Microsoft Office Suite 
 
-_____________________________________________________________________________________________________ ",,,,,,crwbyrd@mmm.com,,"['GPA: 3.896', 'GPA: 3.69']",[],0,3.896,['CertifiedinProduction&InventoryManagement'],[],[],[],[],"['HistoryofArt', 'Logistics', 'History', 'LiberalStudies', 'Marketing', 'Business', 'Management']",[],['UniversityofMinnesota'],[],[],['BachelorofScience'],[],['MasterofScience'],[],[],[],"['Microsoftoffice', '\\x20SAP\\x20', 'Peoplesoft']",[],[],[],[],['turing'],['\\x203m\\x20'],['cision'],['\\x20ups\\x20'],['\\x20sap\\x20'],"
+_____________________________________________________________________________________________________ ",,0,,,,crwbyrd@mmm.com,,"['GPA: 3.896', 'GPA: 3.69']",[],0,3.8960000000000004,['CertifiedinProduction&InventoryManagement'],[],[],[],[],"['HistoryofArt', 'Logistics', 'History', 'LiberalStudies', 'Marketing', 'Business', 'Management']",[],['UniversityofMinnesota'],[],[],['BachelorofScience'],[],['MasterofScience'],[],[],[],"['Microsoftoffice', '\\x20SAP\\x20', 'Peoplesoft']",[],[],[],[],['turing'],['\\x203m\\x20'],['cision'],['\\x20ups\\x20'],['\\x20sap\\x20'],"
 Education:  
 University of Minnesota           
 Curtis. L. Carlson School of Management 
@@ -15891,7 +15736,7 @@ Minor: Art History
 
          
 
-",
+",,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1
 abcd123,omar487,"220 E. Illinois | Chicago, IL 60661 | 617-955-7304 | oalshaye@uchicago.edu 
 
 Omar ALShaye 
@@ -16060,7 +15905,7 @@ Supply Chain Operations Intern
  
 
  
-",,SKILLS AND ,,,"
+",,SKILLS AND ,,0,"
 RESEARCH EXPERIENCE 
 
 Kraft Heinz People Analytics | Chicago, IL                                                                                 March 2019 – Present 
@@ -16128,7 +15973,7 @@ Alpha Pi Mu Honor Society: Promote Outreach to I.E Community; President of Renss
 
  
 
-"
+",1,1,0,0,0,1,1,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5
 abcd123,bren915,"Brendan Herger
 
 Hergertarian.com | 13herger@gmail.com  |  + 1 (415) 582-7457
@@ -16237,7 +16082,7 @@ Front End Supervisor
 The Home Depot Pro (Colma, Ca.)                                        05/11 - 03/13
 Positions held: Cashier, Special Services Assoc., Tool Rental Assoc.
 Supervised and trained a staff of 10-30 team members
-",,,,," Projects
+",,,,0," Projects
 
 Identified genre of Billboard 
 Hot 100 songs using ensemble 
@@ -16295,7 +16140,7 @@ Databases, Linear Regression Analysis, Time Series Analysis, Intro. SAS
 BS, Physics
 
 University of San Francisco, May 2014
-Minors: Computer Sciences, Mathematics",
+Minors: Computer Sciences, Mathematics",,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
 abcd123,mich961,"900 N Lake Shore Drive, Chicago, IL | (708)510-8828 | mairuo@uchicago.edu 
 
 MICHAEL LIU 
@@ -16525,7 +16370,7 @@ DATA SCIENCE ",,"SKILLS
 
 (Random forests, Gradient Boosting), Clustering (K-means, DBSCAN), NLP, Neural Net, recommender system   
 
-",,,"PROJECTS                                                                                                                                                             
+",,0,"PROJECTS                                                                                                                                                             
 DonorsChoose.org Marketing Recommender System   
 Team Leader, Big Data Final Project 
 •  Stored over 3 GB of structured donation and donor data into an on-premise Hadoop file system for distributed computing 
@@ -16580,7 +16425,7 @@ Bachelor of Science in Economics, double majored in Psychology                  
 •  Relevant Coursework: Advanced Economics, Econometrics, Computational Finance, Multivariate Statistics 
 •  Leadership: Student Senator, Vice President of Chinese Student and Scholar Association 
 •  GMAT: 750, GRE: 332, Dean’s List, Alberta Corkery Scholarship Recipient, Member of Psi Chi Honor Society   
- ",
+ ",,1,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,4
 abcd123,spit274,"HANOCK SPITZER 
  1632 East 54th Street,    
 Chicago, USA 60615 
@@ -16848,7 +16693,7 @@ geological and botanical surveyors in both Hebrew and English.
 
 Computer: MS Office (Word, Excel, Powerpoint), NodeXL, Stata, LexisNexis, HeinOnline, WestLaw, Qbase.  ",,"SKILLS 
 
-",,,,,,haspitzer@uchicago.edu,"('773', '332', '4273')",[],[],0,,['AssociateSafetyprofessional'],[],['cumlaude'],[],[],"['LiberalStudies', 'Law', 'Music']",[],[],[],[],['BachelorofArts'],[],[],[],"['Hebrew', 'English']",[],[],[],['chevron'],[],[],[],[],['hologic'],['logica'],[],"EDUCATION 
+",,0,,,,haspitzer@uchicago.edu,"('773', '332', '4273')",[],[],0,,['AssociateSafetyprofessional'],[],['cumlaude'],[],[],"['LiberalStudies', 'Law', 'Music']",[],[],[],[],['BachelorofArts'],[],[],[],"['Hebrew', 'English']",[],[],[],['chevron'],[],[],[],[],['hologic'],['logica'],[],"EDUCATION 
 
 UNIVERSITY OF HAIFA, FACULTY OF HUMANITIES, Haifa, Israel, B.A. in Music, 2013   
 
@@ -16857,7 +16702,7 @@ UNIVERSITY OF HAIFA, FACULTY OF LAW, Haifa, Israel, LL.B., 2011
 •  Dean’s List for the Academic Years of 2010 & 2011 (top 5%). 
  
 
-ACADEMIC ",
+ACADEMIC ",,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 abcd123,xand736,"ROHIT KHANDELWAL 
 
 19 Shelford Road, #01-25, Singapore, 288408 
@@ -17072,7 +16917,7 @@ Experience
  
 Personal 
 
-",,,,,,,,rohitkhandelwal@live.in,"('', '322', '6870')",[],[],0,,['AssociateSafetyprofessional'],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],"
+",,,,0,,,,rohitkhandelwal@live.in,"('', '322', '6870')",[],[],0,,['AssociateSafetyprofessional'],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],"
 Education
 2008 
  
@@ -17083,7 +16928,7 @@ Education
  
  
  
-Work ",
+Work ",,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 abcd123,tris177,"                                  TRISA TAY, CHARTERED ACCOUNTANT (CA)  
 46B Toh Tuck Road #05-06  Singapore 596748 
 
@@ -18407,7 +18252,7 @@ ICPAS
 
 	
 
-",,,,,trisa_tay@yahoo.com,"('', '889', '0012')",[],"['aug 2009 to present', 'jan 2007 to jul 2009', 'oct 2005 to jul 2006', 'may 2000 to dec 2002', 'apr 1998 to apr 2000', 'mar 1996 to mar 1998', 'jul 1986 to apr 1988']",266,,[],[],[],[],[],"['Accounting', 'ResourceManagement', 'Management']",[],['NationalUniversityofSingapore'],[],[],['BachelorofAccounting'],[],[],[],[],[],"['MicrosoftPowerPoint', 'Excel', 'MYOB']",[],[],"['libertymutual', 'e*trade']",[],['turing'],['toro'],"['cision', 'allianz']",[],[],"EDUCATION 
+",0,,,,trisa_tay@yahoo.com,"('', '889', '0012')",[],"['aug 2009 to present', 'jan 2007 to jul 2009', 'oct 2005 to jul 2006', 'may 2000 to dec 2002', 'apr 1998 to apr 2000', 'mar 1996 to mar 1998', 'jul 1986 to apr 1988']",266,,[],[],[],[],[],"['Accounting', 'ResourceManagement', 'Management']",[],['NationalUniversityofSingapore'],[],[],['BachelorofAccounting'],[],[],[],[],[],"['MicrosoftPowerPoint', 'Excel', 'MYOB']",[],[],"['libertymutual', 'e*trade']",[],['turing'],['toro'],"['cision', 'allianz']",[],[],"EDUCATION 
 Bachelor of Accountancy 
 National University of Singapore 
 
@@ -18418,7 +18263,7 @@ Singapore Institute of Management
 
 	
 
-IT ",
+IT ",,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,2012591,"3141 South 67th Street West 
 
 Billings, MT  59106 
@@ -18535,7 +18380,7 @@ Billings, MT
 
 ",,,,"
 Qualifications 
-",,,,,,byrdmaan@yahoo.com,"('406', '861', '1667')",[],[],0,,[],[],[],[],[],"['DraftingTechnology', 'Communication', 'TheaterStudies', 'Design', 'ArtStudies']",[],[],[],['AssociatesDegree'],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],"
+",,0,,,,byrdmaan@yahoo.com,"('406', '861', '1667')",[],[],0,,[],[],[],[],[],"['DraftingTechnology', 'Communication', 'TheaterStudies', 'Design', 'ArtStudies']",[],[],[],['AssociatesDegree'],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],"
 Education 
 
 Experience 
@@ -18638,7 +18483,7 @@ Cook/Kitchen manager
 
 Billings, MT 
 
-",
+",,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,cath192,"CATHERINE CRISP 
 
 LEED AP O+M 
@@ -19067,7 +18912,7 @@ that addressed UC San Diego’s energy and climate planning goals
 
 student participation in TGIP and highlight impacts of successful TGIF projects 
 
-",,,,,,,LEADERSHIP AND ,catherinecrisp@uchicago.edu,"('916', '521', '8355')",[],"['june 2019 - present', 'january 2019 - present']",14,,[],[],[],[],[],"['InternationalRelations', 'EnvironmentalStudies', 'PublicPolicy']",[],['UniversityofCaliforniaSanDiego'],['UniversityofChicago'],[],[],[],['MasterofPublicPolicy'],[],[],[],[],[],['dsm'],[],[],[],[],['discovery'],['westmonroepartners'],[],"EDUCATION  
+",,,,0,,,LEADERSHIP AND ,catherinecrisp@uchicago.edu,"('916', '521', '8355')",[],"['june 2019 - present', 'january 2019 - present']",14,,[],[],[],[],[],"['InternationalRelations', 'EnvironmentalStudies', 'PublicPolicy']",[],['UniversityofCaliforniaSanDiego'],['UniversityofChicago'],[],[],[],['MasterofPublicPolicy'],[],[],[],[],[],['dsm'],[],[],[],[],['discovery'],['westmonroepartners'],[],"EDUCATION  
 
 UNIVERSITY OF CHICAGO | AUGUST 2018 – PRESENT 
 Harris School of Public Policy | Master of Public Policy Candidate 
@@ -19149,7 +18994,7 @@ Team Member | September 2009 – May 2012
 
 Catherine Crisp | 2 
 
-"
+",0,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 abcd123,resu160," 
 
 ROHINI PRAKASH, CA 
@@ -19544,7 +19389,7 @@ Budgeting & cost control
 
  
 
-",,,,,,rohiniprakash1@gmail.com,"('', '986', '2474')",[],[],0,,[],[],[],[],[],[],[],[],[],[],['BachelorofCommerce'],[],[],[],[],[],[],[],[],[],['diageo'],['turing'],[],[],['kpmg'],['panasonic'],"EDUCATION & QUALIFICATIONS  
+",,0,,,,rohiniprakash1@gmail.com,"('', '986', '2474')",[],[],0,,[],[],[],[],[],[],[],[],[],[],['BachelorofCommerce'],[],[],[],[],[],[],[],[],[],['diageo'],['turing'],[],[],['kpmg'],['panasonic'],"EDUCATION & QUALIFICATIONS  
 
  
 
@@ -19618,7 +19463,7 @@ Gardening
 
 rohiniprakash1@gmail.com| +6598624747| PAGE 2 
 
-",
+",,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 abcd123,am_t356," 
 
 PROFESSIONAL EXPERIENCE 
@@ -20200,7 +20045,7 @@ Accuracy and attention to detail
 
  
 
-COMPETENCIES & ",,,,,,,,[],['aug 2013 - oct 2013'],2,,"['CertifiedFinancialCrimeSpecialists', 'AssociateSafetyprofessional']",[],[],[],[],"['Accounting', 'Finance']",['UniversityofLondon'],[],[],[],['BachelorofScience'],[],[],[],[],[],[],[],['\\x20fmc\\x20'],"['e*trade', 'standardchartered']",[],[],[],"['target\\x20', 'cision']",['kpmg'],[],"EDUCATION 
+COMPETENCIES & ",,0,,,,,,[],['aug 2013 - oct 2013'],2,,"['CertifiedFinancialCrimeSpecialists', 'AssociateSafetyprofessional']",[],[],[],[],"['Accounting', 'Finance']",['UniversityofLondon'],[],[],[],['BachelorofScience'],[],[],[],[],[],[],[],['\\x20fmc\\x20'],"['e*trade', 'standardchartered']",[],[],[],"['target\\x20', 'cision']",['kpmg'],[],"EDUCATION 
 Certified Anti-Money Laundering Specialist  - CAMS  
 Online FATCA Course - Association of Certified Financial Crime Specialists (ACFCS) 
 Certificate in Reinsurance  - Singapore College of Insurance 
@@ -20222,7 +20067,7 @@ Bachelor of Science in Banking & Finance - University of London (External Progra
 Graduated with Honors; Scored in Principles of Banking, Corporate Finance & Banking Operations & Risk Analysis 
 Diploma in Accounting & Finance - Temasek Polytechnic, Singapore 
  
-",
+",,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
 abcd123,emil780,"220 E Illinois St., Chicago, IL 60611  │  (314) 445-9763  │  emiliomantilla25@gmail.com 
 
  
@@ -20534,7 +20379,7 @@ of 50%+ for Major Accounts and 10%+ for Other Accounts in a period of three year
  
 
 ",,"
-Technical Skills: R, Python, Git, MySQL, Hadoop, Tableau, SAP, Google Analytics, SA360, MS Office SKILLS & CERTIFICATIONS ",,,,,"LEADERSHIP & VOLUNTEERING 
+Technical Skills: R, Python, Git, MySQL, Hadoop, Tableau, SAP, Google Analytics, SA360, MS Office SKILLS & CERTIFICATIONS ",,0,,,"LEADERSHIP & VOLUNTEERING 
 October 2018 – present 
 Member of MScA Consulting Club | The University of Chicago 
 Founding member of International Student Org. | Lindenwood University                January 2015 – May 2016 
@@ -20613,7 +20458,7 @@ Bachelor of Arts in Finance, Major GPA: 4.0/4.0| Cumulative GPA: 3.96/4.0
 
  
 
-",
+",,0,1,0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,2
 abcd123,fran783," 
 
 Diana M. Franklin 
@@ -23023,7 +22868,7 @@ Com","
 Professional Organizations 
 Association for Computing Machinery 
 IEEE Computer Society 
- ",,"
+ ",0,"
 Projects,” Bryce Boe, Charlotte Hill, Michelle Len, 
 Greg Dreschler, Diana Franklin, Phillip Conrad,  
 
@@ -24295,5 +24140,4 @@ Year
  
  
  
-PART II.  PROFESSIONAL ",
-,,,,,,,,,,,,,,[],[],0,,[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],,
+PART II.  PROFESSIONAL ",,0,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2

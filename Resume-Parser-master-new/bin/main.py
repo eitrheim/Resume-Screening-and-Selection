@@ -14,7 +14,7 @@ import logging
 import os
 import pandas as pd
 import numpy as np
-import time
+import re
 #import spacy
 #import en_core_web_sm
 
@@ -91,8 +91,6 @@ def extract():
                  format(len(observations.index)))
     observations['text'] = observations['file_path'].apply(lib.convert_pdf)  # get text from .pdf files
 
-    # Archive schema and return
-    lib.archive_dataset_schemas('extract', locals(), globals())  # saving the schema
     logging.info('End extract')
     return observations
 
@@ -109,11 +107,27 @@ def transform(observations):  #, nlp):
     observations['years_experience'] = observations['Work'].apply(lambda x: field_extraction.years_of_experience(x))
     observations['mos_experience'] = field_extraction.months_of_experience(observations['years_experience'])
 
+    # convert GPA to a single number
+    GPA_REGEX = r"[01234]{1}\.[0-9]{1,3}"
+    observations.GPA.fillna('[]', inplace=True)
+    observations['GPAnum'] = observations.GPA.apply(lambda x: re.findall(re.compile(GPA_REGEX), str(x)))
+
+    def getmax(x):
+        try:
+            y = max(x)
+        except:
+            y = 0
+        return y
+
+    observations['GPAmax'] = observations['GPAnum'].apply(lambda x: getmax(x))
+    observations['GPAmax'] = observations['GPAmax'].apply(lambda x: np.nan if x == 0 else x)
+    observations.filter(like='GPA')
+    np.mean(observations['GPAmax'].astype('float'))
+    observations.drop('GPAnum', axis=1, inplace=True)
+
     observations = field_extraction.extract_fields(observations)  # search for terms in whole resume
 
-    # Archive schema and return
-    lib.archive_dataset_schemas('transform', locals(), globals())
-    logging.info('End transform')
+    # logging.info('End transform')
     return observations
 
 

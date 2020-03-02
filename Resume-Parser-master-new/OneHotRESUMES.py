@@ -1,88 +1,16 @@
 import pandas as pd
-
-#parsed data
-x = pd.read_csv("~/Resume-Parser-master-new/data/output/resume_summary.csv", error_bad_lines=False)
-len(x)
-x = x[x.CanID == x.CanID]
-len(x)
-x = x[x.ReqID == x.ReqID]
-len(x)
-x.reset_index(drop=True, inplace=True)
-
-drop_rows = []
-for i in x.index:
-  if len(x.ReqID.iloc[i]) > 8:
-    drop_rows.append(i)
-for i in x.index:
-  if len(x.ReqID.iloc[i]) < 6:
-    drop_rows.append(i)
-x.drop(drop_rows, inplace=True, axis=0)
-x.reset_index(drop=True, inplace=True)
-len(x)
-
-drop_rows = []
-for i in x.index:
-  if len(x.CanID.iloc[i]) > 8:
-    drop_rows.append(i)
-for i in x.index:
-  if len(x.CanID.iloc[i]) < 6:
-    drop_rows.append(i)   
-#len(drop_rows)
-#drop_rows = list(set(drop_rows))
-#len(drop_rows)
-x.drop(drop_rows, inplace=True, axis=0)
-x.reset_index(drop=True, inplace=True)
-len(x)
-len(x) - 118582, "more to go, or (# lost)"
-
-#OG data
-observations = pd.read_csv('~/data/Candidate Report.csv', usecols=[3,0,12], encoding = 'latin-1')
-observations.columns = ['ReqID','CanID','text']
-observations.drop_duplicates(inplace=True)
-observations.reset_index(drop=True, inplace=True)
-observations.text.fillna('', inplace=True)
-observations.dropna(how='all', inplace=True)
-len(observations) #118582
-
-df = observations.merge(x, how="inner", on=['ReqID','CanID','text'])
-len(df)
-len(df) - 118582, "more to go, or (# lost)"
-
-del x, observations
-
-#convert GPA to a single number
 import numpy as np
 import re
-GPA_REGEX = r"[01234]{1}\.[0-9]{1,3}"
-df.GPA.fillna('[]', inplace=True)
-df['GPAnum'] = df.GPA.apply(lambda x: re.findall(re.compile(GPA_REGEX), x))
-def getmax(x):
-  try:
-    y = max(x)
-  except:
-    y = 0
-  return(y)
-df['GPAmax'] = df['GPAnum'].apply(lambda x: getmax(x))
-df['GPAmax'] = df['GPAmax'].apply(lambda x: np.nan if x == 0 else x)
-df.filter(like='GPA')
-np.mean(df['GPAmax'].astype('float'))
-df.drop('GPAnum', axis=1, inplace=True)
 
-df.to_csv("~/data/resume_summary_v8.csv", index=False)
+# read in parsed data
+df = pd.read_csv("data/output/resume_summary.csv", error_bad_lines=False)
+print(len(df))
+df = df[df.CanID == df.CanID]
+df = df[df.ReqID == df.ReqID]
+print(len(df))
+df.reset_index(drop=True, inplace=True)
 
-df = pd.read_csv("~/data/resume_summary_v8.csv", error_bad_lines=False)
 
-##look how much is missing
-#total = df.isnull().sum().sort_values(ascending=False)
-#percent_1 = df.isnull().sum()/df.isnull().count()*100
-#percent_2 = (round(percent_1,2)).sort_values(ascending=False)
-#missing_data=pd.concat([total, percent_2], axis = 1, keys=["Total", "%"], sort=False)
-#missing_data
-#
-#columns not useful right now
-#drop_cols = ['GPA', 'GPAnum', 'GPAmax', 'courses', 'hobbies', 'email', 'phone','Education', 'Extracurriculars','Language', 'Work', 'Summaries', 'Skill', 'Member', 'Writing', 'Researching', 'Honor', 'Activity']
-#df.drop(drop_cols,inplace=True,axis=1)
-#
 ################################################################
 #ONE HOT ENCODING
 hot = df
@@ -143,17 +71,17 @@ hot['OtherCo'] = df.company_other.apply(lambda x: 1 if len(x) > 2 else 0)
 #ONE HOT ENCODING - EXPLODING COLUMNS
 
 import yaml
-with open('Resume-Parser-master-new/confs/config.yaml', 'r') as stream:
+with open('confs/config.yaml', 'r') as stream:
   yaml_file = yaml.safe_load(stream)
 
 #certifications
 df.certifications.fillna('', inplace=True)
 for item in yaml_file['case_agnostic_whole_resume']['certifications']:
   if type(item) == list:
-    search_term = item[0].replace('\\x20','').replace(' ','')
-    col_name = item[1].replace('\\x20','').replace(' ','')
+    search_term = item[0].replace('\\x20','').replace(' ', '')
+    col_name = item[1].replace('\\x20','').replace(' ', '')
   else:
-    search_term = item.replace('\\x20','').replace(' ','')
+    search_term = item.replace('\\x20','').replace(' ', '')
     col_name = search_term
   hot[col_name] = df.certifications.apply(lambda x: 1 if x.find(search_term) >= 0 else 0)
 
@@ -209,7 +137,7 @@ stem_majors = ['Accounting', 'Aeronautics', 'AirwayScience',
  'Meteorology', 'MilitaryTechnologies', 'Neuroscience', 'Nursing',
  'Oceanography', 'OsteopathicMedicine', 'PackagingEngineering',
  'Pathology', 'Pharmacy', 'PhysicalScience', 'Physics',
- 'QuantumComputing', 'QuantumMechanics', 'Radiology',              
+ 'QuantumComputing', 'QuantumMechanics', 'Radiology',
  'SystemsEngineering', 'VeterinaryScience', 'Viticulture',
  'WebDevelopment', 'Zoology', 'Anatomy', 'Biochemistry',
  'Bioengineering', 'BiologicalEngineering', 'Biotechnology', 'CeramicEngineering',
@@ -222,20 +150,9 @@ stem_majors = ['Accounting', 'Aeronautics', 'AirwayScience',
  'Pharmacogenomics', 'Phlebotomy',
  'PhysicianAssistant', 'RespiratoryTherapy', 'SafetyTechnologies', 'ScienceEducation',
  'SoftwareEngineering', 'SoundEngineering', 'Statistics',
- 'TechnologyEducation', 'Thermodynamics', 'Toxicology', 'Transportation']              
-        
+ 'TechnologyEducation', 'Thermodynamics', 'Toxicology', 'Transportation']
+
 hot['StemMajor'] = hot[stem_majors].sum(axis=1)
-hot['StemMajor'].sum()                           
+# hot['StemMajor'].sum()
 
-hot.to_csv("~/data/resume_summary_one_hot.csv", index=False)
-
-  
-#FOR REFERENCE
-len(hot.columns)
-                            
-empty_cols = []
-for i in hot.columns[47:]:
-  if sum(hot[i]) == 0:
-    empty_cols.append(i)
-empty_cols               
-               
+hot.to_csv("data/output/resume_summary_one_hot.csv", index=False)

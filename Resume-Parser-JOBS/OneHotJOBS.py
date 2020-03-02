@@ -2,8 +2,7 @@ import pandas as pd
 import numpy as np
 
 #parsed data
-df = pd.read_csv('~/Resume-Parser-JOBS/data/output/job_description_summary_FULL.csv')
-#df.to_csv('~/data/job_description_summary_v4.csv')
+df = pd.read_csv('data/output/job_description_summary_FULL.csv')
 
 ################################################################
 #ONE HOT ENCODING
@@ -65,17 +64,17 @@ hot['OtherCo'] = hot.company_other.apply(lambda x: 1 if len(x) > 2 else 0)
 #ONE HOT ENCODING - EXPLODING COLUMNS
 
 import yaml
-with open('/home/cdsw/Resume-Parser-JOBS/confs/config.yaml', 'r') as stream:
+with open('confs/config.yaml', 'r') as stream:
   yaml_file = yaml.safe_load(stream)
 
 #certifications
 hot.certifications.fillna('', inplace=True)
 for item in yaml_file['case_agnostic_whole_resume']['certifications']:
   if type(item) == list:
-    search_term = item[0].replace('\\x20','').replace(' ','')
-    col_name = item[1].replace('\\x20','').replace(' ','')
+    search_term = item[0].replace('\\x20', '').replace(' ', '')
+    col_name = item[1].replace('\\x20', '').replace(' ', '')
   else:
-    search_term = item.replace('\\x20','').replace(' ','')
+    search_term = item.replace('\\x20', '').replace(' ', '')
     col_name = search_term
   hot[col_name] = hot.certifications.apply(lambda x: 1 if x.find(search_term) >= 0 else 0)
 
@@ -160,10 +159,6 @@ stem_majors = ['StemMajor', 'Accounting', 'Aeronautics', 'AirwayScience',
 hot['StemMajor'] = hot[stem_majors].sum(axis=1)
 hot['StemMajor'] = hot['StemMajor'].apply(lambda x: 1 if x > 0 else 0)
 
-path = '~/data/job_description_one_hot_FULL.csv'
-hot.to_csv(path, index=False)
-print('saved one hot encoding to: {}'.format(path))
-
 ################################################################
 #ADDING IN ONES FOR IDEAL CANDIDATE
 
@@ -178,232 +173,4 @@ hot['Top100Uni'] = np.repeat(1,num_rows)
 hot['Top10Uni'] = np.repeat(1,num_rows)
 hot['GPAmax'] = np.repeat(4.0,num_rows)
 
-#specific for types of roles
-#looking at type of role to then one hot encode
-jobs = pd.read_csv("~/data/full_requisition_data.csv")
-jobs.drop(['Unnamed: 0','Job Description','Division','Job Category','Band', 'Candidate ID','Location','offer completed/accepted date', 'Date Requisition Opened','Job Requisition Status', 'Country'], axis=1, inplace=True)
-jobs['Managerial Role'].fillna('No', inplace=True)
-jobs['Managerial Role'] = jobs['Managerial Role'].apply(lambda x: 0 if x == 'No' else 1)
-jobs['Function'] = jobs['Req Title'].apply(lambda x: x.split(' ')[-1])
-jobs.columns = ['ReqID', 'ReqTitle', 'Func', 'MngrRole']
-
-jobs = jobs.merge(hot, on='ReqID', how='inner')
-jobs.Func.value_counts()
-
-#for i in jobs.index:
-#  if jobs.Func[i] == 'Sales':
-#    rel_cols = hot.filter(like='sales').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='sell').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='relationship').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'Manufacturing':
-#    rel_cols = hot.filter(like='manufactur').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    jobs['packaging'] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'Finance':
-#    rel_cols = hot.filter(like='financ').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='forecast').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='modeling').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='budget').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='cost').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    jobs['analytical'] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'Logistics':
-#    rel_cols = hot.filter(like='logistic').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='inventory').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='chaing').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='suppl').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'R&D':
-#    jobs['r&d'] = np.repeat(1,num_rows)
-#    jobs['productdevelopment'] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='research').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'Marketing':
-#    rel_cols = hot.filter(like='marketing').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='advertising').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='brand').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='trend').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='innovation').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'HR':
-#    rel_cols = hot.filter(like='human').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='hiring').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='recruit').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='staff').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='talent').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='workforce').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'Quality':
-#    rel_cols = hot.filter(like='quality').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='usda').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='sanitation').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='monitor').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='safe').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'Procurement':
-#    rel_cols = hot.filter(like='procur').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='sourcing').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='vendor').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='contract').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='influencing').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='negot').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'IT':
-#    rel_cols = hot.filter(like='technology').filter(regex=r'^((?!Bio).)*$').columns # does not include bio
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='implement').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='deploy').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='technic').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'GBS':
-#    pass  
-#
-#  elif jobs.Func[i] == 'Administration':
-#    rel_cols = hot.filter(like='admin').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='organize').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='schedul').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='fastpaced').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='detail').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    jobs['officeadministration'] = np.repeat(1,num_rows)
-#    jobs['administrative'] = np.repeat(1,num_rows)
-#    
-#  elif jobs.Func[i] == 'Regulatory':
-#    rel_cols = hot.filter(like='regulatory').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    jobs['writing'] = np.repeat(1,num_rows)
-#    jobs['writtencommunication'] = np.repeat(1,num_rows)
-#    jobs['socialresponsibility'] = np.repeat(1,num_rows)
-#    jobs['fundraising'] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='interpersonal').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='present').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='support').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#
-#  elif jobs.Func[i] == 'Legal':
-#    rel_cols = hot.filter(like='law').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='governance').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='rules').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='regulat').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#    rel_cols = hot.filter(like='complianc').columns
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-#
-#  else:
-#    pass
-#      
-#for i in jobs.index:
-#  if jobs.MngrRole[i] == 1: # is a manager role
-#    rel_cols = ['effectivelymanage','managing','managingdifficultconversations','managingdifficultpeople','managingteam','managingvirtualteams']
-#    for cols_to_one_hot in rel_cols:
-#      jobs[cols_to_one_hot] = np.repeat(1,num_rows)
-
-jobs.drop(['ReqTitle', 'Func', 'MngrRole'],axis=1,inplace=True)
-
-path = '~/data/job_description_one_hot_ideal_FULL.csv'
-jobs.to_csv(path, index=False)
-print('saved ideal one hot encoding to: {}'.format(path))
-
+hot.to_csv('data/job_description_one_hot_ideal_FULL.csv', index=False)
