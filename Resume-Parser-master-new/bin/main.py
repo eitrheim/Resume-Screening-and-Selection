@@ -1,8 +1,8 @@
 # coding: utf-8
 
-from __future__ import absolute_import
+# from __future__ import absolute_import
 import sys
-sys.path.append('/home/cdsw/Resume-Parser-master-new/bin')
+# sys.path.append('Resume-Parser-master-new/bin')
 
 # importing user defined modules
 import field_extraction
@@ -13,6 +13,7 @@ import inspect
 import logging
 import os
 import pandas as pd
+import numpy as np
 import time
 #import spacy
 #import en_core_web_sm
@@ -20,8 +21,6 @@ import time
 
 # hide settingwithcopywarning
 pd.options.mode.chained_assignment = None
-
-
 
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))  # get location of main.py
 parentdir = os.path.dirname(currentdir)  # get parent directory of main.py (where repository is on local)
@@ -33,33 +32,23 @@ def main():
     logging.getLogger().setLevel(logging.WARNING)  # essentially does print statements to help debug (WARNING)
     # logging explained https://appdividend.com/2019/06/08/python-logging-tutorial-with-example-logging-in-python/
 
-#    observations = extract()  # get text from pdf resumes
-#
-    # read in Kraft's resume text
-    observations = pd.read_csv('~/data/Candidate Report.csv', usecols=[3,0,12], encoding = 'latin-1')
-    observations.columns = ['ReqID','CanID','text']
+    observations = extract()  # get text from pdf resumes
+
+    # to make it like Kraft's
+    observations['ReqID'] = np.repeat('abcd123', len(observations))
+    observations.dropna(inplace=True)
+    observations['CanID'] = observations.file_path.apply(lambda x: x.split('/')[-1].lower().replace(' ', '')[:4] + str(np.random.randint(100, 999)))
+
+    # to skip the code above
+    # observations = pd.read_csv('../data/output/resume_summary.csv')
+    observations = observations[['ReqID', 'CanID', 'text']]
     observations.drop_duplicates(inplace=True)
     observations.reset_index(drop=True, inplace=True)
     observations.text.fillna('', inplace=True)
-    observations.dropna(how='all', inplace=True) # drop rows that are all na
-    
-#    observations = observations.sample(100)
-    
-#    #ones michael wants
-#    jobz = ['e3625ad', '39ee3f', '45de815','40a2c38','63146c6']
-#    observations = observations[observations.ReqID.isin(jobz)]
-          
+    observations.dropna(how='all', inplace=True)  # drop rows that are all na
+
     # to get the start (as an int) of resume sections
     observations = resume_sectioning.section_into_columns(observations)
-    
-#    # save it so we dont have to do it again
-#    observations.to_csv('~/Resume-Parser-master-new/data/output/resume_int_pos.csv', index=False, encoding='utf-8')
-#    print(len(observations))
-#
-#    # reading part above
-#    observations = pd.read_csv('~/Resume-Parser-master-new/data/output/resume_int_pos.csv', encoding = 'utf-8')
-#    observations.reset_index(inplace=True, drop=True)
-#    # 107,326 resumes, 0:107325
     
     # get only words pertaining each sub-section
     observations = resume_sectioning.word_put_in_sections(observations)
@@ -68,28 +57,19 @@ def main():
     observations = resume_sectioning.combine_sections_preparse(observations)
     observations = observations[observations.text == observations.text]
 
-#    observations.to_csv('~/Resume-Parser-master-new/data/output/resume_sections.csv', index=False, encoding='utf-8')
-#    print("Saved resume_sections.csv")
-#    
-#    # reading part above
-#    observations = pd.read_csv('~/Resume-Parser-master-new/data/output/resume_sections.csv')
-#
-#    print("Loading Spacy Corpus")
-#    #nlp = spacy.load('en_core_web_sm')
-#    nlp = en_core_web_sm.load()
-#    print("Spacy Corpus Loaded \n")
+    # print("Loading Spacy Corpus")
+    # #nlp = spacy.load('en_core_web_sm')
+    # nlp = en_core_web_sm.load()
+    # print("Spacy Corpus Loaded \n")
 
     observations = transform(observations) #, nlp)  # extract data from resume sections
 
     # to combine the sub-sections one last time
     observations = resume_sectioning.combine_sections_postparse(observations)
     observations = observations[observations.text == observations.text]
-    print(len(observations), "... should be 107,326")
     
-    #load(observations)  # save to csv to finish
-    
-    print("Date time: ", time.strftime('%m-%d %H:%M:%S', time.gmtime()))
-    print("Finished.")
+    load(observations)  # save to csv to finish
+
     pass
 
 
@@ -120,7 +100,6 @@ def extract():
 def transform(observations):  #, nlp):
     logging.info('Begin transform')
 
-    print("Date time: ", time.strftime('%m-%d %H:%M:%S', time.gmtime()))
     print("Extracting email, phone, GPA, and dates of work experience")
     observations = observations.fillna('')
     # observations['candidate_name'] = observations['text'].apply(lambda x: field_extraction.candidate_name_extractor(x, nlp))
@@ -147,8 +126,6 @@ def load(observations):
     
     observations.to_csv(path_or_buf=output_path, index=False, encoding='utf-8')
     logging.info('End transform')
-     
-#    observations.to_csv('~/data/resumes_5jobs.csv', index=False, encoding='utf-8')  
     
     pass
 

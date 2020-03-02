@@ -18,7 +18,7 @@ months = ['january', 'jan', 'february', 'feb', 'march', 'mar', 'april', 'apr', '
 
 def candidate_name_extractor(input_string, nlp):
 
-    doc = nlp(input_string.replace('\n','.'))
+    doc = nlp(input_string.replace('\n', '.'))
 
     doc_entities = doc.ents  # extract entities
 
@@ -41,7 +41,6 @@ def gpa_extractor(input_string):
 
 def extract_fields(df):
     # note all commas and apostrophes are removed at this point from the extract_skills_case_ functions
-    print("Date time: ", time.strftime('%m-%d %H:%M:%S', time.gmtime()))
     print("Extracting certifications, latin honors, honor societies, scholarships/awards\n")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
         # column name is title of the sections in the yaml file
@@ -90,38 +89,31 @@ def extract_fields(df):
         if 'Tau Sigma Delta' in x.honor_societies.loc[i]:
             df.honor_societies.loc[i].remove('Tau Sigma')
 
-    print("Date time: ", time.strftime('%m-%d %H:%M:%S', time.gmtime()))
     print("Extracting universities and majors/minors\n")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x.encode('utf-8', 'replace')), items_of_interest)) #.replace(' & ', ' and ')
     # TODO use word2vec to get all similar majors?
 
-    print("Date time: ", time.strftime('%m-%d %H:%M:%S', time.gmtime()))
     print("Extracting level of education\n")
     for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x, items_of_interest))
 
-    print("Date time: ", time.strftime('%m-%d %H:%M:%S', time.gmtime()))
     print("Extracting coursework\n")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_courses').items():
         df[extractor] = df['Course'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
-    print("Date time: ", time.strftime('%m-%d %H:%M:%S', time.gmtime()))
     print("Extracting languages spoken\n")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_languages').items():
         df[extractor] = df['Language'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
-    print("Date time: ", time.strftime('%m-%d %H:%M:%S', time.gmtime()))
     print("Extracting hobbies and interests\n")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_hobbies').items():
         df[extractor] = df['Hobby'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
-    print("Date time: ", time.strftime('%m-%d %H:%M:%S', time.gmtime()))
     print("Extracting technical skills\n")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_skill').items():
         df[extractor] = df['Skill'].apply(lambda x: extract_skills_case_agnostic(x.replace('.', ''), items_of_interest))
 
-    print("Date time: ", time.strftime('%m-%d %H:%M:%S', time.gmtime()))
     print("Extracting companies worked at\n")
     for extractor, items_of_interest in lib.get_conf('case_agnostic_work').items():
         df[extractor] = df['Work'].apply(lambda x: extract_skills_case_agnostic(x.replace('.', ''), items_of_interest))
