@@ -1,0 +1,107 @@
++1(312)-576-0516 | tobel.ezeokoli@gmail.com | linkedin.com/in/tobel-eze-okoli | github.com/tobelum 
+
+TOBEL EZEOKOLI 
+
+ 
+
+ 
+
+EDUCATION 
+University of Chicago 
+Masters of Science in Data Analytics  
+GPA: 3.87/4.0 | Expected graduation date: Mar 2020 
+
+ 
+
+Chicago, IL 
+Aug 2018 – Present 
+
+•  Recipient, University of Chicago Full Tuition Scholarship 
+•  2019 Forbes 30 Under 30 Scholar 
+•  Organizations: Society of Women Engineers, National Society of Black Engineers, Data Science Association 
+
+ 
+Ashesi University  
+Bachelor of Science in Management Information Systems 
+GPA: 3.75/4.0 | First Class Honors (Magna Cum Laude) 
+
+•  Dean’s List 2013 – 2017 
+•  Study Abroad Exchange Program; Macalester College, St. Paul MN, USA (Fall 2015) 
+
+Berekuso, Ghana 
+Sep 2013 – Jun 2017 
+
+ 
+SKILLS 
+
+•  Programming Languages: Python, R, SQL, Spark, Hive, PHP, HTML, JavaScript  
+•  Software: Tableau, Google Cloud Platform, Git, SQL Workbench, Jupyter Notebooks, Hadoop  
+• 
+
+Interests: Machine Learning, Data Visualization, Natural Language Processing, Marketing Analytics 
+
+ 
+RELEVANT EXPERIENCE 
+University of Chicago Graham School 
+Data Mining Teaching Assistant (Part-time) 
+
+Chicago, IL 
+Sept 2019 – Present 
+
+•  Educate students on how to implement and validate statistical & machine learning concepts (using Python & R) 
+•  Grade assignments and communicate useful feedback to over 60 graduate students in the MSc. Analytics program  
+•  Work with faculty to design weekly class material; on Data Mining, Wrangling and Modelling techniques  
+•  Teach unsupervised and supervised Machine Learning algorithms such as KMeans, Support Vector Machines, 
+
+Gradient Boosting Machines, Decision Trees and Random Forests to students with diverse backgrounds 
+
+ 
+Kraft Heinz Corporation 
+Data Science Consultant  
+
+Chicago, IL 
+Apr 2019 – Mar 2020 
+
+•  Developed an analytical tool that informs the Human Resources team’s hiring efforts to target the job market 
+•  Built Machine Learning models and Deep Learning Neural Networks to predict how long it takes to fill a job role  
+•  Aggregated data from both internal & external sources to extract over 100 features which define various job roles 
+•  Applied unsupervised learning method to cluster over 2000 unique job titles based on these features using Python 
+•  Validated models using K-fold cross-validation to ensure that models do not overfit and produce good predictions 
+•  Assigned a difficulty score to each job position to enable the hiring team to allocate resources effectively  
+
+ 
+University of Chicago Booth School of Business  
+Research Assistant 
+
+Chicago, IL 
+June – Sept 2019 
+
+•  Built business domain knowledge by collating both quantitative and qualitative data for over 500 companies' 
+
+Corporate Social Responsibility activities in the years 2017 and 2018 spanning across 30 unique industries  
+
+•  Carried out analytical studies to understand the business impact of S&P 500 companies’ sustainability activities 
+•  Worked independently to analyze the data using Excel and created data visualization dashboards using Tableau 
+•  Collaborated with researchers to build an appropriate and consistent database for Booth faculty and students 
+•  Analyzed effects of company actions and policies on the success of the company and reported findings to faculty 
+
+ 
+Jetlink  
+Business Analyst 
+
+     Lagos, Nigeria 
+Jan – Jul 2018 
+
+•  Conducted exploratory analysis for IT firm using Excel and SQL to provide data-driven insights on potential 
+
+suppliers and clients which was expected to increase the firm’s annual revenue by 5% 
+
+•  Worked with different business units and senior management to define Key Performance Indicators and built 
+
+dashboards to monitor the performance of the firm using these KPI’s 
+
+•  Developed monthly report of company’s performance and presented recommendations to the executive managers 
+
+ 
+
+

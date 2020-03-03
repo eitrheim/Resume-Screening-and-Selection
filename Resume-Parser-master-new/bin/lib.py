@@ -13,10 +13,11 @@ import pdf2textNEWER
 CONFS = None
 
 
-def load_confs(confs_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/confs/config.yaml'):
+def load_confs(root_file_path):
     """
     Load the .yaml file
     """
+    confs_path = root_file_path + 'Resume-Parser-master-new/confs/config.yaml'
     global CONFS
 
     if CONFS is None:
@@ -34,8 +35,8 @@ def load_confs(confs_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-a
     return CONFS
 
 
-def get_conf(conf_name):
-    return load_confs()[conf_name]
+def get_conf(root_file_path, conf_name):
+    return load_confs(root_file_path)[conf_name]
 
 
 def archive_dataset_schemas(step_name, local_dict, global_dict):
@@ -110,15 +111,21 @@ def term_match(string_to_search, term):
         return None
 
 
-def convert_pdf(f):
+def convert_pdf(f, root_file_path):
     output_filename = os.path.basename(os.path.splitext(f)[0]) + '.txt'  # get file name (e.g. Ann Resume.pdf)
-    output_filepath = os.path.join('/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/data/output', output_filename)  # creating the path for the output
-    logging.info('Writing text from {} to {}'.format(f, output_filepath))
-    pdf2text.main(args=[f, '--outfile', output_filepath])  # convert pdf to text & place in output .txt file
-    try:
-        pdf2textNEWER.main(argv=[f, '-o', output_filepath, f])
-        print('Newer version of pdf2text used for ', output_filename)
-    except:
+    output_filepath = os.path.join(root_file_path + 'Resume-Parser-master-new/data/output', output_filename)  # creating the path for the output
+    if os.path.isfile(output_filename):
+        print(output_filepath, 'exists')
         pass
-        print('Older version of pdf2text used for ', output_filename)
+    else:
+        print('parsing')
+        logging.info('Writing text from {} to {}'.format(f, output_filepath))
+        pdf2text.main(args=[f, '--outfile', output_filepath])  # convert pdf to text & place in output .txt file
+        try:
+            pdf2textNEWER.main(argv=[f, '-o', output_filepath, f])
+            logging.info('Newer version of pdf2text used for  {}'.format(output_filename))
+        except Exception as e:
+            logging.warn(e)
+            logging.info('Older version of pdf2text used for  {}'.format(output_filename))
+            pass
     return open(output_filepath).read()  # return contents of intermediate output file

@@ -23,17 +23,18 @@ parentdir = os.path.dirname(currentdir)  # get parent directory of main.py (wher
 sys.path.insert(0, parentdir)  # sys.path is the module search path
 
 
-def main():
+def main(root_file_path):
 
     logging.getLogger().setLevel(logging.WARNING)  # essentially does print statements to help debug (WARNING)
     # logging explained https://appdividend.com/2019/06/08/python-logging-tutorial-with-example-logging-in-python/
 
-    observations = extract()  # get text from pdf resumes
+    observations = extract(root_file_path)  # get text from pdf resumes
 
     # to make it like Kraft's
-    observations['ReqID'] = np.repeat('abcd123', len(observations))
+    observations['ReqID'] = np.repeat('cash123', len(observations))
     observations.dropna(inplace=True)
-    observations['CanID'] = observations.file_path.apply(lambda x: x.split('/')[-1].lower().replace(' ', '')[:4] + str(np.random.randint(100, 999)))
+    observations['CanID'] = observations.file_path.apply(lambda x: x.split('/')[-1].lower().replace(' ', '')[:4] +
+                                                                   str(np.random.randint(100, 999)))
 
     # to skip the code above
     observations = observations[['ReqID', 'CanID', 'text']]
@@ -57,37 +58,38 @@ def main():
     # nlp = en_core_web_sm.load()
     # print("Spacy Corpus Loaded \n")
 
-    observations = transform(observations) #, nlp)  # extract data from resume sections
+    observations = transform(observations, root_file_path) #, nlp)  # extract data from resume sections
 
     # to combine the sub-sections one last time
     observations = resume_sectioning.combine_sections_postparse(observations)
     observations = observations[observations.text == observations.text]
     
-    load(observations)  # save to csv to finish
+    load(observations, root_file_path)  # save to csv to finish
 
     pass
 
 
-def extract():
+def extract(root_file_path):
     logging.info('Begin extract')
 
     candidate_file_agg = list()  # for creating list of resume file paths
-    for root, subdirs, files in os.walk('/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/data/input/resumes'):  # gets path to resumes from yaml file
-        # os.walk(parentdir + '/data/input/example_resumes'): would do the same thing
+    for root, subdirs, files in os.walk(root_file_path + 'Resume-Parser-master-new/data/input/resumes'):
         files = filter(lambda f: f.endswith(('.pdf', '.PDF')), files)  # only read pdfs
         folder_files = map(lambda x: os.path.join(root, x), files)
         candidate_file_agg.extend(folder_files)
 
     observations = pd.DataFrame(data=candidate_file_agg, columns=['file_path'])  # convert to df
 
+    observations = observations.head(3)
+
     logging.info('Found {} candidate files'.format(len(observations.index)))
-    observations['text'] = observations['file_path'].apply(lib.convert_pdf)  # get text from .pdf files
+    observations['text'] = observations['file_path'].apply(lib.convert_pdf, root_file_path=root_file_path)  # get text from .pdf files
 
     logging.info('End extract')
     return observations
 
 
-def transform(observations):  #, nlp):
+def transform(observations, root_file_path):  #, nlp):
     logging.info('Begin transform')
 
     print("Extracting email, phone, GPA, and dates of work experience")
@@ -117,18 +119,15 @@ def transform(observations):  #, nlp):
     np.mean(observations['GPAmax'].astype('float'))
     observations.drop('GPAnum', axis=1, inplace=True)
 
-    observations = field_extraction.extract_fields(observations)  # search for terms in whole resume
+    observations = field_extraction.extract_fields(observations, root_file_path)  # search for terms in whole resume
 
     # logging.info('End transform')
     return observations
 
 
-def load(observations):
-    logging.info('Begin load')
-    output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_summary.csv')
-
+def load(observations, root_file_path):
+    output_path = root_file_path + 'Resume-Parser-master-new/data/output/resume_summary.csv'
     logging.info('Results being output to {}'.format(output_path))
-
     observations.to_csv(path_or_buf=output_path, index=False, encoding='utf-8')
     logging.info('End transform')
     

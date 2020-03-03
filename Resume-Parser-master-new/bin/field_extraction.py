@@ -39,10 +39,10 @@ def gpa_extractor(input_string):
     return result
 
 
-def extract_fields(df):
+def extract_fields(df, root_file_path):
     # note all commas and apostrophes are removed at this point from the extract_skills_case_ functions
     print("Extracting certifications, latin honors, honor societies, scholarships/awards")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
+    for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_whole_resume').items():
         # column name is title of the sections in the yaml file
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
     # drop cum laude if summa cum laude or magna cum laude are present
@@ -90,31 +90,31 @@ def extract_fields(df):
             df.honor_societies.loc[i].remove('Tau Sigma')
 
     print("Extracting universities and majors/minors")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
+    for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_education').items():
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x.encode('utf-8', 'replace')), items_of_interest)) #.replace(' & ', ' and ')
 
     print("Extracting level of education")
-    for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
+    for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_sensitive_education').items():
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x, items_of_interest))
 
     print("Extracting coursework")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_courses').items():
+    for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_courses').items():
         df[extractor] = df['Course'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
     print("Extracting languages spoken")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_languages').items():
+    for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_languages').items():
         df[extractor] = df['Language'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
     print("Extracting hobbies and interests")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_hobbies').items():
+    for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_hobbies').items():
         df[extractor] = df['Hobby'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
     print("Extracting technical skills")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_skill').items():
+    for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_skill').items():
         df[extractor] = df['Skill'].apply(lambda x: extract_skills_case_agnostic(x.replace('.', ''), items_of_interest))
 
     print("Extracting companies worked at")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_work').items():
+    for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_work').items():
         df[extractor] = df['Work'].apply(lambda x: extract_skills_case_agnostic(x.replace('.', ''), items_of_interest))
 
     return df
