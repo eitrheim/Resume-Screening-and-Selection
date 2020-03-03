@@ -2,16 +2,14 @@ import pandas as pd
 import numpy as np
 import re
 
-def onehot():
+def onehot(root_file_path):
     # read in parsed data
-    df = pd.read_csv("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/data/output/resume_summary.csv", error_bad_lines=False)
+    df = pd.read_csv(root_file_path + "Resume-Parser-master-new/data/output/resume_summary.csv", error_bad_lines=False)
     df = df[df.CanID == df.CanID]
     df = df[df.ReqID == df.ReqID]
     df.reset_index(drop=True, inplace=True)
 
-
-    ################################################################
-    #ONE HOT ENCODING
+    # ONE HOT ENCODING
     hot = df
 
     #honor_societies
@@ -70,7 +68,7 @@ def onehot():
     #ONE HOT ENCODING - EXPLODING COLUMNS
 
     import yaml
-    with open('/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/confs/config.yaml', 'r') as stream:
+    with open(root_file_path + 'Resume-Parser-master-new/confs/config.yaml', 'r') as stream:
       yaml_file = yaml.safe_load(stream)
 
     #certifications
@@ -154,4 +152,4 @@ def onehot():
     hot['StemMajor'] = hot[stem_majors].sum(axis=1)
     # hot['StemMajor'].sum()
 
-    hot.to_csv("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/data/output/resume_summary_one_hot.csv", index=False)
+    hot.to_csv(root_file_path + "Resume-Parser-master-new/data/output/resume_summary_one_hot.csv", index=False)

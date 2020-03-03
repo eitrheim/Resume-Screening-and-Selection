@@ -2,6 +2,7 @@
 Sectioning the resume into education, work experience, summary, technical skills, research, and activities.
 """
 import numpy as np
+import logging
 import pandas as pd
 
 
@@ -108,10 +109,10 @@ def section_into_columns(observations):
     df['AdditionalLocation'] = np.repeat(-1, len(df))
 
     resume_total = len(df)
-    print(resume_total, "total resumes.")
+    logging.info(resume_total, "total resumes.")
     for i in df.index:
         if i % 1000 == 0:
-          print('Parsing', i, 'of', resume_total)
+          logging.info('Parsing', i, 'of', resume_total)
 
         # EDUCATION SECTION ##############################
         if df.text.loc[i].lower().find('education') != -1:  # if it can find the word education
@@ -725,11 +726,11 @@ def word_put_in_sections(observations):
     df['Additional'] = np.repeat("", len(df))
 
     resume_total = len(df)
-    print(resume_total,"resumes total")
+    logging.info(resume_total,"resumes total")
     # putting the words into the new columns
     for num in df.index:
         if num % 1000 == 0:
-            print('Sectioning', num, "...")
+            logging.info('Sectioning', num, "...")
         x = df[col_list].loc[num].sort_values() 
         for i in range(0, len(x)):
             try:
@@ -743,7 +744,7 @@ def word_put_in_sections(observations):
     
     # drop na text colums
     df = df[df.text == df.text]
-    print("{} total resumes/rows".format(len(df)))
+    logging.info("{} total resumes/rows".format(len(df)))
 
     return df
 
@@ -751,7 +752,7 @@ def word_put_in_sections(observations):
 def combine_sections_preparse(observations):
     df = observations
 
-    print('\nCombining sub-sections.')
+    logging.info('\nCombining sub-sections.')
 
     # EDUCATION SECTION ##############################
     # make sure that courses is after related course so it concatenates in a natural flow
@@ -825,7 +826,7 @@ def combine_sections_preparse(observations):
 def combine_sections_postparse(observations):
     df = observations
 
-    print('\nCombining sub-sections.')
+    logging.info('\nCombining sub-sections.')
 
     # EDUCATION SECTION ##############################
     df['Education'] = df['Edu'] + df['Course']

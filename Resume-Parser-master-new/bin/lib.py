@@ -114,11 +114,10 @@ def term_match(string_to_search, term):
 def convert_pdf(f, root_file_path):
     output_filename = os.path.basename(os.path.splitext(f)[0]) + '.txt'  # get file name (e.g. Ann Resume.pdf)
     output_filepath = os.path.join(root_file_path + 'Resume-Parser-master-new/data/output', output_filename)  # creating the path for the output
-    if os.path.isfile(output_filename):
-        print(output_filepath, 'exists')
+    if os.path.exists(output_filepath):
         pass
     else:
-        print('parsing')
+        print('PDF to text for new resume: {}'.format(output_filename))
         logging.info('Writing text from {} to {}'.format(f, output_filepath))
         pdf2text.main(args=[f, '--outfile', output_filepath])  # convert pdf to text & place in output .txt file
         try:

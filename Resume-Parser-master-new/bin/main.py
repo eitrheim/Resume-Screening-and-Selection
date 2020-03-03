@@ -33,10 +33,17 @@ def main(root_file_path):
     # to make it like Kraft's
     observations['ReqID'] = np.repeat('cash123', len(observations))
     observations.dropna(inplace=True)
+
+    # to compare it to already parsed info to not have to reparse
+    current_observations = pd.read_csv(root_file_path + "Resume-Parser-master-new/data/output/resume_summary.csv")
+    for i in observations.index:
+        if observations.text[i] in current_observations.text[current_observations.ReqID == observations.ReqID[i]].values:
+            observations.drop(i, axis=0, inplace=True)
+
     observations['CanID'] = observations.file_path.apply(lambda x: x.split('/')[-1].lower().replace(' ', '')[:4] +
                                                                    str(np.random.randint(100, 999)))
 
-    # to skip the code above
+    print('New resumes being parsed:\n', observations['CanID'])
     observations = observations[['ReqID', 'CanID', 'text']]
     observations.drop_duplicates(inplace=True)
     observations.reset_index(drop=True, inplace=True)
@@ -45,10 +52,10 @@ def main(root_file_path):
 
     # to get the start (as an int) of resume sections
     observations = resume_sectioning.section_into_columns(observations)
-    
+
     # get only words pertaining each sub-section
     observations = resume_sectioning.word_put_in_sections(observations)
-  
+
     # to combine the sub-sections
     observations = resume_sectioning.combine_sections_preparse(observations)
     observations = observations[observations.text == observations.text]
@@ -58,12 +65,19 @@ def main(root_file_path):
     # nlp = en_core_web_sm.load()
     # print("Spacy Corpus Loaded \n")
 
-    observations = transform(observations, root_file_path) #, nlp)  # extract data from resume sections
+    observations = transform(observations, root_file_path)  #, nlp)  # extract data from resume sections
 
     # to combine the sub-sections one last time
     observations = resume_sectioning.combine_sections_postparse(observations)
     observations = observations[observations.text == observations.text]
-    
+
+    # merge with the already parsed information
+    observations = pd.concat([current_observations, observations])
+    observations = observations[observations.text == observations.text]
+    observations = observations[observations.text != '']
+    observations = observations[observations.ReqID != '']
+    observations = observations[observations.CanID != '']
+
     load(observations, root_file_path)  # save to csv to finish
 
     pass
@@ -74,13 +88,11 @@ def extract(root_file_path):
 
     candidate_file_agg = list()  # for creating list of resume file paths
     for root, subdirs, files in os.walk(root_file_path + 'Resume-Parser-master-new/data/input/resumes'):
-        files = filter(lambda f: f.endswith(('.pdf', '.PDF')), files)  # only read pdfs
+        files = filter(lambda f: f.endswith(('.pdf', '.PDF')), files)  # only read pdf
         folder_files = map(lambda x: os.path.join(root, x), files)
         candidate_file_agg.extend(folder_files)
 
     observations = pd.DataFrame(data=candidate_file_agg, columns=['file_path'])  # convert to df
-
-    observations = observations.head(3)
 
     logging.info('Found {} candidate files'.format(len(observations.index)))
     observations['text'] = observations['file_path'].apply(lib.convert_pdf, root_file_path=root_file_path)  # get text from .pdf files
@@ -90,9 +102,7 @@ def extract(root_file_path):
 
 
 def transform(observations, root_file_path):  #, nlp):
-    logging.info('Begin transform')
-
-    print("Extracting email, phone, GPA, and dates of work experience")
+    logging.info("Extracting email, phone, GPA, and dates of work experience")
     observations = observations.fillna('')
     # observations['candidate_name'] = observations['text'].apply(lambda x: field_extraction.candidate_name_extractor(x, nlp))
     observations['email'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.EMAIL_REGEX))
@@ -121,7 +131,6 @@ def transform(observations, root_file_path):  #, nlp):
 
     observations = field_extraction.extract_fields(observations, root_file_path)  # search for terms in whole resume
 
-    # logging.info('End transform')
     return observations
 
 

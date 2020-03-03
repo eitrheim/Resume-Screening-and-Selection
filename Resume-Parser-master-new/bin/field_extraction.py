@@ -41,7 +41,7 @@ def gpa_extractor(input_string):
 
 def extract_fields(df, root_file_path):
     # note all commas and apostrophes are removed at this point from the extract_skills_case_ functions
-    print("Extracting certifications, latin honors, honor societies, scholarships/awards")
+    logging.info("Extracting certifications, latin honors, honor societies, scholarships/awards")
     for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_whole_resume').items():
         # column name is title of the sections in the yaml file
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
@@ -89,31 +89,31 @@ def extract_fields(df, root_file_path):
         if 'Tau Sigma Delta' in x.honor_societies.loc[i]:
             df.honor_societies.loc[i].remove('Tau Sigma')
 
-    print("Extracting universities and majors/minors")
+    logging.info("Extracting universities and majors/minors")
     for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_education').items():
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_agnostic(str(x.encode('utf-8', 'replace')), items_of_interest)) #.replace(' & ', ' and ')
 
-    print("Extracting level of education")
+    logging.info("Extracting level of education")
     for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_sensitive_education').items():
         df[extractor] = df['Edu'].apply(lambda x: extract_skills_case_sensitive(x, items_of_interest))
 
-    print("Extracting coursework")
+    logging.info("Extracting coursework")
     for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_courses').items():
         df[extractor] = df['Course'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
-    print("Extracting languages spoken")
+    logging.info("Extracting languages spoken")
     for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_languages').items():
         df[extractor] = df['Language'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
-    print("Extracting hobbies and interests")
+    logging.info("Extracting hobbies and interests")
     for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_hobbies').items():
         df[extractor] = df['Hobby'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
-    print("Extracting technical skills")
+    logging.info("Extracting technical skills")
     for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_skill').items():
         df[extractor] = df['Skill'].apply(lambda x: extract_skills_case_agnostic(x.replace('.', ''), items_of_interest))
 
-    print("Extracting companies worked at")
+    logging.info("Extracting companies worked at")
     for extractor, items_of_interest in lib.get_conf(root_file_path, 'case_agnostic_work').items():
         df[extractor] = df['Work'].apply(lambda x: extract_skills_case_agnostic(x.replace('.', ''), items_of_interest))
 
@@ -168,7 +168,6 @@ def extract_skills_case_sensitive(resume_text, items_of_interest):
     for (skill_name, skill_alias_list) in potential_skills_dict.items():
 
         skill_matches = 0
-        # TODO incorporate word2vec here?
         for skill_alias in skill_alias_list:
             skill_matches += lib.term_count(resume_text.replace('-', ' ').replace(':', '').replace(',', '').replace('\'', ''), skill_alias.lower())  # add the # of matches for each alias
 
@@ -326,5 +325,5 @@ def months_of_experience(list_of_dates):
             mos_of_experience.append(0)
         else:
             mos_of_experience.append(int(experience - experience_gaps))
-    print('\n')
+
     return mos_of_experience
