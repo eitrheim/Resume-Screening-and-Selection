@@ -7,10 +7,11 @@ from ruamel.yaml import YAML
 
 CONFS = None
 
-def load_confs(confs_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/confs/config.yaml'):
+def load_confs(root_file_path):
     """
     Load the .yaml file
     """
+    confs_path = root_file_path + 'Resume-Parser-master-new/confs/config.yaml'
     global CONFS
 
     if CONFS is None:
@@ -28,9 +29,8 @@ def load_confs(confs_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-a
     return CONFS
 
 
-def get_conf(conf_name):
-    return load_confs()[conf_name]
-
+def get_conf(root_file_path, conf_name):
+    return load_confs(root_file_path)[conf_name]
 
 def term_count(string_to_search, term):
     """

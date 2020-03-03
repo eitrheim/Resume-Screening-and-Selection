@@ -5,24 +5,23 @@ import sys
 root_file_path = '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/'
 
 
-def pipeline(pdf_to_text=0, jobID='abcd123', topX=100, root_file_path=root_file_path):
-    if pdf_to_text == 1:
-        sys.path.append(root_file_path + "Resume-Parser-master-new/bin")
-        sys.path.append(root_file_path + "Resume-Parser-master-new")
-        import main
-        import OneHotRESUMES
-
-        main.main(root_file_path=root_file_path)
-        # OneHotRESUMES.onehot(root_file_path=root_file_path)
-
-        sys.path = list(set(sys.path))
-        sys.path.remove(root_file_path + "Resume-Parser-master-new")
-        sys.path.remove(root_file_path + "Resume-Parser-master-new/bin")
-
-    # sys.path.append("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/bin")
-    # import mainJOBS
-    # mainJOBS.main()
+def pipeline(jobID='abcd123', topX=100, root_file_path=root_file_path):
+    # sys.path.append(root_file_path + "Resume-Parser-master-new/bin")
+    # sys.path.append(root_file_path + "Resume-Parser-master-new")
+    # import main
+    # import OneHotRESUMES
     #
+    # main.main(root_file_path)
+    # OneHotRESUMES.onehot(root_file_path)
+    #
+    # sys.path = list(set(sys.path))
+    # sys.path.remove(root_file_path + "Resume-Parser-master-new")
+    # sys.path.remove(root_file_path + "Resume-Parser-master-new/bin")
+
+    sys.path.append(root_file_path + "Resume-Parser-JOBS/bin")
+    import mainJOBS
+    mainJOBS.main(root_file_path)
+
     # sys.path.append("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS")
     # import OneHotJOBS
     # OneHotJOBS.onehot()
@@ -37,4 +36,4 @@ def pipeline(pdf_to_text=0, jobID='abcd123', topX=100, root_file_path=root_file_
 
 
 if __name__ == '__main__':
-    pipeline(1, 'cash123', 100)
+    pipeline('cash123', 100)
