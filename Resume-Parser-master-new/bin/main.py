@@ -31,7 +31,7 @@ def main(root_file_path):
     observations = extract(root_file_path)  # get text from pdf resumes
 
     # to make it like Kraft's
-    observations['ReqID'] = np.repeat('cash123', len(observations))
+    observations['ReqID'] = np.repeat('abcd123', len(observations))
     observations.dropna(inplace=True)
 
     # to compare it to already parsed info to not have to reparse
@@ -43,7 +43,7 @@ def main(root_file_path):
     observations['CanID'] = observations.file_path.apply(lambda x: x.split('/')[-1].lower().replace(' ', '')[:4] +
                                                                    str(np.random.randint(100, 999)))
 
-    print('New resumes being parsed:\n', observations['CanID'])
+    print('New resumes being parsed:\n', observations['CanID'].values)
     observations = observations[['ReqID', 'CanID', 'text']]
     observations.drop_duplicates(inplace=True)
     observations.reset_index(drop=True, inplace=True)

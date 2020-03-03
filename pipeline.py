@@ -16,20 +16,19 @@ def pipeline(jobID='abcd123', topX=10, root_file_path='/Users/anneitrheim/Pychar
     import final_model
 
     main.main(root_file_path)
-    print('new resumes converted to text')
+    print('New resumes converted to text.')
     OneHotRESUMES.onehot(root_file_path)
-    print('one hot created for resumes')
+    print('One hot created for resumes.')
     mainJOBS.main(root_file_path)
-    print('job descriptions parsed')
+    print('Job descriptions parsed.')
     OneHotJOBS.onehot(root_file_path)
-    print('one hot created for job descriptions')
+    print('One hot created for job descriptions.')
     ranks, jd = final_model.rank(jobID, topX, root_file_path)
-    print('rank candidates')
+    print('Candidates ranked.\n')
 
     print('Job Description:', jd)
     print(ranks)
-    print('done')
 
 
 if __name__ == '__main__':
-    pipeline('cash123', 100, '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/')
+    pipeline('abcd123', 100, '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/')
