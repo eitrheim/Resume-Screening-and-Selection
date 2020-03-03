@@ -40,4 +40,4 @@ def pipeline(pdf_to_text=0, jobID='abcd123', topX=100):
 
 
 if __name__ == '__main__':
-    pipeline(0, 'abcd123', 10)
+    pipeline(1, 'abcd123', 10)

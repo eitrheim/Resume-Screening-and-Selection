@@ -80,16 +80,6 @@ def extract():
 
     observations = pd.DataFrame(data=candidate_file_agg, columns=['file_path'])  # convert to df
 
-
-
-
-
-    observations = observations.head(3)
-
-
-
-
-
     logging.info('Found {} candidate files'.format(len(observations.index)))
     observations['text'] = observations['file_path'].apply(lib.convert_pdf)  # get text from .pdf files
 
