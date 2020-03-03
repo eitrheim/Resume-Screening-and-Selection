@@ -84,7 +84,7 @@ def extract():
 
 
 
-    #observations = observations.head(3)
+    observations = observations.head(3)
 
 
 
