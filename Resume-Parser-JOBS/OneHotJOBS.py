@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 
-def onehot():
+def onehot(root_file_path):
     #parsed data
-    df = pd.read_csv('/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/data/output/job_description_summary_FULL.csv')
+    df = pd.read_csv(root_file_path + 'Resume-Parser-JOBS/data/output/job_description_summary_FULL.csv')
 
     ################################################################
     #ONE HOT ENCODING
@@ -65,7 +65,7 @@ def onehot():
     #ONE HOT ENCODING - EXPLODING COLUMNS
 
     import yaml
-    with open('/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/confs/config.yaml', 'r') as stream:
+    with open(root_file_path + 'Resume-Parser-JOBS/confs/config.yaml', 'r') as stream:
       yaml_file = yaml.safe_load(stream)
 
     #certifications
@@ -174,4 +174,4 @@ def onehot():
     hot['Top10Uni'] = np.repeat(1,num_rows)
     hot['GPAmax'] = np.repeat(4.0,num_rows)
 
-    hot.to_csv('/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/data/job_description_one_hot_ideal_FULL.csv', index=False)
+    hot.to_csv(root_file_path + 'Resume-Parser-JOBS/data/job_description_one_hot_ideal_FULL.csv', index=False)

@@ -13,11 +13,11 @@ from collections import namedtuple
 # hide settingwithcopywarning
 pd.options.mode.chained_assignment = None
 
-def rank(jobID, topX):
+def rank(jobID, topX, root_file_path):
 
     # read structure + one hot encoded dfs
-    job_dummies_ideal = pd.read_csv("~/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/data/job_description_one_hot_ideal_FULL.csv")
-    resume_dummies = pd.read_csv("~/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/data/output/resume_summary_one_hot.csv")
+    job_dummies_ideal = pd.read_csv(root_file_path + "Resume-Parser-JOBS/data/job_description_one_hot_ideal_FULL.csv")
+    resume_dummies = pd.read_csv(root_file_path + "Resume-Parser-master-new/data/output/resume_summary_one_hot.csv")
 
     job_features_ideal = job_dummies_ideal[job_dummies_ideal.columns[:44]]
     resume_features = resume_dummies[resume_dummies.columns[:46]]
@@ -66,8 +66,8 @@ def rank(jobID, topX):
 
 
     def GenerateCountEmbedding(req_id, job_text_df, resume_text_df):
-        pos_jd_text = job_text[job_text["ReqID"] == req_id]
-        pos_resume_text = resume_text[resume_text["ReqID"] == req_id]
+        pos_jd_text = job_text_df[job_text_df["ReqID"] == req_id]
+        pos_resume_text = resume_text_df[resume_text_df["ReqID"] == req_id]
         pos_jd_text.rename(columns={'ReqID': 'ID', 'Job Description': 'text'}, inplace=True)
         pos_jd_text.ID = req_id
         pos_jd_text = pos_jd_text[['ID', 'text']]
@@ -104,15 +104,11 @@ def rank(jobID, topX):
         output = output[output['Candidate ID'] != jobID]
         return output
 
-
     count_embeddings = GenerateCountEmbedding(jobID, job_text, resume_text)
     count_embeddings['ReqID'] = np.repeat(jobID, len(count_embeddings))
     all_features = pd.DataFrame(count_embeddings).merge(all_dummies_ideal, how="left", on=["ID", 'ReqID'])
     rankings = RecommendTop(jobID=jobID, full_df=all_features.drop('ReqID', axis=1))
 
-    try:
-        rankings = rankings[:topX]
-    except:
-        pass
+    rankings = rankings[:topX]
 
     return rankings, job_features_ideal.text[job_features_ideal.ReqID == jobID].values
