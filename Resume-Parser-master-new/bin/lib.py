@@ -3,20 +3,14 @@
 import logging
 import os
 import re
-import subprocess
 
 import pandas as pd
-# import yaml
 from ruamel.yaml import YAML
 
 import pdf2text
 import pdf2textNEWER
 
 CONFS = None
-
-AVAILABLE_EXTENSIONS = {'.csv', '.doc', '.docx', '.eml', '.epub', '.gif', '.htm', '.html', '.jpeg', '.jpg', '.json',
-                        '.log', '.mp3', '.msg', '.odt', '.ogg', '.pdf', '.png', '.pptx', '.ps', '.psv', '.rtf', '.tff',
-                        '.tif', '.tiff', '.tsv', '.txt', '.wav', '.xls', '.xlsx'}
 
 
 def load_confs(confs_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/confs/config.yaml'):

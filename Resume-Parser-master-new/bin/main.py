@@ -1,6 +1,3 @@
-# coding: utf-8
-
-# from __future__ import absolute_import
 import sys
 
 # importing user defined modules
@@ -82,6 +79,17 @@ def extract():
         candidate_file_agg.extend(folder_files)
 
     observations = pd.DataFrame(data=candidate_file_agg, columns=['file_path'])  # convert to df
+
+
+
+
+
+    #observations = observations.head(3)
+
+
+
+
+
     logging.info('Found {} candidate files'.format(len(observations.index)))
     observations['text'] = observations['file_path'].apply(lib.convert_pdf)  # get text from .pdf files
 
@@ -130,8 +138,7 @@ def load(observations):
     output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_summary.csv')
 
     logging.info('Results being output to {}'.format(output_path))
-    print('Results output to {}'.format(output_path))
-    
+
     observations.to_csv(path_or_buf=output_path, index=False, encoding='utf-8')
     logging.info('End transform')
     

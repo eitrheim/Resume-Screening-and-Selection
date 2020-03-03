@@ -1,4 +1,3 @@
-# coding: utf-8
 """
 Sectioning the resume into education, work experience, summary, technical skills, research, and activities.
 """

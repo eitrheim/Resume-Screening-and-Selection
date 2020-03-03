@@ -6,23 +6,28 @@ import sys
 def pipeline(pdf_to_text=0, jobID='abcd123', topX=100):
     if pdf_to_text == 1:
         sys.path.append("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/bin")
+        sys.path.append("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new")
         import main
+        import OneHotRESUMES
+
         main.main()
+        OneHotRESUMES.onehot()
+
+        sys.path = list(set(sys.path))
+        sys.path.remove("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new")
         sys.path.remove("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new/bin")
 
-        sys.path.append("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new")
-        import OneHotRESUMES
-        OneHotRESUMES.onehot()  # one hot resumes
-        sys.path.remove("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-master-new")
+    for i in sys.path:
+        print(i)
 
     sys.path.append("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/bin")
     import mainJOBS
-    mainJOBS.main()  # parse job descriptions
+    mainJOBS.main()
     sys.path.remove("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/bin")
 
     sys.path.append("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS")
     import OneHotJOBS
-    OneHotJOBS.onehot()  # one hot job descriptions
+    OneHotJOBS.onehot()
     sys.path.remove("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS")
 
     sys.path.append("/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/models/content_based")
@@ -35,4 +40,4 @@ def pipeline(pdf_to_text=0, jobID='abcd123', topX=100):
 
 
 if __name__ == '__main__':
-    pipeline()
+    pipeline(1, 'abcd123', 10)

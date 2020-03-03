@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import sys
 from pdfminer.pdfdocument import PDFDocument
 from pdfminer.pdfparser import PDFParser

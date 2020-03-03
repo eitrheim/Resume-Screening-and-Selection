@@ -1,11 +1,6 @@
-# coding: utf-8
-
 import logging
 import re
-from datetime import datetime
-from dateutil import relativedelta
-from gensim.utils import simple_preprocess
-import lib
+import joblib
 
 EMAIL_REGEX = r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}"
 PHONE_REGEX = r"\(?(\d{3})?\)?[\s\.-]{0,2}?(\d{3})[\s\.-]{0,2}(\d{4})"
@@ -22,37 +17,37 @@ def gpa_extractor(input_string):
 def extract_fields(df):
     # note all commas and apostrophes are removed at this point from the extract_skills_case_ functions
     print("Extracting certifications")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_whole_resume').items():
+    for extractor, items_of_interest in joblib.get_conf('case_agnostic_whole_resume').items():
         # column name is title of the sections in the yaml file
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
  
     print("Extracting universities and majors/minors")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_education').items():
+    for extractor, items_of_interest in joblib.get_conf('case_agnostic_education').items():
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(str(x.encode('utf-8', 'replace')), items_of_interest)) #.replace(' & ', ' and ')
     # TODO use word2vec to get all similar majors?
 
     print("Extracting level of education")
-    for extractor, items_of_interest in lib.get_conf('case_sensitive_education').items():
+    for extractor, items_of_interest in joblib.get_conf('case_sensitive_education').items():
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_sensitive(x, items_of_interest))
 
 #    print("Extracting coursework")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_courses').items():
+    for extractor, items_of_interest in joblib.get_conf('case_agnostic_courses').items():
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
     print("Extracting languages spoken")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_languages').items():
+    for extractor, items_of_interest in joblib.get_conf('case_agnostic_languages').items():
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
 #    print("Extracting hobbies and interests")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_hobbies').items():
+    for extractor, items_of_interest in joblib.get_conf('case_agnostic_hobbies').items():
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x, items_of_interest))
 
     print("Extracting technical skills")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_skill').items():
+    for extractor, items_of_interest in joblib.get_conf('case_agnostic_skill').items():
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x.replace('.', ''), items_of_interest))
 
     print("Extracting preferred industries")
-    for extractor, items_of_interest in lib.get_conf('case_agnostic_work').items():
+    for extractor, items_of_interest in joblib.get_conf('case_agnostic_work').items():
         df[extractor] = df['text'].apply(lambda x: extract_skills_case_agnostic(x.replace('.', ''), items_of_interest))
 
     return df
@@ -79,7 +74,7 @@ def extract_skills_case_agnostic(resume_text, items_of_interest):
         # iterate through each string in the list of equivalent words (i.e. a line in the yaml file)
         # TODO incorporate word2vec here?
         for skill_alias in skill_alias_list:
-            skill_matches += lib.term_count(resume_text.lower().replace(' and ', ' & ').replace('-', ' ').replace(':', '').replace(',', '').replace('\'', ''), skill_alias.lower())  # add the # of matches for each alias
+            skill_matches += joblib.term_count(resume_text.lower().replace(' and ', ' & ').replace('-', ' ').replace(':', '').replace(',', '').replace('\'', ''), skill_alias.lower())  # add the # of matches for each alias
 
         if skill_matches > 0:  # if at least one alias is found, add skill name to set of skills
             matched_skills.add(skill_name.replace('\x20', ''))
@@ -108,7 +103,7 @@ def extract_skills_case_sensitive(resume_text, items_of_interest):
         skill_matches = 0
         # TODO incorporate word2vec here?
         for skill_alias in skill_alias_list:
-            skill_matches += lib.term_count(resume_text.replace('-', ' ').replace(':', '').replace(',', '').replace('\'', ''), skill_alias.lower())  # add the # of matches for each alias
+            skill_matches += joblib.term_count(resume_text.replace('-', ' ').replace(':', '').replace(',', '').replace('\'', ''), skill_alias.lower())  # add the # of matches for each alias
 
         if skill_matches > 0:
             matched_skills.add(skill_name.replace('\x20', ''))
