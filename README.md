@@ -24,7 +24,7 @@ An Intelligent System to Automate Candidate Selection for Interview
 -	The first column is a unique code (ReqID) and the second is the job description (text)
 ### Step 3: Rank candidates
 -	File: `pipeline.py`
--	Update line34 `pipeline(jobID='abcd123', topX=10, root_file_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/')`    
-        -   Select jobID to rank candidates: `jobID`   
-        -   Select number of top candidates to show: `topX`   
-        -   Enter file path of the repo if on your local machine: `root_file_path`
+-	Update line 34 `pipeline(jobID='abcd123', topX=10, root_file_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/')`:
+    -   Select jobID to rank candidates: `jobID`   
+    -   Select number of top candidates to show: `topX`   
+    -   Enter file path of the repo if on your local machine: `root_file_path`
