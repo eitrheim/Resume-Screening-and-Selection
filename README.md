@@ -17,7 +17,7 @@ An Intelligent System to Automate Candidate Selection for Interview
 -	Folder: `Resume-Parser-master-new/data/input/resumes`
 -   Change the job id that new resumes are tied to:
     -   In line 34 of `Resume-Parser-master-new/bin/main.py `   
-    *OR*    
+    *----------or----------*    
     -   In the csv file directly: `Resume-Parser-master-new/data/output/resume_summary.csv`
 ### Step 2: Add job descriptions to create the ideal candidate
 -	File: `Resume-Parser-JOBS/data/job_descriptions.csv`
