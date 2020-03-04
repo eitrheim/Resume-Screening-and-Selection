@@ -110,5 +110,6 @@ def rank(jobID, topX, root_file_path):
     rankings = RecommendTop(jobID=jobID, full_df=all_features.drop('ReqID', axis=1))
 
     rankings = rankings[:topX]
+    rankings.reset_index(drop=True, inplace=True)
 
     return rankings, job_features_ideal.text[job_features_ideal.ReqID == jobID].values

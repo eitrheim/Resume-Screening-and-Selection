@@ -1,9 +1,6 @@
 Degree related:
 https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/degree-types/qualifications
 
-Majors
-https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees
-
 Colleges
 https://en.wikipedia.org/wiki/Category:University_and_college_rankings
 https://en.wikipedia.org/wiki/Professional_certification
@@ -27,7 +24,3 @@ https://github.com/stanfordmlgroup/chexpert-labeler
 https://github.com/binoydutt/Resume-Job-Description-Matching
 https://github.com/JAIJANYANI/Automated-Resume-Screening-System
 NER: https://towardsdatascience.com/a-review-of-named-entity-recognition-ner-using-automatic-summarization-of-resumes-5248a75de175
-
-bach degree
-MBA or business education
-2+ years of working experience

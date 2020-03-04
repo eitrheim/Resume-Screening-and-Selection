@@ -1,9 +1,8 @@
 from __future__ import absolute_import
-
 import sys
 
 
-def pipeline(jobID='abcd123', topX=10, root_file_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/'):
+def pipeline(job_id: str, top_x: int, root_file_path: str):
     sys.path.append(root_file_path + "Resume-Parser-master-new/bin")
     sys.path.append(root_file_path + "Resume-Parser-master-new")
     sys.path.append(root_file_path + "Resume-Parser-JOBS/bin")
@@ -23,7 +22,7 @@ def pipeline(jobID='abcd123', topX=10, root_file_path='/Users/anneitrheim/Pychar
     print('Job descriptions parsed.')
     OneHotJOBS.onehot(root_file_path)
     print('One hot created for job descriptions.')
-    ranks, jd = final_model.rank(jobID, topX, root_file_path)
+    ranks, jd = final_model.rank(job_id, top_x, root_file_path)
     print('Candidates ranked.\n')
 
     print('Job Description:', jd)
