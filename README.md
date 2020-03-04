@@ -25,6 +25,6 @@ An Intelligent System to Automate Candidate Selection for Interview
 ### Step 3: Rank candidates
 -	File: pipeline.py
 -	Update line34 `pipeline(jobID='abcd123', topX=10, root_file_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/')`    
-        -   Select jobID to rank candidates for `jobID='abcd123'`   
-        -   Select number of top candidates to show `topX=10`   
-        -   Enter file path of the repo if on local machine `root_file_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/'`
+        -   Select jobID to rank candidates: `jobID='abcd123'`   
+        -   Select number of top candidates to show: `topX=10`   
+        -   Enter file path of the repo if on your local machine: `root_file_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/'`
