@@ -1,10 +1,10 @@
-John Smith  
-
- 
-
  
 
 2222 McCoy Road     Columbus, Ohio 44444    614-555-5555    sresume@kent.edu  www.linkedin.com/in/name 
+
+John Smith  
+
+ 
 
  
  
@@ -122,7 +122,6 @@ Soccer Assistant Coach
  
 CAMPUS INVOLVEMENT 
 Member, Delta Sigma Pi 
- 
 Member, Collegiate Business Association 
  
 VOLUNTEER EXPERIENCE  
@@ -171,6 +170,8 @@ August 2015 - Present
  
 
  
+ 
+
  
 
  

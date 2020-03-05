@@ -1,3 +1,22 @@
+ 
+
+ 
+
+MAILING ADDRESS: 
+1103 W George St #3 
+Chicago, IL 60657 
+ 
+
+Chicago, IL 
+Aug 2018 – June 2021 
+
+Seattle, WA 
+Sept 2012 – June 2016 
+ 
+
+Chicago, IL 
+Aug 2016 – present 
+
      MARIN K. GOW 
 
  
@@ -7,8 +26,6 @@
 CONTACT INFORMATION: 
 Phone: (206) 327-7820 
 Email: mkgow@uchicago.edu 
- 
-
  
 
  
@@ -47,21 +64,6 @@ operations and more advanced analytics capabilities
 for a year-long system implementation at a large health payer; worked with over a hundred 
 client and vendor stakeholders to ensure a successful go-live in multiple states 
 
-MAILING ADDRESS: 
-1103 W George St #3 
-Chicago, IL 60657 
- 
-
-Chicago, IL 
-Aug 2018 – June 2021 
-
-Seattle, WA 
-Sept 2012 – June 2016 
- 
-
-Chicago, IL 
-Aug 2016 – present 
-
 American Tire Distributors 
 Data Analytics Intern 
 ▪  Analyzed the effectiveness of marketing campaigns and ranked them based on revenue lift 
@@ -73,8 +75,6 @@ and projected return
 ▪ 
 Investigated opportunities to cut shipping costs and presented recommendations 
 ▪  Designed and maintained new weekly reports to fill gaps in business information 
-
- 
 
  
 
@@ -107,17 +107,17 @@ Sept 2016 – present
 
 awareness of gender bias 
 
- 
-
 SKILLS 
 
-Data engineering/ETL, data analysis, statistical methods, time series analysis, supervised and unsupervised learning 
-methods, data visualization, technical documentation, agile development, testing, requirements gathering, project 
-management 
+ 
 
  
 
 TECHNOLOGIES 
+
+Data engineering/ETL, data analysis, statistical methods, time series analysis, supervised and unsupervised learning 
+methods, data visualization, technical documentation, agile development, testing, requirements gathering, project 
+management 
 
 SQL, SQL Server, PostgreSQL, MySQL, SQLite, SSIS, Python, R, Power BI, Tableau, AWS (S3, EC2) 
 

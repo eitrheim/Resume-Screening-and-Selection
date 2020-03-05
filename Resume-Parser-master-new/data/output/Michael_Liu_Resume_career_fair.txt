@@ -44,16 +44,19 @@ massive signal data from Cassandra server; reduced recurring coding time by at l
 •  Spearheaded data assessment project for a prospective client; successfully made a pilot deal conversion 
 Dazhong Capital Private Equity Investment Co. 
 Sr. Quantitative Analyst   
-Sep. 2015 – Jun. 2018 
 •  Defined key performance indicators (KPIs) for investment projects; built regression models to determine these KPIs with 
 
                                    
 
- 
+Sep. 2015 – Jun. 2018 
 
  
 
  
+
+ 
+
+    Shanghai, China                   
 
 creative use of features from multiple data sources; built dashboards and visualization to report insights 
 
@@ -62,8 +65,6 @@ creative use of features from multiple data sources; built dashboards and visual
 
 Initiated and drove a project to accelerate the growth and operational efficiencies of a target firm that is scheduled for 
 IPO, expecting 60%-70% return on investment; recognized by management for independence and can-do attitude 
-
-    Shanghai, China                   
 
 Industrial and Commercial Bank of China                                                                                                          Beijing, China                                                 
 Quantitative Analyst Intern                                                                                                                          May 2014 – Aug. 2014 

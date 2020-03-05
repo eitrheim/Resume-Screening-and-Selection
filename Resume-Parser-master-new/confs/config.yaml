@@ -8571,12 +8571,12 @@ case_sensitive_education:
   master_education_level:
   - - Master of Business Administration
     - Masters of Business Administration
-    - \x20MBA\x20
+    - \x20MBA
     - M[.]B[.]A[.]
   - - Master of Fine Arts
     - Masters of Fine Arts
     - M[.]F[.]A[.]
-    - \x20MFA\x20
+    - \x20MFA
     - MFA
   - - Master of Education
     - Masters of Education
@@ -8591,11 +8591,11 @@ case_sensitive_education:
     - Masters of Public Policy
     - Master in Public Policy
     - M[.]P[.]P[.]
-    - \x20MPP\x20
+    - \x20MPP
   - - Master of Business Finance
     - Masters of Business Finance
     - Master in Business Finance
-    - \x20MBF\x20
+    - \x20MBF
   - - Master of Arts
     - Masters of Arts
     - M[.]A[.]

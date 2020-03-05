@@ -6,8 +6,6 @@ Omar ALShaye
 
 EDUCATION 
 
- 
-
 University of Chicago | Chicago, IL                                                                                            Expected Winter 2020 
 Master of Science in Analytics, Data Science 
 
@@ -28,12 +26,6 @@ Systems Engineering, Alpha Pi Mu Honors Society Certificate of Excellence in Ind
  
 PROFESSIONAL EXPERIENCE 
 
- 
-
- 
-
- 
-
 NIMBL, Techedge Group | Chicago, IL                                                                            June 2019 – September 2019 
 Data Intelligence Practice – Junior Consultant 
 
@@ -45,8 +37,6 @@ deep learning (computer vision), operations research, and statistical modeling t
 ▪ 
 Investigated a new SAP Analytics Cloud client solution that integrates R based predictive modeling capabilities  
 
- 
-
 Abbott Laboratories (contract by Hiregenics) | Lake Forest, IL                                                         May 2017 – August 2017 
 Supply Chain Operations Intern  
 
@@ -56,10 +46,6 @@ Supply Chain Operations Intern
 ▪  Performed trend analysis for top tier customers to quantify benefits of order consolidation  
 ▪  Simulated packing area using Arena; recommendation reduced packing time by 2.8 minutes per unit 
 ▪  Studied outbound dock using pallet density hourly data; proposed dock composite performance index 
-
- 
-
- 
 
 RESEARCH EXPERIENCE 
 
@@ -79,8 +65,6 @@ decreased total distance travelled by couriers by 19%
 
 ▪  Built simulation TSP model for different couriers operating in a common location 
 
- 
-
 Television Manufacturing Innovation | Troy, NY                                                           January 2016 – August 2017 
 Researcher for Professor Kenneth Simons  
 
@@ -96,22 +80,37 @@ Identify target innovation characteristics yielding maximum economic efficiencie
 
  
 
+ 
+
+ 
+
+ 
+
 SKILLS AND LANGUAGES 
-
- 
-
- 
-
 Technical: R, Python, VBA, SQL, MS Office, Tableau, Arena, Julia, SAP, Keras, TensorFlow, Stata, Hadoop, Spark, Neo4j 
 Languages: English (fluent), Arabic (fluent)  
-
- 
 
  
 
 CO-CURRICULARS 
 Photography: photography-omaralshaye.com; President of UChicago and RPI Photography; Supervised 112 members 
 Alpha Pi Mu Honor Society: Promote Outreach to I.E Community; President of Rensselaer Chapter 2016-2018 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 
  
 

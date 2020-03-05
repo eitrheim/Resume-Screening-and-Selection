@@ -1,5 +1,10 @@
 Curriculum Vitae 
 
+Personal Details  
+Name:   
+
+Wong Zhong Ming           
+
  
 
  
@@ -14,10 +19,15 @@ NRIC No: S8929509B
 
  
 
-Personal Details  
-Name:   
+ 
 
-Wong Zhong Ming           
+ 
+
+ 
+
+ 
+
+ 
 
  
 
@@ -28,27 +38,17 @@ Address:          Blk 8A Boon Tiong Road,
 
 Date of Birth:  26 August 1989 
 
-Nationality:     Singaporean 
-
-Mobile No:      81339882 
-
- 
-
- 
-
-Availability: 1 month notice 
-
- 
-
- 
-
- 
-
 Race: Chinese 
+
+Nationality:     Singaporean 
 
 Marital Status: Single 
 
+Mobile No:      81339882 
+
 Email: zhongming.wong@gmail.com 
+
+Availability: 1 month notice 
 
 Working Experiences 
 1. 
@@ -102,9 +102,9 @@ various applicable regulatory compliance updates in accordance with the Securiti
 
 deadline. 
 
-  Regulatory Advisory experience in Private Banks, Private Equity and Asset Managers (RFMC and 
-
 CMSL Holders) 
+
+  Regulatory Advisory experience in Private Banks, Private Equity and Asset Managers (RFMC and 
 
   Knowledge in MAS 626, Private Banking Control, Securities and Futures Act (SFA), Financial Advisers 
 
@@ -137,11 +137,7 @@ processes, integrity of financial information and internal control systems
 
   Responsible for identifying opportunities to improve the reliability of processes and use of financial 
 
-resources 
-
   Coordinating with clients to gather information and identify gaps in controls and make practical 
-
-recommendations 
 
   Acting as the main point-of-contact for Asset Management Clients for any regulatory/compliance 
 
@@ -150,9 +146,13 @@ time
 
   Audit experience in Merchant Banks, Private Equity, REITs, Trustee Co and Asset Management 
 
-Companies 
-
   Appointed to be MAS Inspector in various MAS Agreed-Upon Procedures (AUP) for MAS Regulatory 
+
+resources 
+
+recommendations 
+
+Companies 
 
 Compliance 
 
@@ -181,18 +181,18 @@ Job Responsibilities       : Enclosed below,
   Vessel Accounts Management 
   Checking and verification of portage bills (monthly Ship expenses), manning agent statement of account 
 
-and raising of journals. 
-
-  Prepare  journals  for  accrual  of  crew  wages  /  manning  expenses,  journal  for  Lub  Oil  ROB,  journal  for 
-
-insurance prepayments, etc. 
+  Prepare journals  for accrual  of crew wages /  manning expenses, journal  for  Lub Oil  ROB, journal  for 
 
   Preparation of TT remittances for crew home allotment. 
   Reconciliation  of  Maritime  balance  sheet  items  e.g.  home  allotment,  chat  card  inventory,  ROB 
 
-provision, advance to port agent, etc. 
-
   Compilation  and  preparation  of  monthly  accounting  reports,  quarterly  closing  reports  and  provisional 
+
+and raising of journals. 
+
+insurance prepayments, etc. 
+
+provision, advance to port agent, etc. 
 
 reports. 
 
@@ -415,9 +415,6 @@ Conversant
 
  
 
-Very Good 
-Outstanding 
-
  
 
  
@@ -462,6 +459,9 @@ Singapore Armed Forces
 Deputy Manager (Accounts) 
 
 (Ms) Lynn Teo  
+
+Very Good 
+Outstanding 
 
  
  

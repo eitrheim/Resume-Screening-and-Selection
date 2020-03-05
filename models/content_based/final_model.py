@@ -112,4 +112,4 @@ def rank(jobID, topX, root_file_path):
     rankings = rankings[:topX]
     rankings.reset_index(drop=True, inplace=True)
 
-    return rankings, job_features_ideal.text[job_features_ideal.ReqID == jobID].values
+    return rankings, job_features_ideal.text[job_features_ideal.ReqID == jobID].values, all_features

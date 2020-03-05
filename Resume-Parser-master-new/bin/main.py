@@ -97,6 +97,10 @@ def extract(root_file_path):
     logging.info('Found {} candidate files'.format(len(observations.index)))
     observations['text'] = observations['file_path'].apply(lib.convert_pdf, root_file_path=root_file_path)  # get text from .pdf files
 
+    observations['text'] = observations['text'].apply(lambda x: x.replace(chr(8217), '\''))
+    # to get rid of characters that are not in utf-8
+    observations['text'] = observations['text'].apply(lambda x: x.encode('utf-8', errors='ignore').decode('utf-8'))
+
     logging.info('End extract')
     return observations
 

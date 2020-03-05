@@ -1,22 +1,32 @@
-MATTHEW ROSENTHAL 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 
 1522 West Addison Street, Apt. 2 ~ Chicago, IL 60613 | (908) 313-4339 | mjrosenthal@uchicago.edu 
 
+MATTHEW ROSENTHAL 
+
  
 
  
+
  
-EDUCATION  
+E D U C A T I O N  
  
 University of Chicago, Chicago, IL        
 Master of Science in Analytics 
 Relevant Courses: Machine Learning, Big Data Platforms, Time-Series Data Analysis 
  
 Washington University in St. Louis, St. Louis, MO  
- 
 Bachelor of Arts Economics and Biology (cum laude) 
  
-TECHNICAL SKILLS 
+T E C H N I C A L   S K I L L S  
 • Unix/Linux, R, Python, SQL, STATA, MS Office Suite, both Windows & MAC OSX operating systems 
 
  
@@ -39,19 +49,16 @@ TECHNICAL SKILLS
 
  
 
-                       2007-2011 
-
       2018-Present 
 
+                       2007-2011 
+
  
-PROJECT EXPERIENCE 
+P R O J E C T   E X P E R I E N C E  
  
 The Kraft Heinz Company, Chicago, IL | Analytics Capstone Project 
+
 •  Employed a variety of statistical modeling techniques to help predict the length of time it will take to fill open 
-
- 
-
-2019-Present 
 
 positions, allowing Human Resources to allocate resources more efficiently. 
 
@@ -64,14 +71,15 @@ to maximize predictive power.
 K Nearest Neighbor algorithm to impute any missing data points when appropriate. 
 
  
-PROFESSIONAL EXPERIENCE 
+P R O F E S S I O N A L   E X P E R I E N C E  
  
 Astellas Pharma US, Inc., Northbrook, IL | Summer Intern 
-• 
 
- 
+2019-Present 
 
 2019-2019 
+
+• 
 
 Implemented a combination of big data and machine learning techniques, provided the commercial team with 
 insights to tailor Xospata sales presentations to individual physicians, to increase the presentations’ effectiveness. 
@@ -81,13 +89,13 @@ helped create more detailed physician profiles for the commercial team’s use.
 
 •  Crafted a report with data visualization created in Tableau to communicate key learnings in an engaging manner.  
 •  Routinely manipulated large datasets that include 3+ million individual medical insurance claims using SQL. 
+
  
 The Alexander Group, Inc., Chicago, IL | Market Trends Business Analyst 
-•  Managed industry surveys with 40-50 participants that enhanced Alexander Group’s go-to-market strategy and 
 
 2016-2018 
 
- 
+•  Managed industry surveys with 40-50 participants that enhanced Alexander Group’s go-to-market strategy and 
 
 contributed to the sale of over 10 consulting service projects, two worth over $1 million. 
 
@@ -109,11 +117,10 @@ strategy recommendations.
  
 
 Euromonitor International, Inc., Chicago, IL | Consulting Analyst 
-•  Oversaw the execution of multiple custom market research projects for large multi-national consumer packaged 
 
 2012-2016 
 
- 
+•  Oversaw the execution of multiple custom market research projects for large multi-national consumer packaged 
 
 goods manufacturers across a wide variety of industries. 
 

@@ -4,11 +4,11 @@ nathan.eitrheim@gmail.com
 
 Education 
 
+ 
+
 Am Waeldchen 14 
 Hauptstuhl, 66851 
 Germany 
-
- 
 
 Texas A&M University, College Station, TX 
 M.S. in Mechanical Engineering 
@@ -65,9 +65,10 @@ o  Upgrade of a mechanical seal on a polymer extruder
 o  Various pump upgrade projects 
 
 •  Troubleshoot issues and oversee overhauls of mechanical equipment as part of day to day 
-o  Pumps, Compressors, Blowers, Rotary Feeders, Extruders, Cooling Towers, Heat 
 
 activities including: 
+
+o  Pumps, Compressors, Blowers, Rotary Feeders, Extruders, Cooling Towers, Heat 
 
 Exchangers, Pressure Vessels, Piping, etc. 
 

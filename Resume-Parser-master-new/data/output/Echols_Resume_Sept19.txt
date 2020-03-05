@@ -3,14 +3,39 @@ Matthew Echols
 1701 W Summerdale Ave, Chicago, IL 60640, USA 
 
 Chicago, IL, 60640 
+
 (843)  441-4590 
 
 echolsmatthewg@gmail.com 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
 
 CAREER OBJECTIVE 
 Detail-oriented Analytics major (4.0 GPA) currently attending University of Chicago.  Aiming to leverage 
 proven creative thinking, organizational, and teamwork skills to successfully fill the data scientist role at your company. 
 Seen as adaptable by my peers, I can be relied upon to think outside the box to question any missing assumptions. 
+
 EDUCATION 
 UNIVERSITY OF CHICAGO                                                                                                                         Chicago, IL 
 Masters of Science Analytics Candidate (Expected graduation Apr 2020) 
@@ -46,6 +71,7 @@ Laboratory Manager                                                              
      Present research findings to principle investigator/investors. 
 
 ADDITIONAL SKILLS 
+
   Python (SciPi, Numpy, scikit-learn, Pandas, matplotlib, keras, tensorflow, seaborn, plotly, etc)  
   R (dplyr, ggplot2, etc) 
      SQL  
@@ -57,28 +83,5 @@ CREDENTIALS AND LICENSES
      Programming Certification (Northwestern University) 
 
 1701 W Summerdale Ave, Chicago, IL 60640, USA       Chicago, IL, 60640     (843) 441-4590      echolsmatthewg@gmail.com 
-
- 
- 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
- 
- 
- 
- 
- 
 
 

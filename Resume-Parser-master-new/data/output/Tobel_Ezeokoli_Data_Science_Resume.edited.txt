@@ -6,15 +6,12 @@ TOBEL EZEOKOLI
 
  
 
+ 
+
 EDUCATION 
 University of Chicago 
 Masters of Science in Data Analytics  
 GPA: 3.87/4.0 | Expected graduation date: Mar 2020 
-
- 
-
-Chicago, IL 
-Aug 2018 – Present 
 
 •  Recipient, University of Chicago Full Tuition Scholarship 
 •  2019 Forbes 30 Under 30 Scholar 
@@ -27,9 +24,6 @@ GPA: 3.75/4.0 | First Class Honors (Magna Cum Laude)
 
 •  Dean’s List 2013 – 2017 
 •  Study Abroad Exchange Program; Macalester College, St. Paul MN, USA (Fall 2015) 
-
-Berekuso, Ghana 
-Sep 2013 – Jun 2017 
 
  
 SKILLS 
@@ -45,9 +39,6 @@ RELEVANT EXPERIENCE
 University of Chicago Graham School 
 Data Mining Teaching Assistant (Part-time) 
 
-Chicago, IL 
-Sept 2019 – Present 
-
 •  Educate students on how to implement and validate statistical & machine learning concepts (using Python & R) 
 •  Grade assignments and communicate useful feedback to over 60 graduate students in the MSc. Analytics program  
 •  Work with faculty to design weekly class material; on Data Mining, Wrangling and Modelling techniques  
@@ -58,9 +49,6 @@ Gradient Boosting Machines, Decision Trees and Random Forests to students with d
  
 Kraft Heinz Corporation 
 Data Science Consultant  
-
-Chicago, IL 
-Apr 2019 – Mar 2020 
 
 •  Developed an analytical tool that informs the Human Resources team’s hiring efforts to target the job market 
 •  Built Machine Learning models and Deep Learning Neural Networks to predict how long it takes to fill a job role  
@@ -73,9 +61,6 @@ Apr 2019 – Mar 2020
 University of Chicago Booth School of Business  
 Research Assistant 
 
-Chicago, IL 
-June – Sept 2019 
-
 •  Built business domain knowledge by collating both quantitative and qualitative data for over 500 companies' 
 
 Corporate Social Responsibility activities in the years 2017 and 2018 spanning across 30 unique industries  
@@ -85,9 +70,20 @@ Corporate Social Responsibility activities in the years 2017 and 2018 spanning a
 •  Collaborated with researchers to build an appropriate and consistent database for Booth faculty and students 
 •  Analyzed effects of company actions and policies on the success of the company and reported findings to faculty 
 
- 
-Jetlink  
-Business Analyst 
+Chicago, IL 
+Aug 2018 – Present 
+
+Berekuso, Ghana 
+Sep 2013 – Jun 2017 
+
+Chicago, IL 
+Sept 2019 – Present 
+
+Chicago, IL 
+Apr 2019 – Mar 2020 
+
+Chicago, IL 
+June – Sept 2019 
 
      Lagos, Nigeria 
 Jan – Jul 2018 
@@ -101,6 +97,10 @@ suppliers and clients which was expected to increase the firm’s annual revenue
 dashboards to monitor the performance of the firm using these KPI’s 
 
 •  Developed monthly report of company’s performance and presented recommendations to the executive managers 
+
+ 
+Jetlink  
+Business Analyst 
 
  
 

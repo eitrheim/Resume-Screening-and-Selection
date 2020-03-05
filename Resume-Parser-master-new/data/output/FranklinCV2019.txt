@@ -1,6 +1,7 @@
  
 
 Diana M. Franklin 
+
 Curriculum Vitae 
 
  
@@ -114,25 +115,22 @@ Optional Info (e.g., Current
 Employment) 
 
  
-Chair 
  
-Member 
 Intel 
-Member 
 IBM 
-Member 
 Facebook 
-Member 
 AppFolio 
-Chair 
 Foothill College 
-Member 
-Member 
 Intel 
+
+Member 
+Member 
 Member  AMD 
 Member  KLA Tencor 
 
  
+
+ 
  
  
  
@@ -141,6 +139,15 @@ Member  KLA Tencor
  
  
  
+
+Chair 
+
+Chair 
+
+Member 
+Member 
+Member 
+Member 
 
 2022 
 2021 
@@ -202,11 +209,10 @@ Sue Krause
 Jennifer Palmer    
 Carla Strickland    
 
+ 
 Name 
  
- 
 Janet Liao 
- 
 David Weintrop   
 Hilary Dwyer  
  
@@ -272,9 +278,6 @@ reading skills and meta-cognition in programming for
 struggling learners 
 UChicago Lab School Computational Thinking Initiative 
 
-Amount 
-$4M 
-
 $10M 
 
 $734K 
@@ -283,7 +286,27 @@ $2.5M
 
 $325K 
 
+Amount 
+$4M 
+
+Prin. Invest. 
+
+Co-PI (PI of 
+UChicago Site) 
+Co-PI (PI Chong)  
+
+PI (Co-PIs at CPS, 
+UMaryland)  
+
+Co-PI (PI of 
+UChicago Site)  
+PI (Co-PI at  
+TX State)  
+
 $279K 
+
+Co-PI (PI 
+Abelmann)  
 
 Years 
 2019-
@@ -303,23 +326,6 @@ Years
 
  
 
-Prin. Invest. 
-
-Co-PI (PI of 
-UChicago Site) 
-Co-PI (PI Chong)  
-
-PI (Co-PIs at CPS, 
-UMaryland)  
-
-Co-PI (PI of 
-UChicago Site)  
-PI (Co-PI at  
-TX State)  
-
-Co-PI (PI 
-Abelmann)  
-
 2  
 
 2015-
@@ -333,29 +339,6 @@ Abelmann)
 2010-
 2013 
 
-$1.2M 
-
-$600K 
-
-$140K 
-
-SP (6 Co-PIs at 
-UIUC, UChicago)  
-PI (1 Co-PI in 
-Education)  
-Co-PI (PI Chong) 
-
-$500K 
-
-PI (1 Co-PI) 
-
-PI (2 Co-PIs, 1 in 
-Dept of Chicana/o 
-Studies) 
-PI 
-
- $300K  Co-PI (PI Chong) 
-
 NSF 
 
 NSF 
@@ -365,9 +348,32 @@ Mathematics
 CER: DEPICT: Developing Elementary (Learning) 
 Progressions to Integrate Computational Thinking 
 
+$1.2M 
+
+$600K 
+
 Army-ICB  Energy-Efficient Microprocessors using Memristive Neural  
 
+$140K 
+
+SP (6 Co-PIs at 
+UIUC, UChicago)  
+PI (1 Co-PI in 
+Education)  
+Co-PI (PI Chong) 
+
+ $300K  Co-PI (PI Chong) 
+
+PI (2 Co-PIs, 1 in 
+Dept of Chicana/o 
+Studies) 
 PI 
+
+PI 
+
+NSF 
+
+NSF 
 
 NSF 
 
@@ -381,9 +387,9 @@ $300K
 
 $533K 
 
-NSF 
+$500K 
 
-NSF 
+PI (1 Co-PI) 
 
 Networks for Prediction 
 CCF: Minimal Multithreading - 
@@ -473,6 +479,8 @@ Position
 
  
 
+Undergraduate Committee 
+
  
 
  
@@ -481,8 +489,6 @@ Department Service
 Member 
 
  
-
-Undergraduate Committee 
 
 3  
 
@@ -507,12 +513,31 @@ No.
 
 Title and Authors 
 
+Publisher 
+
 Year 
+
 1999 
 
  “Cache Coherence in Page-Based Intelligent 
 Memory,” D. Keen (Franklin), F. T. Chong, M. Oskin, 
 And J. Hensley. 
+
+2 
+
+1999 
+
+2.5* 
+
+1999 
+
+3 
+
+1999 
+
+4 
+
+2000 
 
 “Exploiting ILP in Page-Based Intelligent Memory,” 
 M. Oskin, J. Hensley, D. Keen (Franklin), F. T. Chong, 
@@ -532,6 +557,12 @@ Keen (Franklin), M. Oskin, J. Hensley, And F. T.
 Chong. 
  
 
+2000 
+
+2000 
+
+2001 
+
 “Reducing Cost And Tolerating Defects in Page-Based 
 Intelligent Memory,” M. Oskin, D. Keen (Franklin), J. 
 Hensley, L. V. Lita, And F. T. Chong.  
@@ -543,40 +574,22 @@ Hensley, And D. Keen (Franklin).
 Safety,” D. Keen (Franklin), F. Chong, P. Devanbu, M. 
 Farrens, J. Brown, J. Hollfelder, And X.-T. Zhuang. 
 
+8 
+
+2002 
+
 “IOP: A Preliminary Study of Instruction-Level Object 
 Parallelism For Superscalars,” D. Keen (Franklin), And 
 F. Chong. 
+
+9 
+
+2002 
 
 “Operating Systems Techniques For Parallel 
 Computation In Intelligent Memory,” M. Oskin, D. 
 Keen (Franklin), J. Hensley, L. V. Lita, And F. T. 
 Chong. 
-
-2 
-
-1999 
-
-2.5* 
-
-1999 
-
-1999 
-
-2000 
-
-2000 
-
-2000 
-
-2001 
-
-2002 
-
-2002 
-
-3 
-
-4 
 
 5 
 
@@ -584,34 +597,8 @@ Chong.
 
 7 
 
-8 
-
-9 
-
  
 
-Category 
-Refereed 
-Workshop 
-Paper 
-
-Refereed 
-Conference 
-Paper 
-
-Refereed 
-Conference 
-Paper 
-
-Refereed 
-Workshop 
-Paper 
-
-Refereed 
-Conference 
-Paper 
-
-Publisher 
 Eighth Workshop on 
 Scalable Shared-Memory 
 Multiprocessors held in 
@@ -639,9 +626,32 @@ Architecture.
 International Conference on 
 Computer Design. 
 
+Category 
+
+Refereed 
+Workshop 
+Paper 
+
 Refereed 
 Conference 
 Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Workshop 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
 Parallel Processing Letters  Article 
 
 Refereed 
@@ -669,11 +679,20 @@ Paper
 
 10 
 
+2003 
+
 11 
 
 2003 
 
-2003 
+“Cache Coherence in Intelligent Memory Systems,” D. 
+Keen (Franklin), M. Oskin, J. Hensley, And F. T. 
+Chong. 
+“Synchroscalar:  Initial Design Lessons in Power-
+Aware Design of Tile-Based Embedded Architectures,” 
+J. Oliver, R. Rao, P. Sultana, J. Crandall, E. 
+Czernikowski, L. W. Jones, D. Copsey, D. Keen 
+(Franklin), V. Akella, F. T. Chong.   
 
 12 
 
@@ -683,11 +702,19 @@ Paper
 
 2004 
 
+“Synchroscalar: A Multiple Clock Domain Power-
+Aware Tile-Based Embedded Processor,”  J. Oliver, R. 
+Rao, P. Sultana, J. Crandall, E. Czernikowski, L. Jones, 
+D. Franklin, V. Akella, And F. T. Chong. 
+“Challenges in Reliable Quantum Computing,” D. 
+Franklin And F. Chong. 
+ 
+
 14 
 
-15 
-
 2005 
+
+15 
 
 2005 
 
@@ -702,23 +729,6 @@ Paper
 18 
 
 2006 
-
-“Cache Coherence in Intelligent Memory Systems,” D. 
-Keen (Franklin), M. Oskin, J. Hensley, And F. T. 
-Chong. 
-“Synchroscalar:  Initial Design Lessons in Power-
-Aware Design of Tile-Based Embedded Architectures,” 
-J. Oliver, R. Rao, P. Sultana, J. Crandall, E. 
-Czernikowski, L. W. Jones, D. Copsey, D. Keen 
-(Franklin), V. Akella, F. T. Chong.   
-
-“Synchroscalar: A Multiple Clock Domain Power-
-Aware Tile-Based Embedded Processor,”  J. Oliver, R. 
-Rao, P. Sultana, J. Crandall, E. Czernikowski, L. Jones, 
-D. Franklin, V. Akella, And F. T. Chong. 
-“Challenges in Reliable Quantum Computing,” D. 
-Franklin And F. Chong. 
- 
 
 “Experiences with the Blackfin Architecture for 
 Embedded Systems Education,” Diana Franklin and 
@@ -763,8 +773,6 @@ Diana Franklin.
 “Tile Size Selection For Low-Power, Tile-Based 
 Architectures,”  J. Oliver, R. Rao, D. Franklin, V. 
 Akella, and F. T. Chong. 
-
- 
 
 IEEE Transactions on 
 Computers 
@@ -863,6 +871,8 @@ Refereed
 Conference 
 Paper 
 
+ 
+
 5  
 
 22 
@@ -919,6 +929,7 @@ Gilbert, and D. Fan.
 ``PSMalloc: Content Based Memory Management for 
 MPI Applications,'' S. Biswas, D. Franklin, T. 
 Sherwood, F. Chong, B. Supinski, M. Schulz 
+
 "Conflict-Avoidance in Multicore Caching for Data-
 Similar Executions," S. Biswas, D. Franklin, T. 
 Sherwood, F. Chong 
@@ -947,9 +958,9 @@ Zhou, and F. T. Chong.
 
 28 
 
-29 
-
 2008 
+
+29 
 
 2009 
 
@@ -1046,6 +1057,7 @@ International Symposium
 on Pervasive Systems, 
 Algorithms, and Networks 
 (I-SPAN 2009) 
+
 Conference of the 
 Southwestern Region of the 
 Consortium for Computing 
@@ -1062,6 +1074,7 @@ Green Computing
 Refereed 
 Workshop 
 Paper 
+
 Refereed 
 Conference 
 Paper 
@@ -1080,7 +1093,13 @@ Paper
 
 6  
 
-36 
+40 
+
+2011 
+
+Exercises for Appendix C, Diana Franklin 
+
+36 
 
 2010 
 
@@ -1096,9 +1115,41 @@ Paper
 
 2011 
 
+41 
+
+2011 
+
+42 
+
+2011 
+
+43 
+
+2011 
+
+44 
+
+2011 
+
+45 
+
+2012 
+
+46 
+
+2012 
+
+47 
+
+2013 
+
 “SBLLMalloc, Version 1,” Susmit Biswas, Diana 
 Franklin, Timothy Sherwood, Frederic T. Chong, 
 Bronis R. de Supinski, Martin Schulz. 
+
+arch.cs.ucsb.edu/sbllmalloc  Software 
+
+Release 
 
 "Minimal Multi-Threading: Finding and Removing 
 Redundant Instructions in Multi-Threaded 
@@ -1112,12 +1163,6 @@ Cisneros, F Lopez, A Gonzalez, A Hernandez, S
 Jones, J Lopez, C Lu, N Moreno, P Ortiz, M Rochin, S 
 Smith 
 Exercises for Chapter 1, Diana Franklin 
-
-40 
-
-2011 
-
-Exercises for Appendix C, Diana Franklin 
 
 “Exploiting Data Similarity to Reduce Memory 
 Footprints,” Susmit Biswas, Bronis R. de Supinski, 
@@ -1152,39 +1197,6 @@ Hill, Michelle Len, Greg Dreschler, Gerardo Aldana,
 Paulo Almeida-Tanaka, Brynn Kiefer, Chelsea Laird, 
 Felicia Lopez, Christine Pham, Jessica Suarez, Robert 
 Waite 
-
-41 
-
-2011 
-
-42 
-
-2011 
-
-43 
-
-2011 
-
-44 
-
-2011 
-
-45 
-
-2012 
-
-46 
-
-2012 
-
-47 
-
-2013 
-
- 
-
-arch.cs.ucsb.edu/sbllmalloc  Software 
-Release 
 
 International Symposium 
 On Microarchitecture 
@@ -1268,65 +1280,20 @@ Refereed
 Conference 
 Paper 
 
+ 
+
 7  
 
 48 
 
 2013 
 
-49 
-
-2013 
-
-50 
-
-2013 
-
-51 
-
-2013 
-
-52 
-
-2013 
-
-53 
-
-2013 
-
-54 
-
-2013 
-
-55 
-
-2014 
-
-56 
-
-2014 
-
-57 
-
-2014 
-
-58 
-
-59 
-
-2015 
-
-2015 
-
-60 
-
-2015 
-
- 
-
  “Hairball: Lint-inspired Static Analysis of Scratch 
 Projects,” Bryce Boe, Charlotte Hill, Michelle Len, 
 Greg Dreschler, Diana Franklin, Phillip Conrad,  
+
+SIGCSE Technical 
+Symposium 
 
 “Practical Guide to Gender Diversity for Computer 
 Science Faculty,” Diana Franklin 
@@ -1340,6 +1307,7 @@ Strukov, Timothy Sherwood and Frederic Chong
 “Optimized Code for a Solovay-Kitaev Quantum 
 Rotation Generator,” Daniel Kudrow, Kenneth Bier, 
 Zhaoxia Deng, Diana Franklin, and Frederic T. Chong. 
+
 “Barely Alive Servers: Greener Datacenters 
 Through Memory-Accessible, Low-Power States,” 
 Vlasia Anagnostopoulou, Susmit Biswas, Heba 
@@ -1382,8 +1350,62 @@ Science in the Elementary Classroom,” Diana
 Franklin, Charlotte Hill, Hilary Dwyer, Ashley 
 Iveland, Alexandria Killian, and Danielle Harlow. 
 
-SIGCSE Technical 
-Symposium 
+49 
+
+2013 
+
+50 
+
+2013 
+
+51 
+
+2013 
+
+52 
+
+2013 
+
+53 
+
+2013 
+
+54 
+
+2013 
+
+55 
+
+2014 
+
+56 
+
+2014 
+
+57 
+
+2014 
+
+58 
+
+2015 
+
+59 
+
+2015 
+
+60 
+
+2015 
+
+ 
+
+Refereed 
+Conference 
+Paper 
+
+Edited 
+Book 
 
 Morgan-Claypool 
 
@@ -1395,22 +1417,16 @@ Refereed
 Conference 
 Paper 
 
-Edited 
-Book 
-
-Refereed 
-Conference 
-Paper 
-
 http://www.cs.ucsb.edu/~dk
 udrow/downloads/skoptimi
 zed.tar.gz 
-Sustainable Green 
-Computing Systems; 
-Springer Verlag Publishers 
 
 Software 
 release 
+
+Sustainable Green 
+Computing Systems; 
+Springer Verlag Publishers 
 
 Refereed 
 Book 
@@ -1430,6 +1446,14 @@ Conference (PERC)
 SIGCSE Technical 
 Symposium 
 
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
 IEEE International Parallel 
 & Distributed Processing 
 Symposium (IPDPS)  
@@ -1439,6 +1463,14 @@ Parallel Architectures and
 Compilation Techniques 
 (PACT 2014) 
 
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
 Communications of the 
 Association for Computing 
 Machinery, Viewpoints 
@@ -1447,22 +1479,6 @@ Symposium
 
 SIGCSE Technical 
 Symposium 
-
-Refereed 
-Conference 
-Paper 
-
-Refereed 
-Conference 
-Paper 
-
-Refereed 
-Conference 
-Paper 
-
-Refereed 
-Conference 
-Paper 
 
 Edited 
 Column 
@@ -1529,8 +1545,6 @@ Paper
 
 2017 
 
- 
-
 “Compiler Management of Communication and 
 Parallelism for Quantum Computation,” Jeff Heckey, 
 Ali JavadAbhari, Shruti Patil, Daniel Kudrow, Ken 
@@ -1594,6 +1608,10 @@ Programming Languages
 and Operating Systems 
 (ASPLOS) 
 
+Refereed 
+Conference 
+Paper 
+
 AERA (American 
 Education Research 
 Association) 
@@ -1612,21 +1630,6 @@ International Computer
 Education Research 
 Conference (ICER 2015) 
 
-Symposium on Computer 
-Science Education 
-(SIGCSE) 
-
-Symposium on Computer 
-Science Education 
-(SIGCSE) 
-
-ACM SIGCHI Interactive 
-Design for Children (ICS) 
-
-Refereed 
-Conference 
-Paper 
-
 Refereed 
 Poster 
 
@@ -1644,13 +1647,24 @@ Refereed
 Conference 
 Paper 
 
-Refereed 
-Conference 
-Paper 
+Symposium on Computer 
+Science Education 
+(SIGCSE) 
 
 Refereed 
 Conference 
 Paper 
+
+Symposium on Computer 
+Science Education 
+(SIGCSE) 
+
+Refereed 
+Conference 
+Paper 
+
+ACM SIGCHI Interactive 
+Design for Children (ICS) 
 
 Refereed 
 Conference 
@@ -1676,6 +1690,10 @@ Symposium on Computer
 Science Education 
 (SIGCSE) 
 
+Refereed 
+Conference 
+Paper 
+
 Symposium on Computer 
 Science Education 
 (SIGCSE) 
@@ -1684,9 +1702,7 @@ Refereed
 Conference 
 Paper 
 
-Refereed 
-Conference 
-Paper 
+ 
 
 9  
 
@@ -1752,6 +1768,20 @@ Binkowski, Cheryl Moran, Diana Franklin.
 Compilers Given Hardware Constraints,” Frederic T. 
 Chong, Diana Franklin, Margaret Martonosi. 
 
+International Conference on 
+Computer Education 
+Research (ICER ’17) 
+
+Refereed 
+Conference 
+Paper 
+
+Nature, Vol. 549 No. 7671 
+pp 180-187 
+
+Refereed 
+Journal 
+
 “Optimized Surface Code communication in 
 Superconducting Quantum Computers,” Ali Javadi-
 Abhari, Pranav Gokhale, Adam Holmes, Diana 
@@ -1800,20 +1830,6 @@ for Youth to Reflect, Project, and Apply their Emerging
 Identities,” Merijke Coenraad, Jennifer Palmer, Diana 
 Franklin, David Weintrop. 
  
-
-International Conference on 
-Computer Education 
-Research (ICER ’17) 
-
-Refereed 
-Conference 
-Paper 
-
-Nature, Vol. 549 No. 7671 
-pp 180-187 
-
-Refereed 
-Journal 
 
 International Symposium 
 on Microarchitecture 
@@ -1872,17 +1888,17 @@ Science Education
 (SIGCSE)  
  
 
+Refereed 
+Conference 
+Paper 
+
+Refereed 
+Conference 
+Paper 
+
 Microprocessors and 
 Microsystems 
  
-
-Refereed 
-Conference 
-Paper 
-
-Refereed 
-Conference 
-Paper 
 
 Article 
 
@@ -1898,6 +1914,26 @@ Paper
 
 Accepted Publications 
 86 
+
+2019 
+
+87 
+
+2019 
+
+88 
+
+2019 
+
+89 
+
+2019 
+
+90 
+
+2019 
+
+91 
 
 2019 
 
@@ -1930,30 +1966,6 @@ Saranya Turimella, Max White, & Diana Franklin
 between Reading and Math Proficiency, and 4th-Grade 
 CS Learning Outcomes,”  Jean Salac, Cathy Thomas, 
 Bryan Twwarek, William Marsland, & Diana Franklin 
- 
-
-87 
-
-2019 
-
-88 
-
-2019 
-
-89 
-
-2019 
-
-90 
-
-2019 
-
-91 
-
-2019 
-
- 
-
  
 
 ACM Transactions on 
@@ -2007,6 +2019,10 @@ Paper
 Refereed 
 Conference 
 Paper 
+
+ 
+
+ 
 
 11  
 

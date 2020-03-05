@@ -27,6 +27,7 @@ PROJECTS
 Sentiment Analysis using Naive-Bayes
 
 Graduate
+
 • Classiﬁed movie reviews as positive or negative with 75% accuracy by implementing a
 
 Naive-Bayes algorithm in Python.
@@ -34,11 +35,13 @@ Naive-Bayes algorithm in Python.
 NBA Play-By-Play Data Cleaning
 
 Summer research with USF Faculty
+
 • Cleaned play-by-play data for every NBA game from 2006 to 2012 using Pandas (Python).
 
 Analysis of USF Men’s Basketball Statistics using R
 
 Undergraduate
+
 • Predicted importance of players on the court using simple and multiple linear regression
 
 and created visualizations of player statistics using R.
@@ -46,10 +49,12 @@ and created visualizations of player statistics using R.
 Explaining Artiﬁcial Neural Networks (ANN)
 
 Undergraduate
+
 • Prepared two student lectures teaching classmates basic implementation and theory behind
-• Preprocessed ﬁngerprint images as matrices in Matlab and performed pattern classiﬁcation
 
 supervised learning, backpropagation, and pattern recognition with ANN.
+
+• Preprocessed ﬁngerprint images as matrices in Matlab and performed pattern classiﬁcation
 
 using an ANN program.
 

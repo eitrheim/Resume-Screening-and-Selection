@@ -1,6 +1,10 @@
-900 N Lake Shore Drive, Chicago, IL | (708)510-8828 | mairuo@uchicago.edu 
+          Chicago, IL                                                 
+
+                          Seattle, WA                                               
 
 MICHAEL LIU 
+
+900 N Lake Shore Drive, Chicago, IL | (708)510-8828 | mairuo@uchicago.edu 
 
 EDUCATION         
 The University of Chicago                                                                                                                             
@@ -8,8 +12,6 @@ Master of Science in Analytics                                                  
 •  Relevant Coursework: Machine Learning & Predictive Analytics, Data Mining Principles, Data Engineering and Big 
 
                                                                                                                                                                      
-
-          Chicago, IL                                                 
 
 Data Platforms, Time Series Analysis, Data Visualization, Bayesian Methods, Statistical Analysis, Deep Learning 
 
@@ -49,10 +51,6 @@ as much as $21,800 per week per wind farm
 
  
 
-                                                      Chicago, IL                   
-
-                          Seattle, WA                                               
-
 •  Explored ways to create new features with third party data sources and research from SME in order to reduce model 
 
 RMSE by 9%; the resulting benchmark model for wind turbine efficiency is unrivaled in the current market         
@@ -78,11 +76,13 @@ Initiated a project to accelerate an online skill-share platform start-up that i
 
 Sep. 2015 – Jun. 2018 
 
-    Shanghai, China                   
-
 •  Pinpointed potential opportunities through data-driven market research; modeled NPV and IRR for investment projects; 
 
 distilled information useful for accelerating the growth of investment projects 
+
+                                                      Chicago, IL                   
+
+    Shanghai, China                   
 
 •  Communicated directly with clients about the implementation of business strategy and funding allocation 
 Industrial and Commercial Bank of China                                                                                                          Beijing, China                                                 
@@ -107,8 +107,8 @@ Team Leader, Big Data Final Project
 •  Stored over 3 GB of structured donation and donor data into an on-premise Hadoop file system for distributed computing 
 •  Uncovered insights from data using Hive queries; trained a classifier to identify potential donors using PySpark ML tool     
 •  Helped DonorsChoose.org build recommender system to send emails that motivate donors, using data science for good     
-Chicago, IL 
 Airbnb Listing Strategic Pricing Analysis   
+Chicago, IL 
 Team Leader, Data Mining Final Project   
 Oct. 2018 – Dec. 2018 
 •  Gathered data with over 200,000 rows from Airbnb using JSON API; designed and engineered an OLAP database in 
