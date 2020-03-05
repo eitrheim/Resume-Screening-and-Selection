@@ -14,7 +14,7 @@ def pipeline(job_id: str, top_x: int, root_file_path: str):
     import OneHotJOBS
     import final_model
 
-    main.main(root_file_path)
+    main.main(root_file_path, job_id)
     print('New resumes converted to text.')
     OneHotRESUMES.onehot(root_file_path)
     print('One hot created for resumes.')
@@ -79,11 +79,20 @@ def pipeline(job_id: str, top_x: int, root_file_path: str):
         plt.savefig('distance_PCA_improved.png')
         plt.show()
 
-    plot_mds(all_features, 'abcd123', ranks.head(10))
-    plot_pca(all_features, 'abcd123', ranks.head(10))
+    plot_mds(all_features, job_id, ranks.head(10))
+    plot_pca(all_features, job_id, ranks.head(10))
 
     print('done')
 
 
 if __name__ == '__main__':
-    pipeline('abcd123', 10, '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/')
+    pipeline('jpm1234', 10, '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/')
+
+# job id options:
+# abcd123 ibm data science internship
+# cash123 cashier
+# wmp1234 west monroe graduate tech
+# jpm1234 jpmorgan summer financial analyst
+# pgi5678 fixed income analyst
+# eqty373 equity analyst
+# acrm789 associate account relationship mgr

@@ -11,7 +11,7 @@ import os
 import pandas as pd
 import numpy as np
 import re
-#import spacy
+import spacy
 #import en_core_web_sm
 
 
@@ -23,7 +23,7 @@ parentdir = os.path.dirname(currentdir)  # get parent directory of main.py (wher
 sys.path.insert(0, parentdir)  # sys.path is the module search path
 
 
-def main(root_file_path):
+def main(root_file_path, job_id):
 
     logging.getLogger().setLevel(logging.WARNING)  # essentially does print statements to help debug (WARNING)
     # logging explained https://appdividend.com/2019/06/08/python-logging-tutorial-with-example-logging-in-python/
@@ -31,7 +31,7 @@ def main(root_file_path):
     observations = extract(root_file_path)  # get text from pdf resumes
 
     # to make it like Kraft's
-    observations['ReqID'] = np.repeat('abcd123', len(observations))
+    observations['ReqID'] = np.repeat(job_id, len(observations))
     observations.dropna(inplace=True)
 
     # to compare it to already parsed info to not have to reparse
@@ -60,12 +60,12 @@ def main(root_file_path):
     observations = resume_sectioning.combine_sections_preparse(observations)
     observations = observations[observations.text == observations.text]
 
-    # print("Loading Spacy Corpus")
-    # #nlp = spacy.load('en_core_web_sm')
+    print("Loading Spacy Corpus")
+    nlp = spacy.load('en_core_web_sm')
     # nlp = en_core_web_sm.load()
-    # print("Spacy Corpus Loaded \n")
+    print("Spacy Corpus Loaded \n")
 
-    observations = transform(observations, root_file_path)  #, nlp)  # extract data from resume sections
+    observations = transform(observations, root_file_path, nlp)  # extract data from resume sections
 
     # to combine the sub-sections one last time
     observations = resume_sectioning.combine_sections_postparse(observations)
@@ -100,15 +100,17 @@ def extract(root_file_path):
     observations['text'] = observations['text'].apply(lambda x: x.replace(chr(8217), '\''))
     # to get rid of characters that are not in utf-8
     observations['text'] = observations['text'].apply(lambda x: x.encode('utf-8', errors='ignore').decode('utf-8'))
+    # to get rid of extra whitespace
+    observations['text'] = observations['text'].apply(lambda x: re.sub(' +', ' ', x))
 
     logging.info('End extract')
     return observations
 
 
-def transform(observations, root_file_path):  #, nlp):
+def transform(observations, root_file_path, nlp):
     logging.info("Extracting email, phone, GPA, and dates of work experience")
     observations = observations.fillna('')
-    # observations['candidate_name'] = observations['text'].apply(lambda x: field_extraction.candidate_name_extractor(x, nlp))
+    observations['candidate_name'] = observations['text'].apply(lambda x: field_extraction.candidate_name_extractor(x, nlp))
     observations['email'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.EMAIL_REGEX))
     observations['phone'] = observations['text'].apply(lambda x: lib.term_match(x, field_extraction.PHONE_REGEX))
     observations['GPA'] = observations['text'].apply(lambda x: field_extraction.gpa_extractor(x))

@@ -20,9 +20,9 @@ def rank(jobID, topX, root_file_path):
     resume_dummies = pd.read_csv(root_file_path + "Resume-Parser-master-new/data/output/resume_summary_one_hot.csv")
 
     job_features_ideal = job_dummies_ideal[job_dummies_ideal.columns[:44]]
-    resume_features = resume_dummies[resume_dummies.columns[:46]]
+    resume_features = resume_dummies[resume_dummies.columns[:47]]
     job_dummies_ideal.drop(job_dummies_ideal.columns[1:44], axis=1, inplace=True)
-    resume_dummies.drop(resume_dummies.columns[2:46], axis=1, inplace=True)
+    resume_dummies.drop(resume_dummies.columns[2:47], axis=1, inplace=True)
 
     # read raw df text data and vectorize for embeddings
     EMAIL_REGEX = r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}"
