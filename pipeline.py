@@ -15,7 +15,7 @@ def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
     import final_model
 
     main.main(root_file_path, job_id)
-    print('New resumes converted to text.')
+    print('New resumes converted to text and parsed.')
     OneHotRESUMES.onehot(root_file_path)
     print('One hot created for resumes.')
     mainJOBS.main(root_file_path)
