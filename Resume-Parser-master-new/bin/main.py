@@ -40,8 +40,10 @@ def main(root_file_path, job_id):
         if observations.text[i] in current_observations.text[current_observations.ReqID == observations.ReqID[i]].values:
             observations.drop(i, axis=0, inplace=True)
 
+    # generating a candidate ID based off of the filepath (i.e. the resume name)
     observations['CanID'] = observations.file_path.apply(lambda x: x.split('/')[-1].lower().replace(' ', '')[:4] +
-                                                                   str(np.random.randint(100, 999)))
+                                                                   str(ord(str(x.split('.')[-2].lower().replace(' ', '')[-1]))))
+    print(observations['CanID'])
 
     print('New resumes being parsed:\n', observations['CanID'].values)
     observations = observations[['ReqID', 'CanID', 'text']]
