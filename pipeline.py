@@ -32,6 +32,7 @@ def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
     from sklearn.manifold import MDS
     from sklearn.decomposition import PCA
     import plotly.express as px
+    import pandas as pd
 
 
     def plot_mds(mean_vec, job_id, ranks):
@@ -90,13 +91,12 @@ def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
 
         mds = MDS(n_components=3, random_state=1)
         X = mds.fit_transform(mean_vec.drop(['ID', 'ReqID'], axis=1))
-        xs, ys, zs = X[:, 0], X[:, 1], X[:, 2]
+        df = pd.DataFrame(X, columns=['x', 'y', 'z'])
+        df['Label'] = jd_top_other
 
-        fig = px.scatter_3d(x=xs, y=ys, z=zs,
-                            color=jd_top_other,
+        fig = px.scatter_3d(df, x='x', y='y', z='z',
+                            color='Label',
                             opacity=.7,
-                            # hoverinfo='text',
-                            # text=mean_vec.ID,
                             hover_name=mean_vec.ID)
         fig.show()
 
