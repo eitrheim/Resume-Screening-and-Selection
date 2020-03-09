@@ -102,13 +102,13 @@ def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
 
     # plot_mds(all_features, job_id, ranks.head(10))
     # plot_pca(all_features, job_id, ranks.head(10))
-    plot_3d(all_features, job_id, ranks.head(10))
+    plot_3d(all_features, job_id, ranks.head(top_x))
 
     print('done')
 
 
 if __name__ == '__main__':
-    pipeline('abcd123', 1000, '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/', True)
+    pipeline('wmp1234', 10, '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/', True)
 
 # job id options:
 # abcd123 ibm data science internship
