@@ -19,12 +19,14 @@ An Intelligent System to Automate Candidate Selection for Interview
     -   In line 34 of `Resume-Parser-master-new/bin/main.py `   
     *----------or----------*    
     -   In the csv file directly: `Resume-Parser-master-new/data/output/resume_summary.csv`
+-   Note that we currently assume all resumes apply to the job id currently ranking candidates, this is due to our small amount of resumes we have.
 ### Step 2: Add job descriptions to create the ideal candidate
 -	File: `Resume-Parser-JOBS/data/job_descriptions.csv`
 -	The first column is a unique code (ReqID) and the second is the job description (text)
 ### Step 3: Rank candidates
 -	File: `pipeline.py`
--	Update line 34 `pipeline(jobID='abcd123', topX=10, root_file_path='/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/')`:
+-	Update line 111 `pipeline('wmp1234', 10, '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/', True)`:
     -   Select jobID to rank candidates: `jobID`   
     -   Select number of top candidates to show: `topX`   
     -   Enter file path of the repo if on your local machine: `root_file_path`
+    -   Choose True or False to look all candidates: `all_resumes`
