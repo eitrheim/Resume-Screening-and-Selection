@@ -64,10 +64,8 @@ def rank(jobID, topX, root_file_path, all_resumes):
     job_dummies_ideal = job_dummies_ideal[resume_dummies.columns]
     all_dummies_ideal = pd.concat([resume_dummies, job_dummies_ideal])
 
-
     def GenerateCountEmbedding(req_id, job_text_df, resume_text_df, all_resumes):
         pos_jd_text = job_text_df[job_text_df["ReqID"] == req_id]
-        print(resume_text_df.head(4))
         if all_resumes:
             pos_resume_text = resume_text_df
             pos_resume_text.drop_duplicates(keep='first', inplace=True, subset='CanID')

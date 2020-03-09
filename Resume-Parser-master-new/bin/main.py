@@ -43,11 +43,10 @@ def main(root_file_path, job_id):
     # generating a candidate ID based off of the filepath (i.e. the resume name)
     observations['CanID'] = observations.file_path.apply(lambda x: x.split('/')[-1].lower().replace(' ', '')[:4] +
                                                                    str(ord(str(x.split('.')[-2].lower().replace(' ', '')[-1]))))
-    print(observations['CanID'])
 
     print('New resumes being parsed:\n', observations['CanID'].values)
     observations = observations[['ReqID', 'CanID', 'text']]
-    observations.drop_duplicates(inplace=True)
+    observations.drop_duplicates(inplace=True, keep='first')
     observations.reset_index(drop=True, inplace=True)
     observations.text.fillna('', inplace=True)
     observations.dropna(how='all', inplace=True)  # drop rows that are all na

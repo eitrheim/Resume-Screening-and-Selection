@@ -14,24 +14,23 @@ def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
     import OneHotJOBS
     import final_model
 
-    # main.main(root_file_path, job_id)
-    # print('New resumes converted to text.')
-    # OneHotRESUMES.onehot(root_file_path)
-    # print('One hot created for resumes.')
-    # mainJOBS.main(root_file_path)
-    # print('Job descriptions parsed.')
-    # OneHotJOBS.onehot(root_file_path)
-    # print('One hot created for job descriptions.')
+    main.main(root_file_path, job_id)
+    print('New resumes converted to text.')
+    OneHotRESUMES.onehot(root_file_path)
+    print('One hot created for resumes.')
+    mainJOBS.main(root_file_path)
+    print('Job descriptions parsed.')
+    OneHotJOBS.onehot(root_file_path)
+    print('One hot created for job descriptions.')
     ranks, jd, all_features = final_model.rank(job_id, top_x, root_file_path, all_resumes)
     print('Candidates ranked.\n')
 
-    # print('Job Description:', jd)
-    # print(ranks)
+    print('Job Description:', jd)
+    print(ranks)
 
     import matplotlib.pyplot as plt
     from sklearn.manifold import MDS
     from sklearn.decomposition import PCA
-    from mpl_toolkits import mplot3d
     import plotly.express as px
 
 
@@ -100,7 +99,6 @@ def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
                             # text=mean_vec.ID,
                             hover_name=mean_vec.ID)
         fig.show()
-
 
     # plot_mds(all_features, job_id, ranks.head(10))
     # plot_pca(all_features, job_id, ranks.head(10))
