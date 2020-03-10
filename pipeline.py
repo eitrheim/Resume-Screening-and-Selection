@@ -1,8 +1,10 @@
 from __future__ import absolute_import
 import sys
+import time
 
-
-def pipeline(job_id: str, top_x: int, root_file_path: str):
+root_file_path = '/Users/matthewechols/PycharmProjects/Resume-Screening-and-Selection/'
+def pipeline(job_id: str, top_x: int):
+    sys.path.append(root_file_path)
     sys.path.append(root_file_path + "Resume-Parser-master-new/bin")
     sys.path.append(root_file_path + "Resume-Parser-master-new")
     sys.path.append(root_file_path + "Resume-Parser-JOBS/bin")
@@ -14,19 +16,34 @@ def pipeline(job_id: str, top_x: int, root_file_path: str):
     import OneHotJOBS
     import final_model
 
+    start = time.time()
     main.main(root_file_path, job_id)
+    end = time.time()
     print('New resumes converted to text.')
+    print(end - start)
+    start = time.time()
     OneHotRESUMES.onehot(root_file_path)
+    end = time.time()
     print('One hot created for resumes.')
+    print(end - start)
+    start = time.time()
     mainJOBS.main(root_file_path)
+    end = time.time()
     print('Job descriptions parsed.')
+    print(end - start)
+    start = time.time()
     OneHotJOBS.onehot(root_file_path)
+    end = time.time()
     print('One hot created for job descriptions.')
+    print(end - start)
+    start = time.time()
     ranks, jd, all_features = final_model.rank(job_id, top_x, root_file_path)
+    end = time.time()
     print('Candidates ranked.\n')
+    print(end - start)
 
-    print('Job Description:', jd)
-    print(ranks)
+
+    return ranks
 
     import matplotlib.pyplot as plt
 
@@ -86,7 +103,12 @@ def pipeline(job_id: str, top_x: int, root_file_path: str):
 
 
 if __name__ == '__main__':
-    pipeline('jpm1234', 10, '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/')
+    ID = "AnalKH"
+    Num = 5
+
+    ranks = pipeline(ID, Num)
+    print(ranks)
+
 
 # job id options:
 # abcd123 ibm data science internship

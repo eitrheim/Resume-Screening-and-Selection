@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>KHC Recruiting Tool</title>
+
+    <!-- Icons font CSS-->
+    <link href="{{ url_for('static', filename='vendor/mdi-font/css/material-design-iconic-font.min.css') }}" rel="stylesheet" media="all"/>
+    <link href="{{ url_for('static', filename='vendor/font-awesome-4.7/css/font-awesome.min.css') }}" rel="stylesheet" media="all"/>
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet"/>
+
+    <!-- Vendor CSS-->
+<!--    <link href="{{ url_for('static', filename='vendor/select2/select2.min.css') }}" rel="stylesheet" media="all"/>-->
+<!--    <link href=" {{ url_for('static', filename='vendor/datepicker/daterangepicker.css') }}" rel="stylesheet" media="all"/>-->
+
+    <!-- Jquery JS-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Vendor JS-->
+<!--    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>-->
+<!--    <script src="{{ url_for('static', filename='vendor/select2/select2.min.js') }}"></script>-->
+
+    <!-- Main JS-->
+<!--    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>-->
+    <script src="{{ url_for('static', filename='js/global.js') }}"></script>
+
+
+    <!-- Main CSS-->
+    <link href="{{ url_for('static', filename='css/main.css') }}"rel="stylesheet" media="all"/>
+
+<!--    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
+<!--    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+
+    <style>
+        select {
+            outline: none;
+            background: #e5e5e5;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            height: 50px;
+            width:100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">Candidate Selection Engine</h2>
+                </div>
+
+                <div class="card-body">
+                    <form method="POST" class="form-inline" >
+                        <div class="form-row m-b-55">
+                            <div class="name">Job ID</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="name"></div>
+                                        <div class="value">
+                                            <div class="input-group">
+<!--                                                <div class="rs-select2 js-select-simple select&#45;&#45;no-search" style=" width: 200px;">-->
+                                                    <select id="job_id">
+                                                        <option> Select Job ID</option>
+                                                        {% for o in ids %}
+                                                        <option class="selectable" value="{{ o }}">{{ o }}</option>
+                                                        {% endfor %}
+                                                        <option class="selectable">Create New Job</option>
+                                                    </select>
+<!--                                                </div>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="name"></div>
+                                        <div id="newJobDiv" hidden="hidden" class="input-group-desc">
+                                            <input id="newJobId" class="input--style-5" type="text" placeholder="New Job ID">
+                                            <label class="label--desc"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Job Description</div>
+                            <div class="value">
+                                <div class="input-group" style=" padding: 15px;">
+                                    <textarea id="job_description" class="input--style-33" style="height: 250px; overflow-y: scroll;" cols="47" type="text" name="job_desc"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Candidate Selection</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="name">Number of Top Candidates:</div>
+                                        <div class="value">
+                                            <div class="input-group">
+                                                <input id="num_app" class="input--style-5" type="text" name="top">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="nameSmall">Use All Candidates:</div>
+                                        <div class="onoffswitch">
+                                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                                            <label class="onoffswitch-label" for="myonoffswitch">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="submit2">
+                            <button hidden="hidden" id="submit" class="btn btn--radius-2 btn--red" type="button" >Submit</button>
+                            <button hidden="hidden" id="submitCreate" class="btn btn--radius-2 btn--red" type="button" >Create New Job</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->

@@ -43,7 +43,7 @@ def main(root_file_path, job_id):
     observations['CanID'] = observations.file_path.apply(lambda x: x.split('/')[-1].lower().replace(' ', '')[:4] +
                                                                    str(np.random.randint(100, 999)))
 
-    print('New resumes being parsed:\n', observations['CanID'].values)
+    #print('New resumes being parsed:\n', observations['CanID'].values)
     observations = observations[['ReqID', 'CanID', 'text']]
     observations.drop_duplicates(inplace=True)
     observations.reset_index(drop=True, inplace=True)
@@ -60,10 +60,10 @@ def main(root_file_path, job_id):
     observations = resume_sectioning.combine_sections_preparse(observations)
     observations = observations[observations.text == observations.text]
 
-    print("Loading Spacy Corpus")
+    #print("Loading Spacy Corpus")
     nlp = spacy.load('en_core_web_sm')
     # nlp = en_core_web_sm.load()
-    print("Spacy Corpus Loaded \n")
+    #print("Spacy Corpus Loaded \n")
 
     observations = transform(observations, root_file_path, nlp)  # extract data from resume sections
 
