@@ -1,5 +1,10 @@
 from __future__ import absolute_import
 import sys
+import matplotlib.pyplot as plt
+from sklearn.manifold import MDS
+from sklearn.decomposition import PCA
+import plotly.express as px
+import pandas as pd
 
 
 def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
@@ -24,12 +29,6 @@ def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
     print('One hot created for job descriptions.')
     ranks, jd, all_features = final_model.rank(job_id, top_x, root_file_path, all_resumes)
     print('Candidates ranked.\n')
-
-    import matplotlib.pyplot as plt
-    from sklearn.manifold import MDS
-    from sklearn.decomposition import PCA
-    import plotly.express as px
-    import pandas as pd
 
 
     def plot_mds(mean_vec, job_id, ranks):
