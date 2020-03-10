@@ -2,9 +2,8 @@ from __future__ import absolute_import
 import sys
 import time
 
-root_file_path = '/Users/matthewechols/PycharmProjects/Resume-Screening-and-Selection/'
-def pipeline(job_id: str, top_x: int):
-    sys.path.append(root_file_path)
+
+def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
     sys.path.append(root_file_path + "Resume-Parser-master-new/bin")
     sys.path.append(root_file_path + "Resume-Parser-master-new")
     sys.path.append(root_file_path + "Resume-Parser-JOBS/bin")
@@ -16,40 +15,27 @@ def pipeline(job_id: str, top_x: int):
     import OneHotJOBS
     import final_model
 
-    start = time.time()
     main.main(root_file_path, job_id)
-    end = time.time()
-    print('New resumes converted to text.')
-    print(end - start)
-    start = time.time()
+    print('New resumes converted to text and parsed.')
     OneHotRESUMES.onehot(root_file_path)
-    end = time.time()
     print('One hot created for resumes.')
-    print(end - start)
-    start = time.time()
     mainJOBS.main(root_file_path)
-    end = time.time()
     print('Job descriptions parsed.')
-    print(end - start)
-    start = time.time()
     OneHotJOBS.onehot(root_file_path)
-    end = time.time()
     print('One hot created for job descriptions.')
-    print(end - start)
-    start = time.time()
-    ranks, jd, all_features = final_model.rank(job_id, top_x, root_file_path)
-    end = time.time()
+    ranks, jd, all_features = final_model.rank(job_id, top_x, root_file_path, all_resumes)
     print('Candidates ranked.\n')
-    print(end - start)
-
 
     return ranks
 
     import matplotlib.pyplot as plt
+    from sklearn.manifold import MDS
+    from sklearn.decomposition import PCA
+    import plotly.express as px
+    import pandas as pd
 
 
     def plot_mds(mean_vec, job_id, ranks):
-        from sklearn.manifold import MDS
 
         jd_row = mean_vec[mean_vec.ID == job_id].index
 
@@ -61,20 +47,17 @@ def pipeline(job_id: str, top_x: int):
         #    plt.text(x, y, name)
         plt.scatter(xs[jd_row], ys[jd_row], c='Red', marker='+')
         plt.text(xs[jd_row], ys[jd_row], 'JD')
-        for i in mean_vec.index:
+        for i, txt in enumerate(mean_vec.ID):
             if i == jd_row:
                 pass
-            elif mean_vec.ID[i] in ranks['Candidate ID'].values:
-                plt.text(xs[i], ys[i], mean_vec.ID[i], fontsize=6)
             else:
-                pass
+                plt.text(xs[i], ys[i], txt, fontsize=6)
         plt.suptitle('MDS')
         plt.grid()
         plt.savefig('distance_MDS_improved.png')
         plt.show()
 
     def plot_pca(mean_vec, job_id, ranks):
-        from sklearn.decomposition import PCA
 
         jd_row = mean_vec[mean_vec.ID == job_id].index
 
@@ -84,20 +67,42 @@ def pipeline(job_id: str, top_x: int):
         plt.scatter(X[:, 0], X[:, 1])
         plt.scatter(xs[jd_row], ys[jd_row], c='Red', marker='+')
         plt.text(xs[jd_row], ys[jd_row], 'JD')
-        for i in mean_vec.index:
+        for i, txt in enumerate(mean_vec.ID):
             if i == jd_row:
                 pass
-            elif mean_vec.ID[i] in ranks['Candidate ID'].values:
-                plt.text(xs[i], ys[i], mean_vec.ID[i], fontsize=6)
             else:
-                pass
+                plt.text(xs[i], ys[i], txt, fontsize=6)
         plt.grid()
         plt.suptitle('PCA')
         plt.savefig('distance_PCA_improved.png')
         plt.show()
 
-    plot_mds(all_features, job_id, ranks.head(10))
-    plot_pca(all_features, job_id, ranks.head(10))
+    def plot_3d(mean_vec, job_id, ranks):
+        jd_row = mean_vec[mean_vec.ID == job_id].index
+
+        jd_top_other = []
+        for i in mean_vec.ID:
+            if i == job_id:
+                jd_top_other.append('JD')
+            elif i in ranks['Candidate ID'].values:
+                jd_top_other.append('Top Candidates')
+            else:
+                jd_top_other.append('Other Candidates')
+
+        mds = MDS(n_components=3, random_state=1)
+        X = mds.fit_transform(mean_vec.drop(['ID', 'ReqID'], axis=1))
+        df = pd.DataFrame(X, columns=['x', 'y', 'z'])
+        df['Label'] = jd_top_other
+
+        fig = px.scatter_3d(df, x='x', y='y', z='z',
+                            color='Label',
+                            opacity=.7,
+                            hover_name=mean_vec.ID)
+        fig.show()
+
+    # plot_mds(all_features, job_id, ranks.head(10))
+    # plot_pca(all_features, job_id, ranks.head(10))
+    plot_3d(all_features, job_id, ranks.head(top_x))
 
     print('done')
 

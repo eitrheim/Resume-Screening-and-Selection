@@ -40,43 +40,48 @@ def main(root_file_path, job_id):
         if observations.text[i] in current_observations.text[current_observations.ReqID == observations.ReqID[i]].values:
             observations.drop(i, axis=0, inplace=True)
 
+    # generating a candidate ID based off of the filepath (i.e. the resume name)
     observations['CanID'] = observations.file_path.apply(lambda x: x.split('/')[-1].lower().replace(' ', '')[:4] +
-                                                                   str(np.random.randint(100, 999)))
+                                                                   str(ord(str(x.split('.')[-2].lower().replace(' ', '')[-1]))))
 
-    #print('New resumes being parsed:\n', observations['CanID'].values)
-    observations = observations[['ReqID', 'CanID', 'text']]
-    observations.drop_duplicates(inplace=True)
-    observations.reset_index(drop=True, inplace=True)
-    observations.text.fillna('', inplace=True)
-    observations.dropna(how='all', inplace=True)  # drop rows that are all na
+    print('New resumes being parsed:\n', observations['CanID'].values)
 
-    # to get the start (as an int) of resume sections
-    observations = resume_sectioning.section_into_columns(observations)
+    if len(observations['CanID'].values) == 0:
+        observations = current_observations
+    else:
+        observations = observations[['ReqID', 'CanID', 'text']]
+        observations.drop_duplicates(inplace=True, keep='first')
+        observations.reset_index(drop=True, inplace=True)
+        observations.text.fillna('', inplace=True)
+        observations.dropna(how='all', inplace=True)  # drop rows that are all na
 
-    # get only words pertaining each sub-section
-    observations = resume_sectioning.word_put_in_sections(observations)
+        # to get the start (as an int) of resume sections
+        observations = resume_sectioning.section_into_columns(observations)
 
-    # to combine the sub-sections
-    observations = resume_sectioning.combine_sections_preparse(observations)
-    observations = observations[observations.text == observations.text]
+        # get only words pertaining each sub-section
+        observations = resume_sectioning.word_put_in_sections(observations)
 
-    #print("Loading Spacy Corpus")
-    nlp = spacy.load('en_core_web_sm')
-    # nlp = en_core_web_sm.load()
-    #print("Spacy Corpus Loaded \n")
+        # to combine the sub-sections
+        observations = resume_sectioning.combine_sections_preparse(observations)
+        observations = observations[observations.text == observations.text]
 
-    observations = transform(observations, root_file_path, nlp)  # extract data from resume sections
+        print("Loading Spacy Corpus")
+        nlp = spacy.load('en_core_web_sm')
+        # nlp = en_core_web_sm.load()
+        print("Spacy Corpus Loaded \n")
 
-    # to combine the sub-sections one last time
-    observations = resume_sectioning.combine_sections_postparse(observations)
-    observations = observations[observations.text == observations.text]
+        observations = transform(observations, root_file_path, nlp)  # extract data from resume sections
 
-    # merge with the already parsed information
-    observations = pd.concat([current_observations, observations])
-    observations = observations[observations.text == observations.text]
-    observations = observations[observations.text != '']
-    observations = observations[observations.ReqID != '']
-    observations = observations[observations.CanID != '']
+        # to combine the sub-sections one last time
+        observations = resume_sectioning.combine_sections_postparse(observations)
+        observations = observations[observations.text == observations.text]
+
+        # merge with the already parsed information
+        observations = pd.concat([current_observations, observations])
+        observations = observations[observations.text == observations.text]
+        observations = observations[observations.text != '']
+        observations = observations[observations.ReqID != '']
+        observations = observations[observations.CanID != '']
 
     load(observations, root_file_path)  # save to csv to finish
 

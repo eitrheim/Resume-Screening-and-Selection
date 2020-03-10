@@ -28,8 +28,15 @@ def main(root_file_path):
     # read in job descriptions
     observations = pd.read_csv(root_file_path + "Resume-Parser-JOBS/data/job_descriptions.csv")
     observations.columns = ['ReqID', 'text']
-    
-    observations.drop_duplicates(inplace=True)
+
+    # already parsed stuff
+    current_observations = pd.read_csv(root_file_path + "Resume-Parser-JOBS/data/job_description_one_hot_ideal_FULL.csv")
+    for i in observations.index:
+        if observations.text[i] in current_observations.text[current_observations.ReqID == observations.ReqID[i]].values:
+            observations.drop(i, axis=0, inplace=True)
+
+    print('New job descriptions being parsed:\n', observations['ReqID'].values)
+    observations.drop_duplicates(inplace=True, keep='first')
     observations.reset_index(drop=True, inplace=True)
     observations.text.fillna('', inplace=True)
     observations.dropna(how='all', inplace=True) # drop rows that are all na
@@ -39,6 +46,9 @@ def main(root_file_path):
     observations = jd_sectioning.create_columns(observations)  # add columns to match resume df
   
     observations = transform(observations, root_file_path)  # extract data from resume sections
+
+    # merge with the already parsed information
+    observations = pd.concat([current_observations, observations])
 
     load(observations, root_file_path)  # save to csv to finish
 

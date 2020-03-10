@@ -13,7 +13,7 @@ from collections import namedtuple
 # hide settingwithcopywarning
 pd.options.mode.chained_assignment = None
 
-def rank(jobID, topX, root_file_path):
+def rank(jobID, topX, root_file_path, all_resumes):
 
     # read structure + one hot encoded dfs
     job_dummies_ideal = pd.read_csv(root_file_path + "Resume-Parser-JOBS/data/job_description_one_hot_ideal_FULL.csv")
@@ -53,7 +53,7 @@ def rank(jobID, topX, root_file_path):
     job_text["text"] = job_text["text"].apply(remove_stop_words)
 
     resume_text = resume_features[['ReqID', 'CanID', 'text']]
-    resume_text["text"].replace(r'[\d]', '' ,regex=True, inplace=True) # remove numbers
+    resume_text["text"].replace(r'[\d]', '', regex=True, inplace=True) # remove numbers
     resume_text["text"] = resume_text["text"].astype(str).apply(lambda x: x.lower().replace('\r', ' ').replace('\n', ' ').replace('\t', ' '))
     # removing 1 and 2 letter words
     resume_text["text"] = resume_text["text"].apply(lambda x: re.sub('\s\w{1,2}\s', ' ', x))
@@ -64,10 +64,13 @@ def rank(jobID, topX, root_file_path):
     job_dummies_ideal = job_dummies_ideal[resume_dummies.columns]
     all_dummies_ideal = pd.concat([resume_dummies, job_dummies_ideal])
 
-
-    def GenerateCountEmbedding(req_id, job_text_df, resume_text_df):
+    def GenerateCountEmbedding(req_id, job_text_df, resume_text_df, all_resumes):
         pos_jd_text = job_text_df[job_text_df["ReqID"] == req_id]
-        pos_resume_text = resume_text_df[resume_text_df["ReqID"] == req_id]
+        if all_resumes:
+            pos_resume_text = resume_text_df
+            pos_resume_text.drop_duplicates(keep='first', inplace=True, subset='CanID')
+        else:
+            pos_resume_text = resume_text_df[resume_text_df["ReqID"] == req_id]
         pos_jd_text.rename(columns={'ReqID': 'ID', 'Job Description': 'text'}, inplace=True)
         pos_jd_text.ID = req_id
         pos_jd_text = pos_jd_text[['ID', 'text']]
@@ -104,7 +107,7 @@ def rank(jobID, topX, root_file_path):
         output = output[output['Candidate ID'] != jobID]
         return output
 
-    count_embeddings = GenerateCountEmbedding(jobID, job_text, resume_text)
+    count_embeddings = GenerateCountEmbedding(jobID, job_text, resume_text, all_resumes)
     count_embeddings['ReqID'] = np.repeat(jobID, len(count_embeddings))
     all_features = pd.DataFrame(count_embeddings).merge(all_dummies_ideal, how="left", on=["ID", 'ReqID'])
     rankings = RecommendTop(jobID=jobID, full_df=all_features.drop('ReqID', axis=1))
