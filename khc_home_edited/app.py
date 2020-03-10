@@ -26,7 +26,7 @@ def getJobDescription(jobId):
 def predict(jobID):
     numApp = int(request.args["numApp"])
     allCandidates = bool(request.args["numApp"])
-    results = pipeline.pipeline(jobID, numApp, allCandidates)
+    results = pipeline.pipeline(jobID, numApp, all_resumes=allCandidates)
     responseData = []
     for i in range(numApp):
         result = {
