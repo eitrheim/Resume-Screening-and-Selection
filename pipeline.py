@@ -1,9 +1,9 @@
 from __future__ import absolute_import
 import sys
 import time
+root_file_path = '/Users/matthewechols/PycharmProjects/Resume-Screening-and-Selection/'
 
-
-def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
+def pipeline(job_id: str, top_x: int, all_resumes: bool):
     sys.path.append(root_file_path + "Resume-Parser-master-new/bin")
     sys.path.append(root_file_path + "Resume-Parser-master-new")
     sys.path.append(root_file_path + "Resume-Parser-JOBS/bin")
@@ -111,7 +111,7 @@ if __name__ == '__main__':
     ID = "AnalKH"
     Num = 5
 
-    ranks = pipeline(ID, Num)
+    ranks = pipeline(ID, Num, False)
     print(ranks)
 
 
