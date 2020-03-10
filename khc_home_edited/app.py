@@ -28,6 +28,8 @@ def predict(jobID):
     allCandidates = bool(request.args["numApp"])
 
     results, jd = pipeline.pipeline(jobID, numApp, root_file_path=root_path, all_resumes=allCandidates)
+    jd = jd[0].encode('ascii', errors='ignore').decode('ascii')
+    # jd = 'Job Description: ' + jd[:300] + '...'
     responseData = []
     for i in range(numApp):
         result = {
@@ -36,7 +38,7 @@ def predict(jobID):
             "Similarity": round(results.iloc[i][1], 4)
         }
         responseData.append(result)
-    return render_template('candidateResults.html', candidates=responseData)
+    return render_template('candidateResults.html', candidates=responseData, job_description=jd)
 
 @app.route('/jobs/', methods=["POST"])
 def createNewJob():
