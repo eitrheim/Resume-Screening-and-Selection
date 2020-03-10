@@ -4,7 +4,7 @@ import numpy as np
 import csv
 import sys
 
-root_path = '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/data/'
+root_path = '/Users/matthewechols/PycharmProjects/Resume-Screening-and-Selection/Resume-Parser-JOBS/data/'
 job_description = 'job_descriptions.csv'
 
 

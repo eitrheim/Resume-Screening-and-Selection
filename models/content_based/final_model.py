@@ -46,6 +46,7 @@ def rank(jobID, topX, root_file_path, all_resumes):
             print('string:', x)
             sys.exit(1)
 
+
     job_text = job_features_ideal[['ReqID', 'text']]
     job_text["text"].replace(r'[\d]', '', regex=True, inplace=True)
     job_text["text"] = job_text["text"].astype(str).apply(lambda x: x.lower().replace('\r', ' ').replace('\n', ' ').replace('\t', ' '))

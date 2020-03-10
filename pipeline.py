@@ -109,7 +109,7 @@ def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
 if __name__ == '__main__':
     ID = "acrm789"
     Num = 5
-    file_path = '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/'
+    file_path = '/Users/matthewechols/PycharmProjects/Resume-Screening-and-Selection/'
     all_resumes = True
 
     ranks, jd = pipeline(ID, Num, file_path, all_resumes)
