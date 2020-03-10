@@ -16,23 +16,24 @@ def index():
     return render_template('index.html', ids=ids)
 
 
-
 @app.route('/jobs/<string:jobId>/description')
 def getJobDescription(jobId):
     jobDescription = jobAPP.get_Job(jobId)
     return jobDescription
 
+
 @app.route('/jobs/<string:jobID>/candidates')
 def predict(jobID):
     numApp = int(request.args["numApp"])
     allCandidates = bool(request.args["numApp"])
-    results = pipeline.pipeline(jobID, numApp, all_resumes=allCandidates)
+
+    results, jd = pipeline.pipeline(jobID, numApp, root_file_path=root_path, all_resumes=allCandidates)
     responseData = []
     for i in range(numApp):
         result = {
             "Rank": i + 1,
             "Candidate ID": results.iloc[i][0],
-            "Similarity": results.iloc[i][1]
+            "Similarity": round(results.iloc[i][1], 4)
         }
         responseData.append(result)
     return render_template('candidateResults.html', candidates=responseData)
@@ -46,7 +47,6 @@ def createNewJob():
         jobID = jobData["jobID"]
         jobDescription = jobData["jobDescription"]
         jobAPP.set_Job(jobID, jobDescription)
-
 
     return "200"
 

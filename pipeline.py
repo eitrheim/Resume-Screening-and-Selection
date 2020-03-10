@@ -1,9 +1,8 @@
 from __future__ import absolute_import
 import sys
-import time
-root_file_path = '/Users/matthewechols/PycharmProjects/Resume-Screening-and-Selection/'
 
-def pipeline(job_id: str, top_x: int, all_resumes: bool):
+
+def pipeline(job_id: str, top_x: int, root_file_path: str, all_resumes: bool):
     sys.path.append(root_file_path + "Resume-Parser-master-new/bin")
     sys.path.append(root_file_path + "Resume-Parser-master-new")
     sys.path.append(root_file_path + "Resume-Parser-JOBS/bin")
@@ -25,8 +24,6 @@ def pipeline(job_id: str, top_x: int, all_resumes: bool):
     print('One hot created for job descriptions.')
     ranks, jd, all_features = final_model.rank(job_id, top_x, root_file_path, all_resumes)
     print('Candidates ranked.\n')
-
-    return ranks
 
     import matplotlib.pyplot as plt
     from sklearn.manifold import MDS
@@ -106,12 +103,17 @@ def pipeline(job_id: str, top_x: int, all_resumes: bool):
 
     print('done')
 
+    return ranks, jd
+
 
 if __name__ == '__main__':
-    ID = "AnalKH"
+    ID = "acrm789"
     Num = 5
+    file_path = '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/'
+    all_resumes = True
 
-    ranks = pipeline(ID, Num, False)
+    ranks, jd = pipeline(ID, Num, file_path, all_resumes)
+    print(jd)
     print(ranks)
 
 
