@@ -31,6 +31,7 @@ def main(root_file_path):
 
     # already parsed stuff
     current_observations = pd.read_csv(root_file_path + "Resume-Parser-JOBS/data/job_description_one_hot_ideal_FULL.csv")
+    print(current_observations.columns)
     for i in observations.index:
         if observations.text[i] in current_observations.text[current_observations.ReqID == observations.ReqID[i]].values:
             observations.drop(i, axis=0, inplace=True)

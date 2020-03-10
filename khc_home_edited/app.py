@@ -3,7 +3,7 @@ import numpy as np
 import sys
 import csv
 from flask import Flask, request, jsonify, render_template
-root_path = '/Users/matthewechols/PycharmProjects/Resume-Screening-and-Selection/'
+root_path = '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/'
 sys.path.append(root_path)
 import jobAPP
 import pipeline
