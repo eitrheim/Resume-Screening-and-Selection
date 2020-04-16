@@ -1,15 +1,10 @@
-import pandas as pd
-import numpy as np
-import sys
-import csv
 from flask import Flask, request, jsonify, render_template
-root_path = '/Users/anneitrheim/PycharmProjects/Resume-Screening-and-Selection/'
-sys.path.append(root_path)
 import jobAPP
 import pipeline
+
+
+root_path = jobAPP.root_path
 app = Flask(__name__, template_folder='templates')
-# Jobs_path = "TestDescriptions.csv"
-# data = pd.read_csv(Jobs_path, delimiter=',')
 @app.route('/')
 def index():
     ids = jobAPP.get_Index()
